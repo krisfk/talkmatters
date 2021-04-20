@@ -51,7 +51,6 @@ get_header();
 
         </div>
 
-        <a href="#" class="btn mt-const">Contact Us</a>
     </div>
 </div>
 <?php
