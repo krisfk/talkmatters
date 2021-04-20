@@ -64,7 +64,8 @@ get_header();
 
         </div>
 
-        <div>We talk through your issues, conflicts and adversity. It is a process where there is no judgement; it is a
+        <div class="mt-3">We talk through your issues, conflicts and adversity. It is a process where there is no
+            judgement; it is a
             journey whereby you don’t walk alone. Gradually we help to unveil more of your inner self like how an onion
             is peeled. What you are thinking, feeling and behaving are important but we wish to take a step further to
             identify the message behind. Together we may redefine perception to your discomfort, discover new
