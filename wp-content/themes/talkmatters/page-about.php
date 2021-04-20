@@ -27,22 +27,22 @@ get_header();
 
         <div class="position-relative">
             <div class="h2-black-line"></div>
-            <h2 class="h2-on-line">How does it work?</h2>
-            <h2 class="h2-on-line opacity-0">How does it work?</h2>
+            <h2 class="h2-on-line">About the counsellor</h2>
+            <h2 class="h2-on-line opacity-0">About the counsellor</h2>
 
         </div>
 
-        <div class="mt-2  text-justify">We talk through your issues, conflicts and adversity. It is a process where
-            there is no
-            judgement; it is a
-            journey whereby you don’t walk alone. Gradually we help to unveil more of your inner self like how an onion
-            is peeled. What you are thinking, feeling and behaving are important but we wish to take a step further to
-            identify the message behind. Together we may redefine perception to your discomfort, discover new
-            perspectives and gather strengths for change. The outcome could be a re-claim of resilience or a new-found
-            power of healing that ultimately enhances your emotional wellness.
-            <br> <br>
-            We believe in connecting with you and allowing you to connect with your own self. Confidentiality is an
-            essential part of the process as we cherish the trust you put in us.
+        <div class="mt-2  text-justify">
+            Lilian possesses a Master degree in social sciences (Counselling). She has more than 100 clinical hours
+            working with adolescents in a secondary school setting, dealing with low self esteem, general anxiety,
+            learning and focus issues. With adults, she has experience in handling cases of anger, couple relationship
+            and anxiety management at work. <br> <br>
+
+            Lilian believes that each individual is unique and deserves a personalized therapeutic approach. She
+            practices with a multitude of interventions based on psychodynamic theories. The counselling process is a
+            partnership between client and counsellor; the outcome is for individual to regain wellness and positivity.
+
+
 
         </div>
 
