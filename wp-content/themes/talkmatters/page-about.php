@@ -72,6 +72,24 @@ get_header();
 
                 </div>
 
+                <div class="col-6">
+                    <h3>Cognitive Behavioral Therapy</h3>
+                    CBT is a widely used intervention for its proven efficacy and goal-oriented approach. It helps to
+                    investigate how one’s thought patterns work and how it may lead to distress, maladaptive behaviors
+                    and mental issues. Ongoing homework is a key component to drive for adaptive thoughts and the
+                    subsequent improvement in mood.
+                </div>
+                <div class="col-6">
+                    <h3>Mindfulness & Positive Psychology</h3>
+                    Positive Psychology is founded on the belief that people want to lead meaningful and fulfilling
+                    lives. There is a natural tendency to cultivate what is best within themselves, PP and its
+                    mindfulness aspect amplify personal strengths, gift from nature, love and social connection;
+                    while letting individual to repair and heal base on and within these values.
+
+                </div>
+
+
+
             </div>
         </div>
 
