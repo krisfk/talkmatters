@@ -45,9 +45,9 @@ get_header();
             <div class="col-6">
 
                 <input type="text" class="form-control" placeholder="Name">
-                <input type="text" class="form-control" placeholder="Email">
-                <input type="text" class="form-control" placeholder="Tel">
-                <textarea class="form-control" rows="5" placeholder="Type Your Message Here"></textarea>
+                <input type="text" class="form-control mt-3" placeholder="Email">
+                <input type="text" class="form-control mt-3" placeholder="Tel">
+                <textarea class="form-control mt-3" rows="5" placeholder="Type Your Message Here"></textarea>
 
                 <div class="text-end">
                     <a href="#" class="btn mt-const">Submit</a>
