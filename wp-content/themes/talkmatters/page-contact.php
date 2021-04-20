@@ -34,7 +34,9 @@ get_header();
 
 
                 <h3 class="mt-4">Address</h3>
-                address txt address txt address txt address txt address txt
+                address txt address txt address txt address txt address txt address txt address txt address txt address
+                txt address txt
+
 
 
                 <h3 class="mt-4">Email</h3>
