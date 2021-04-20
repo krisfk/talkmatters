@@ -108,3 +108,8 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     font-weight: bold;
     font-size: 36px;
 }
+
+.writer-style-txt {
+    font-family: 'Damion', cursive;
+    font-size: 28px;
+}
