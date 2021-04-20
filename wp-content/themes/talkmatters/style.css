@@ -229,3 +229,7 @@ h2.h2-on-line {
     height: 3px;
     background: #000;
 }
+
+.opacity-0 {
+    opacity: 0;
+}
