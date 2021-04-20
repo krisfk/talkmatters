@@ -84,7 +84,7 @@
                                         alt="">
                                 </a>
 
-                                <span>
+                                <span class="ms-2">
                                     Lang:
                                     <select class="form-select" aria-label="lang" class="lang-select">
                                         <option value="eng">Eng</option>
