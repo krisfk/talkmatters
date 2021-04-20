@@ -48,7 +48,7 @@
                     <div class="container mt-3">
 
 
-                        <ul class="header-ul ">
+                        <ul class="header-ul p-0 m-0">
                             <li>
                                 <span class="site-name"> LILIAN PSYCHOLOGICAL COUNSELLING </span>
                             </li>
