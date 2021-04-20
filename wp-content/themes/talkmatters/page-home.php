@@ -77,6 +77,8 @@ get_header();
             essential part of the process as we cherish the trust you put in us.
 
         </div>
+
+        <a href="#" class="btn">Contact Us</a>
     </div>
 </div>
 <?php
