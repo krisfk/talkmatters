@@ -19,7 +19,7 @@ get_header();
 ?>
 <div class="container">
 
-    <div class="mint-color font-bold">
+    <div class="mint-color fw-bold">
 
         We know there is always distress in life and we understand it could be hard to deal with, live with them and
         even trying to face them.
