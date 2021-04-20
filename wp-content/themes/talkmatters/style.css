@@ -241,3 +241,8 @@ h2.h2-on-line.opacity-0 {
 .mt-const {
     margin-top: 35px;
 }
+
+.btn {
+    background: #798f7a !important;
+    color: #fff !important;
+}
