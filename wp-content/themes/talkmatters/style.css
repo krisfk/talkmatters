@@ -221,6 +221,7 @@ h2.h2-on-line {
     position: absolute;
     top: 0;
     padding: 0 25px 0 0;
+    font-size: 42px;
 }
 
 .h2-black-line {
@@ -228,6 +229,8 @@ h2.h2-on-line {
     width: 100%;
     height: 3px;
     background: #000;
+    position: absolute;
+    top: 43%;
 }
 
 h2.h2-on-line.opacity-0 {
