@@ -42,7 +42,15 @@ get_header();
                 <h3 class="mt-4">Email</h3>
                 abc@abc.com
             </div>
-            <div class="col-6"></div>
+            <div class="col-6">
+
+                <input type="text" class="form-control">
+                <input type="text" class="form-control">
+                <input type="text" class="form-control">
+                <textarea class="form-control" rows="5"></textarea>
+
+
+            </div>
 
         </div>
 
