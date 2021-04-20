@@ -290,3 +290,8 @@ footer {
 .lilian-therapy-div {
     color: #585858;
 }
+
+.lilian-therapy-div ul {
+    margin: 0;
+    padding: 0;
+}
