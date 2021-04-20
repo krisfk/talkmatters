@@ -88,6 +88,24 @@ get_header();
                 </div>
 
 
+                <div class="col-12">
+                    Lilian also has the capability of a coach and a mentor. She was nominated to support some senior
+                    staff at the workplace in her previous job. Lilian holds the following experience:
+                    <br>
+                    <ul>
+                        <li>Mentor of CUHK School of Journalism and Communication Taught Postgraduate Mentorship
+                            Programme
+                            (2020-2021)</li>
+                        <li>Mentor of staff of HER Fund (2021)</li>
+                        <li>Member of Board of Advisors, Baptist University Master of Business Administration (2016 -
+                            2019)</li>
+                        <li>Volunteer counsellor at HKU counselling unit</li>
+
+
+                    </ul>
+                </div>
+
+
 
             </div>
         </div>
