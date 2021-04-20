@@ -16,5 +16,9 @@
 
 get_header();
 
-echo 11;
+?>
+<div class="container">
+
+</div>
+<?php
 get_footer();
