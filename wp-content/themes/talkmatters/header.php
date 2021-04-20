@@ -84,6 +84,10 @@
                                         alt="">
                                 </a>
 
+                                <span>
+                                    Lang:
+                                </span>
+
                             </div>
 
                         </div>
