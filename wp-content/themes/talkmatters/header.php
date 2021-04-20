@@ -79,7 +79,12 @@ $slug=str_replace('/en/','',$temp_arr[1]);
 $slug=str_replace('/cn/','',$slug);
 $slug=str_replace('/','',$slug);
 
-echo '<li><a class="'.$slug.'" href="'.$url.'">'.$title.'</a>';
+global $post;
+$post_slug = $post->post_name;
+
+echo '<li><a class="';
+echo $post_slug==$slug ? 'active' :'';
+echo'" href="'.$url.'">'.$title.'</a>';
 
 
 
