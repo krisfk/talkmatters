@@ -325,7 +325,8 @@ footer {
     letter-spacing: 2px;
 }
 
-.contact-div input[type='text'] {
+.contact-div input[type='text'],
+.contact-div textarea {
     background: #ecf3f0 !important;
     color: #507564 !important;
 }
