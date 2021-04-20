@@ -81,7 +81,7 @@ $slug=str_replace('/','',$slug);
 
 global $post;
 $post_slug = $post->post_name;
-echo $post_slug;
+// echo $post_slug;
 echo '<li><a class="';
 echo ($post_slug==$slug || $post_slug=='' ) ? 'active' :'';
 echo'" href="'.$url.'">'.$title.'</a>';
