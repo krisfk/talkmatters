@@ -23,7 +23,7 @@ get_header();
 
 
 
-    <div class="inner-container mt-const2 faqs-div">
+    <div class="inner-container mt-const2 ">
 
         fdsf
 
