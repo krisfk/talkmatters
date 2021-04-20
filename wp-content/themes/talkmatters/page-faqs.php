@@ -41,6 +41,39 @@ get_header();
                 anticipate change to take place gradually</li>
         </ul>
 
+
+        <h3>The format
+        </h3>
+        <ul>
+            <li>Face to face preferred. Online meeting could be considered for special occasions</li>
+
+        </ul>
+
+        <h3>The duration
+        </h3>
+        <ul>
+            <li>Empirical evidence shows that it is common to see changes after 8 - 10 sessions of committed work. Each
+                session
+                may take place on a weekly basis and lasts for 60 mins. It is subj to ...
+            </li>
+        </ul>
+
+        <h3>How about if I don’t know what my issue is
+        </h3>
+        <ul>
+            <li>This uncertainty is not uncommon when we talk about emotions and feelings. Discomfort might last long
+                or short,
+                the magnitude may vary and it seems to come from no where. Indeed it could be life-stage specific,
+                triggered by \
+                contexts or consequential to a past event. No worry, it is counsellor’s role to gain clarity with you
+                together.
+            </li>
+        </ul>
+
+
+
+
+
     </div>
 </div>
 <?php
