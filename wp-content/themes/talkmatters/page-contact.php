@@ -25,7 +25,24 @@ get_header();
 
     <div class="inner-container mt-const2 ">
 
-        fdsf
+        <div class="row">
+
+            <div class="col-6">
+
+                <h3>Phone</h3>
+                9462 6466
+
+
+                <h3>Address</h3>
+                address txt address txt address txt address txt address txt
+
+
+                <h3>Email</h3>
+                abc@abc.com
+            </div>
+            <div class="col-6"></div>
+
+        </div>
 
 
 
