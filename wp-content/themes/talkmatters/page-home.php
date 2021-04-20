@@ -23,6 +23,22 @@ get_header();
 
         We know there is always distress in life and we understand it could be <br>
         hard to deal with, live with them and even trying to face them.
+
+    </div>
+
+    <div class="position-relative">
+        <img src="http://104.131.45.33/wp-content/uploads/2021/04/home-img-1.jpg" alt="">
+
+        <div>
+            Sleeplessness, loss of appetite and motivation, lack of interest and meaning, unclear self image and
+            worthiness, procrastination, loneliness, too little love or too much care, seems to get stuck everywhere
+            <br> <br>
+            Constantly feeling anxious, depressed and stress
+            <br><br>
+            Personal, workplace or relationship difficulties
+
+
+        </div>
     </div>
 </div>
 <?php
