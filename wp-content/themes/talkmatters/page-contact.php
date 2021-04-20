@@ -49,8 +49,9 @@ get_header();
                 <input type="text" class="form-control" placeholder="Tel">
                 <textarea class="form-control" rows="5" placeholder="Type Your Message Here"></textarea>
 
-                <a href="#" class="btn mt-const">Contact Us</a>
-
+                <div class="text-end">
+                    <a href="#" class="btn mt-const">Submit</a>
+                </div>
 
             </div>
 
