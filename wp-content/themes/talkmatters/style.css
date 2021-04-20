@@ -185,3 +185,8 @@ body {
 .home-slogan {
     font-size: 26px;
 }
+
+.home-points {
+    font-size: 16px;
+    font-style: italic;
+}

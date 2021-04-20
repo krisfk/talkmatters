@@ -29,7 +29,7 @@ get_header();
     <div class="position-relative">
         <img src="http://104.131.45.33/wp-content/uploads/2021/04/home-img-1.jpg" alt="">
 
-        <div>
+        <div class="home-points">
             Sleeplessness, loss of appetite and motivation, lack of interest and meaning, unclear self image and
             worthiness, procrastination, loneliness, too little love or too much care, seems to get stuck everywhere
             <br> <br>
