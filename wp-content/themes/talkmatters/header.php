@@ -58,14 +58,17 @@
                             </li>
                         </ul>
 
-                        <ul class="top-menu pt-2 m-0 text-center">
-                            <li><a href="#" class="active"> Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Articles</a></li>
-                            <li><a href="#">Faqs</a></li>
-                            <li><a href="#">Contact</a></li>
+                        <div class="top-menu-div">
+                            <ul class="top-menu pt-2 m-0 text-center">
+                                <li><a href="#" class="active"> Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Articles</a></li>
+                                <li><a href="#">Faqs</a></li>
+                                <li><a href="#">Contact</a></li>
 
-                        </ul>
+                            </ul>
+                        </div>
+
 
                         <div>
 
