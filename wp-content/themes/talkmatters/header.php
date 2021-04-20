@@ -59,7 +59,7 @@
                         </ul>
 
                         <ul class="top-menu">
-                            <li><a href="#"> Home</a></li>
+                            <li><a href="#" class="active"> Home</a></li>
                             <li><a href="#">About</a></li>
                             <li><a href="#">Articles</a></li>
                             <li><a href="#">Faqs</a></li>
