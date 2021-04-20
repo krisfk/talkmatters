@@ -19,7 +19,11 @@ get_header();
 ?>
 <div class="container">
 
-    <div class="mint-color">hard to deal with, live with them and even trying to face them.</div>
+    <div class="mint-color font-bold">
+
+        We know there is always distress in life and we understand it could be hard to deal with, live with them and
+        even trying to face them.
+    </div>
 </div>
 <?php
 get_footer();
