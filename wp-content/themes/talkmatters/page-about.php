@@ -92,7 +92,7 @@ get_header();
                     Lilian also has the capability of a coach and a mentor. She was nominated to support some senior
                     staff at the workplace in her previous job. Lilian holds the following experience:
                     <br>
-                    <ul>
+                    <ul class="mt-3">
                         <li>Mentor of CUHK School of Journalism and Communication Taught Postgraduate Mentorship
                             Programme
                             (2020-2021)</li>
