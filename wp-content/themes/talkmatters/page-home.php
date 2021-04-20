@@ -21,8 +21,8 @@ get_header();
 
     <div class="mint-color fw-bold home-slogan">
 
-        We know there is always distress in life and we understand it could be hard to deal with, live with them and
-        even trying to face them.
+        We know there is always distress in life and we understand it could be <br>
+        hard to deal with, live with them and even trying to face them.
     </div>
 </div>
 <?php
