@@ -113,3 +113,12 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     font-family: 'Damion', cursive;
     font-size: 28px;
 }
+
+.header-ul {
+    display: table;
+}
+
+.header-ul li {
+    display: table-cell;
+    vertical-align: middle;
+}

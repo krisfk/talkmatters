@@ -48,8 +48,14 @@
                     <div class="container">
 
 
-                        <span class="site-name"> LILIAN PSYCHOLOGICAL COUNSELLING </span>
+                        <ul class="header-ul">
+                            <li>
+                                <span class="site-name"> LILIAN PSYCHOLOGICAL COUNSELLING </span>
+                            </li>
+                            <li>
 
-                        <span class="writer-style-txt">believe in YOU</span>
+                                <span class="writer-style-txt">believe in YOU</span>
+                            </li>
+                        </ul>
 
                     </div>
