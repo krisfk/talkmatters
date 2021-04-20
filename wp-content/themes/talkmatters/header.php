@@ -69,12 +69,17 @@
 
                         <div>
 
-                            <img src="" alt="">
+                            <a href="#">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/images/fb-icon.png" alt="">
+                            </a>
+                            <a href="#">
 
-                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/fb-icon.png" alt="">
-                            fb-icon.png
-                            ig-icon.png
-                            in-icon.png
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/images/ig-icon.png" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/images/in-icon.png" alt="">
+                            </a>
+
                         </div>
 
                     </div>
