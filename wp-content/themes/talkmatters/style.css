@@ -317,3 +317,10 @@ footer {
 .faqs-div ul li {
     margin: 0 0 0 18px;
 }
+
+.contact-div h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    color: #0e2d1e;
+    letter-spacing: 2px;
+}

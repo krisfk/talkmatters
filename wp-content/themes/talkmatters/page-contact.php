@@ -23,7 +23,7 @@ get_header();
 
 
 
-    <div class="inner-container mt-const2 ">
+    <div class="inner-container mt-const2 contact-div">
 
         <div class="row">
 
