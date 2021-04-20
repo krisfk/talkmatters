@@ -230,6 +230,7 @@ h2.h2-on-line {
     background: #000;
 }
 
-.opacity-0 {
+h2.h2-on-line.opacity-0 {
     opacity: 0;
+    position: relative;
 }
