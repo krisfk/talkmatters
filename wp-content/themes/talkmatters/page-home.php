@@ -44,7 +44,8 @@ get_header();
     </div>
 
 
-    <div class="mt-5 inner-container">As an emotional guide, we facilitate our clients to identify your feelings and the
+    <div class="mt-5 inner-container text-justify">As an emotional guide, we facilitate our clients to identify your
+        feelings and the
         meaning behind
         these emotions. We help to make sense of it and explore perspectives to regain positive energy. With respect to
         your
