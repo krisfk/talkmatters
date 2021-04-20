@@ -125,6 +125,8 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     vertical-align: middle;
 }
 
+.top-menu {}
+
 .top-menu a {
     text-decoration: none;
     color: #000;
