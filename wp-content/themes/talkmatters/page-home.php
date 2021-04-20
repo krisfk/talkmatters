@@ -63,6 +63,18 @@ get_header();
             <h2 class="h2-on-line opacity-0">How does it work?</h2>
 
         </div>
+
+        <div>We talk through your issues, conflicts and adversity. It is a process where there is no judgement; it is a
+            journey whereby you don’t walk alone. Gradually we help to unveil more of your inner self like how an onion
+            is peeled. What you are thinking, feeling and behaving are important but we wish to take a step further to
+            identify the message behind. Together we may redefine perception to your discomfort, discover new
+            perspectives and gather strengths for change. The outcome could be a re-claim of resilience or a new-found
+            power of healing that ultimately enhances your emotional wellness.
+            <br> <br>
+            We believe in connecting with you and allowing you to connect with your own self. Confidentiality is an
+            essential part of the process as we cherish the trust you put in us.
+
+        </div>
     </div>
 </div>
 <?php
