@@ -86,7 +86,7 @@
 
                                 <span>
                                     Lang:
-                                    <select class="form-select" aria-label="lang">
+                                    <select class="form-select" aria-label="lang" class="lang-select">
                                         <option value="eng">Eng</option>
                                         <option value="chi">中</option>
                                     </select>
