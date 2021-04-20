@@ -130,7 +130,8 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     color: #000;
 }
 
-.top-menu a.active {
+.top-menu a.active,
+.top-menu a:hover {
     color: #7fa191;
 }
 
