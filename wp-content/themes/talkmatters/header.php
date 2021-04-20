@@ -67,4 +67,14 @@
 
                         </ul>
 
+                        <div>
+
+                            <img src="" alt="">
+
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/fb-icon.png" alt="">
+                            fb-icon.png
+                            ig-icon.png
+                            in-icon.png
+                        </div>
+
                     </div>
