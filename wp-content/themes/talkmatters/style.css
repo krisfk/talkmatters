@@ -276,3 +276,7 @@ footer {
     z-index: -10;
     bottom: -32px;
 }
+
+.mint-bg {
+    background: #cfe4d8;
+}
