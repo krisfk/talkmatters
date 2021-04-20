@@ -63,6 +63,13 @@
                             </li>
                         </ul>
 
+
+                        <?php
+
+global $post;
+$post_slug = $post->post_name;
+echo $post_slug;
+?>
                         <div class="top-menu-div pt-2">
                             <ul class="top-menu p-0 m-0 text-center">
                                 <li><a href="../home" class="active"> Home</a></li>
