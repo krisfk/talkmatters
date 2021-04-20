@@ -56,14 +56,14 @@ get_header();
 
             <div class="row">
 
-                <div class="col-6 mb-3">
+                <div class="col-6 mb-4">
                     <h3>Cognitive Behavioral Therapy</h3>
                     CBT is a widely used intervention for its proven efficacy and goal-oriented approach. It helps to
                     investigate how one’s thought patterns work and how it may lead to distress, maladaptive behaviors
                     and mental issues. Ongoing homework is a key component to drive for adaptive thoughts and the
                     subsequent improvement in mood.
                 </div>
-                <div class="col-6 mb-3">
+                <div class="col-6 mb-4">
                     <h3>Mindfulness & Positive Psychology</h3>
                     Positive Psychology is founded on the belief that people want to lead meaningful and fulfilling
                     lives. There is a natural tendency to cultivate what is best within themselves, PP and its
@@ -72,14 +72,14 @@ get_header();
 
                 </div>
 
-                <div class="col-6 mb-3">
+                <div class="col-6 mb-4">
                     <h3>Emotional-Focused therapy </h3>
                     EFT gently explores emotions and invite a genuine conversation with your inner self. With empathy
                     and compassion, it effectively promotes the release of blockages, bringing in greater flexibility to
                     heal differently.
 
                 </div>
-                <div class="col-6 mb-3">
+                <div class="col-6 mb-4">
                     <h3>Solution-focused therapy</h3>
                     Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx
                     XxxxxxXxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx
