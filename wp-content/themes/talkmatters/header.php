@@ -52,7 +52,7 @@
                             <li>
                                 <span class="site-name"> LILIAN PSYCHOLOGICAL COUNSELLING </span>
                             </li>
-                            <li class="ps-1">
+                            <li class="ps-2">
 
                                 <span class="writer-style-txt">believe in YOU</span>
                             </li>
