@@ -26,7 +26,7 @@ get_header();
 
     </div>
 
-    <div class="position-relative">
+    <div class="position-relative home-points-div">
         <img src="http://104.131.45.33/wp-content/uploads/2021/04/home-img-1.jpg" alt="">
 
         <div class="home-points">
