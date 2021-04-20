@@ -23,9 +23,25 @@ get_header();
 
 
 
-    <div class="inner-container mt-const2">
+    <div class="inner-container mt-const2 faqs-div">
 
-        fds </div>
+        <h3>The process</h3>
+        <ul>
+            <li>Interested client is requested to provide some personal information. We gather these data and medical
+                history
+                only
+                because they are important to the therapy</li>
+            <li>Therapy is primarily conversation-based allowing counsellor to conceptualize on client’s experience and
+                suggest
+                the
+                most appropriate approach for alignment with the client.</li>
+            <li>Self awareness and insights take time, the more open a client is, the more desirable will be the
+                outcome.
+                Please do
+                anticipate change to take place gradually</li>
+        </ul>
+
+    </div>
 </div>
 <?php
 get_footer();
