@@ -55,7 +55,7 @@ get_header();
         them, then to be empowered and to endure.
     </div>
 
-    <div class="inner-container">
+    <div class="inner-container mt-5">
 
         <div class="position-relative">
             <div class="black-line"></div>
