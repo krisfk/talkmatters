@@ -65,8 +65,8 @@
 
                         <div class="top-menu-div pt-2">
                             <ul class="top-menu p-0 m-0 text-center">
-                                <li><a href="#" class="active"> Home</a></li>
-                                <li><a href="#">About</a></li>
+                                <li><a href="../home" class="active"> Home</a></li>
+                                <li><a href="../about">About</a></li>
                                 <li><a href="#">Articles</a></li>
                                 <li><a href="#">Faqs</a></li>
                                 <li><a href="#">Contact</a></li>
