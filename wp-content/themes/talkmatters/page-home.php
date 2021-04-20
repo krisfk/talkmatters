@@ -59,7 +59,7 @@ get_header();
 
         <div class="position-relative">
             <div class="h2-black-line"></div>
-            <h2>How does it work?</h2>
+            <h2 class="h2-on-line">How does it work?</h2>
         </div>
     </div>
 </div>
