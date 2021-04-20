@@ -249,6 +249,8 @@ h2.h2-on-line.opacity-0 {
 .btn {
     background: #798f7a !important;
     color: #fff !important;
+    padding: 0.375rem 2rem !important;
+    border-radius: 0px !important;
 }
 
 .btn-check:focus+.btn,
@@ -323,12 +325,4 @@ footer {
     font-size: 18px;
     color: #0e2d1e;
     letter-spacing: 2px;
-}
-
-.contact-div input[type='text'],
-.contact-div textarea {
-    background: #ecf3f0 !important;
-    color: #507564 !important;
-    border-radius: 0px !important;
-    border: none !important;
 }
