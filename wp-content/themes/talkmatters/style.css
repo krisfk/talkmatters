@@ -305,3 +305,8 @@ footer {
 .faqs-div {
     color: #585858;
 }
+
+.faqs-div ul {
+    margin: 0;
+    padding: 0;
+}
