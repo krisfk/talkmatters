@@ -19,14 +19,14 @@ get_header();
 ?>
 <div class="container">
 
-    <div class="mint-color fw-bold home-slogan text-center mt-4">
+    <div class="mint-color fw-bold home-slogan text-center mt-const">
 
         We know there is always distress in life and we understand it could be <br>
         hard to deal with, live with them and even trying to face them.
 
     </div>
 
-    <div class="position-relative home-points-div mt-4">
+    <div class="position-relative home-points-div mt-const">
         <img src="http://104.131.45.33/wp-content/uploads/2021/04/home-img-1.jpg" alt="">
 
         <div class="home-points">
@@ -44,7 +44,7 @@ get_header();
     </div>
 
 
-    <div class="mt-4 inner-container text-justify">As an emotional guide, we facilitate our clients to identify your
+    <div class="mt-const inner-container text-justify">As an emotional guide, we facilitate our clients to identify your
         feelings and the
         meaning behind
         these emotions. We help to make sense of it and explore perspectives to regain positive energy. With respect to
@@ -55,7 +55,7 @@ get_header();
         them, then to be empowered and to endure.
     </div>
 
-    <div class="inner-container mt-4">
+    <div class="inner-container mt-const">
 
         <div class="position-relative">
             <div class="h2-black-line"></div>
