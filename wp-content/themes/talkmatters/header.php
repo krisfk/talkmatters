@@ -67,13 +67,61 @@
 
                         <div class="top-menu-div pt-2">
                             <ul class="top-menu p-0 m-0 text-center">
+                                <?php
+        
+        $main_menu = wp_get_menu_array('main menu');
+foreach ($main_menu as $menu_item) {
+
+$url = $menu_item['url'];
+$title = $menu_item['title'];
+$temp_arr=explode(get_site_url(),$url);
+$slug=str_replace('/en/','',$temp_arr[1]);
+$slug=str_replace('/cn/','',$slug);
+$slug=str_replace('/','',$slug);
+
+
+if(count($menu_item['children']))
+{
+   
+    echo '<li><a class="level-1 parent" href="'.$url.'">'.$title.'</a>';
+
+ 
+    echo '<ul class="menu-submenu">';
+    foreach ($menu_item['children'] as $sub_menu_item) 
+    {
+        $sub_url = $sub_menu_item['url'];
+        $sub_title = $sub_menu_item['title'];
+        $sub_temp_arr=explode(get_site_url(),$sub_url);
+        $sub_slug=str_replace('/en/','',$sub_temp_arr[1]);
+        $sub_slug=str_replace('/cn/','',$sub_slug);
+        $sub_slug=str_replace('/','',$sub_slug);
+        echo'<li><a class="'.$sub_slug.'" href="'.$sub_url.'">'.$sub_title.'</a></li>';
+    }
+    echo '</ul>';
+
+}
+else
+{
+echo '<li><a class="level-1 '.$slug.'" href="'.$url.'">'.$title.'</a>';
+
+}
+echo'</li>';
+
+
+}
+
+
+?>
+                            </ul>
+
+                            <!-- <ul class="top-menu p-0 m-0 text-center">
                                 <li><a href="../home" class="active"> Home</a></li>
                                 <li><a href="../about">About</a></li>
                                 <li><a href="../articles">Articles</a></li>
                                 <li><a href="../faqs">Faqs</a></li>
                                 <li><a href="../contact">Contact</a></li>
 
-                            </ul>
+                            </ul> -->
 
                             <div class="d-inline-block social-media-lang-div">
 
