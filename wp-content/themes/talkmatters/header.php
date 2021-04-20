@@ -79,7 +79,7 @@ $slug=str_replace('/en/','',$temp_arr[1]);
 $slug=str_replace('/cn/','',$slug);
 $slug=str_replace('/','',$slug);
 
-echo '<li><a class="level-1 '.$slug.'" href="'.$url.'">'.$title.'</a>';
+echo '<li><a class="'.$slug.'" href="'.$url.'">'.$title.'</a>';
 
 
 
