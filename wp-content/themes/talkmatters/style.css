@@ -265,8 +265,10 @@ footer {
 .mint-color-rect {
     position: absolute;
     top: 0;
-    left: 0;
-    width: 100%;
+    right: 0;
+    width: 576px;
     height: 100%;
     background: #b3d5c2;
+    z-index: -10;
+    top: 32px;
 }
