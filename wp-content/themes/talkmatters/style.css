@@ -246,3 +246,9 @@ h2.h2-on-line.opacity-0 {
     background: #798f7a !important;
     color: #fff !important;
 }
+
+.btn-check:focus+.btn,
+.btn:focus {
+    outline: 0 !important;
+    box-shadow: 0 !important;
+}
