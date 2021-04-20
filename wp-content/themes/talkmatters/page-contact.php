@@ -44,10 +44,12 @@ get_header();
             </div>
             <div class="col-6">
 
-                <input type="text" class="form-control">
-                <input type="text" class="form-control">
-                <input type="text" class="form-control">
-                <textarea class="form-control" rows="5"></textarea>
+                <input type="text" class="form-control" placeholder="Name">
+                <input type="text" class="form-control" placeholder="Email">
+                <input type="text" class="form-control" placeholder="Tel">
+                <textarea class="form-control" rows="5" placeholder="Type Your Message Here"></textarea>
+
+                <a href="#" class="btn mt-const">Contact Us</a>
 
 
             </div>
