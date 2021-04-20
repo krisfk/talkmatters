@@ -20,6 +20,9 @@
 
 <footer id="colophon" class="site-footer" role="contentinfo">
 
+    © 2021 by Lilian Psychological Counselling
+
+
 
 </footer><!-- #colophon -->
 

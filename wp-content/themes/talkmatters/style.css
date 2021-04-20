@@ -252,3 +252,9 @@ h2.h2-on-line.opacity-0 {
     outline: 0 !important;
     box-shadow: 0 !important;
 }
+
+footer {
+    background: #b3d5c2;
+    color: #585858;
+    font-size: 16px;
+}
