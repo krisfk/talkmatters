@@ -190,10 +190,10 @@ body {
     font-size: 16px;
     font-style: italic;
     position: absolute;
-    width: 680px;
+    width: 575px;
     /* height: 300px; */
     top: 47px;
-    right: 0;
+    right: -50px;
     background: rgb(55 51 43 / 88%);
     color: #fff;
     padding: 20px;
