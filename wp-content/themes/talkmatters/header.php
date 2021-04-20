@@ -58,7 +58,7 @@
                             </li>
                         </ul>
 
-                        <ul class="top-menu p-0 m-0">
+                        <ul class="top-menu p-0 m-0 text-center">
                             <li><a href="#" class="active"> Home</a></li>
                             <li><a href="#">About</a></li>
                             <li><a href="#">Articles</a></li>
