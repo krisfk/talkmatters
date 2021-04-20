@@ -25,7 +25,7 @@ get_header();
 
     <div class="inner-container mt-const2">
 
-        fdsf
+
     </div>
 </div>
 <?php
