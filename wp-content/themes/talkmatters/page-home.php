@@ -54,6 +54,14 @@ get_header();
         you have been going through could be tough. Here’s a safe space for you to stay true to your feelings, embrace
         them, then to be empowered and to endure.
     </div>
+
+    <div class="inner-container">
+
+        <div class="position-relative">
+            <div class="black-line"></div>
+            <h2>How does it work?</h2>
+        </div>
+    </div>
 </div>
 <?php
 get_footer();
