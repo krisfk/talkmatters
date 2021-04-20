@@ -33,11 +33,11 @@ get_header();
                 9462 6466
 
 
-                <h3>Address</h3>
+                <h3 class="mt-4">Address</h3>
                 address txt address txt address txt address txt address txt
 
 
-                <h3>Email</h3>
+                <h3 class="mt-4">Email</h3>
                 abc@abc.com
             </div>
             <div class="col-6"></div>
