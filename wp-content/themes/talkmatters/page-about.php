@@ -28,7 +28,7 @@ get_header();
     </div>
 
 
-    <div class="inner-container mt-5">
+    <div class="inner-container mt-const2">
 
         <div class="position-relative">
             <div class="h2-black-line"></div>
