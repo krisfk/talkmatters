@@ -19,6 +19,7 @@ get_header();
 ?>
 <div class="container">
 
+    <div class="mint-color">hard to deal with, live with them and even trying to face them.</div>
 </div>
 <?php
 get_footer();
