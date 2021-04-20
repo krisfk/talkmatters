@@ -52,7 +52,7 @@ get_header();
         </div>
 
 
-        <div class="mint-bg lilian-therapy-div mt-const p-3">
+        <div class="mint-bg lilian-therapy-div mt-const p-4">
 
             <div class="row">
 
