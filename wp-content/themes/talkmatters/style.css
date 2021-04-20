@@ -334,3 +334,7 @@ footer {
     border-radius: 0px !important;
     border: none !important;
 }
+
+.contact-div-left-col {
+    background: url(assets/images/contact-bg.png) no-repeat center center;
+}

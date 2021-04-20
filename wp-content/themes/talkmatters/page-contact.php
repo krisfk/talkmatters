@@ -27,7 +27,7 @@ get_header();
 
         <div class="row">
 
-            <div class="col-6">
+            <div class="col-6 contact-div-left-col">
 
                 <h3>Phone</h3>
                 9462 6466
