@@ -116,6 +116,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 .header-ul {
     display: table;
+    margin: 0 auto;
 }
 
 .header-ul li {
