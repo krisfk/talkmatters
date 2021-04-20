@@ -178,4 +178,6 @@ body {
     box-shadow: none !important;
 }
 
-.mint-color {}
+.mint-color {
+    color: #7fa191;
+}
