@@ -68,7 +68,7 @@
 
                             </ul>
 
-                            <div class="d-inline-block">
+                            <div class="d-inline-block social-media-lang-div">
 
                                 <a href="#">
                                     <img src="<?php echo get_template_directory_uri() ?>/assets/images/fb-icon.png"
