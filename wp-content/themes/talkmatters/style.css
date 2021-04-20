@@ -329,4 +329,6 @@ footer {
 .contact-div textarea {
     background: #ecf3f0 !important;
     color: #507564 !important;
+    border-radius: 0px !important;
+    border: none !important;
 }
