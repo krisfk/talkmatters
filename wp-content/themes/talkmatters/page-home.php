@@ -58,7 +58,7 @@ get_header();
     <div class="inner-container mt-5">
 
         <div class="position-relative">
-            <div class="black-line"></div>
+            <div class="h2-black-line"></div>
             <h2>How does it work?</h2>
         </div>
     </div>
