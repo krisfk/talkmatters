@@ -136,4 +136,6 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 .top-menu li {
     display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
 }
