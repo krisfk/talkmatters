@@ -96,6 +96,17 @@ get_header();
 
 
 
+        <h3 class="mt-4">Cancellation
+
+        </h3>
+        <ul>
+            <li>XxxxxxxXxxxxxxXxxxxxxXxxxxxxXxxxxxxXxxxxxxXxxxxxxXxxxxxxX
+            </li>
+        </ul>
+
+
+
+
 
 
 
