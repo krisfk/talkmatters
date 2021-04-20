@@ -55,6 +55,10 @@ get_header();
 
             </div>
 
+            <div class="col-12">
+                <img src="http://104.131.45.33/wp-content/uploads/2021/04/fake-map.jpg" alt="">
+            </div>
+
         </div>
 
 
