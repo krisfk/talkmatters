@@ -326,3 +326,11 @@ footer {
     color: #0e2d1e;
     letter-spacing: 2px;
 }
+
+.contact-div input[type='text'],
+.contact-div textarea {
+    background: #ecf3f0 !important;
+    color: #507564 !important;
+    border-radius: 0px !important;
+    border: none !important;
+}
