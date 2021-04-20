@@ -285,6 +285,7 @@ footer {
     color: #0e2d1e;
     font-size: 18px;
     font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
 }
 
 .lilian-therapy-div {
@@ -300,6 +301,7 @@ footer {
     font-family: 'Oswald', sans-serif;
     font-size: 18px;
     color: #0e2d1e;
+    letter-spacing: 3px;
 }
 
 .faqs-div {
