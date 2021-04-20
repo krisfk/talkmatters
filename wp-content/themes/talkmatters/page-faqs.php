@@ -75,9 +75,22 @@ get_header();
 
         </h3>
         <ul>
-            <li>．We charge at a sliding scale to allow higher accessibility of more individuals to counselling support.
+            <li>We charge at a sliding scale to allow higher accessibility of more individuals to counselling support.
                 Please
                 contact us for details
+            </li>
+        </ul>
+
+
+
+        <h3 class="mt-4">Confidentiality
+
+        </h3>
+        <ul>
+            <li>Data privacy is strictly respected. No information about cases will be shared with any third parties
+                under normal
+                circumstances
+
             </li>
         </ul>
 
