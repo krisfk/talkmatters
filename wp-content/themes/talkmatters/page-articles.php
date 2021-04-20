@@ -21,11 +21,6 @@ get_header();
 
 
 
-    <div class="inner-container mt-const position-relative">
-
-        <img src="http://104.131.45.33/wp-content/uploads/2021/04/lilian-photo.jpg" alt="">
-        <div class="mint-color-rect"></div>
-    </div>
 
 
     <div class="inner-container mt-const2">
