@@ -42,14 +42,14 @@ get_header();
         </ul>
 
 
-        <h3>The format
+        <h3 class="mt-3">The format
         </h3>
         <ul>
             <li>Face to face preferred. Online meeting could be considered for special occasions</li>
 
         </ul>
 
-        <h3>The duration
+        <h3 class="mt-3">The duration
         </h3>
         <ul>
             <li>Empirical evidence shows that it is common to see changes after 8 - 10 sessions of committed work. Each
@@ -58,7 +58,7 @@ get_header();
             </li>
         </ul>
 
-        <h3>How about if I don’t know what my issue is
+        <h3 class="mt-3">How about if I don’t know what my issue is
         </h3>
         <ul>
             <li>This uncertainty is not uncommon when we talk about emotions and feelings. Discomfort might last long
