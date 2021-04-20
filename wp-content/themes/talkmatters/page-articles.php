@@ -1,0 +1,37 @@
+<?php
+/**
+ * The main template file
+ *
+ * This is the most generic template file in a WordPress theme
+ * and one of the two required files for a theme (the other being style.css).
+ * It is used to display a page when nothing more specific matches a query.
+ * E.g., it puts together the home page when no home.php file exists.
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ *
+ * @package WordPress
+ * @subpackage Twenty_Twenty_One
+ * @since Twenty Twenty-One 1.0
+ */
+
+get_header();
+
+?>
+<div class="container">
+
+
+
+    <div class="inner-container mt-const position-relative">
+
+        <img src="http://104.131.45.33/wp-content/uploads/2021/04/lilian-photo.jpg" alt="">
+        <div class="mint-color-rect"></div>
+    </div>
+
+
+    <div class="inner-container mt-const2">
+
+        fdsf
+    </div>
+</div>
+<?php
+get_footer();
