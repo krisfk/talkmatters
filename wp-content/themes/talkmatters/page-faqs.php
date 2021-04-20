@@ -71,6 +71,19 @@ get_header();
         </ul>
 
 
+        <h3 class="mt-4">What is your charge
+
+        </h3>
+        <ul>
+            <li>．We charge at a sliding scale to allow higher accessibility of more individuals to counselling support.
+                Please
+                contact us for details
+            </li>
+        </ul>
+
+
+
+
 
 
 
