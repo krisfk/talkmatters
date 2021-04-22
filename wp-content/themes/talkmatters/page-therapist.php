@@ -85,20 +85,33 @@ get_header();
 
 
                 <div class="col-12">
-                    Lilian also has the capability of a coach and a mentor. She was nominated to support some senior
-                    staff at the workplace in her previous job. Lilian holds the following experience:
-                    <br>
+                    <h3>Education and Counselling Experience
+                    </h3>
+                    Lilian possesses a Master Degree in Social Sciences (Counselling) from the University of Hong Kong
+                    and is a member of Hong Kong Professional Counselling Association. She has extensive experiences
+                    working with adolescents in a secondary school setting, dealing with issues such as general anxiety,
+                    low self esteem, learning and focus. With adults, she has handled cases related to parenting, anger
+                    and couple relationship; as well as anxiety management at work.
+
+                    <h3>Other Experiences
+
+                    </h3>
+                    Lilian also has the capability of a coaching and mentorship. She holds the following experience-
+
                     <ul class="mt-3">
+                        <li>Volunteer Mentor and Counsellor of HKU Counselling Unit (2020 till now)</li>
                         <li>Mentor of CUHK School of Journalism and Communication Taught Postgraduate Mentorship
                             Programme
                             (2020-2021)</li>
-                        <li>Mentor of staff of HER Fund (2021)</li>
-                        <li>Member of Board of Advisors, Baptist University Master of Business Administration (2016 -
-                            2019)</li>
-                        <li>Volunteer counsellor at HKU counselling unit</li>
-
+                        <li>Volunteer Mentor of staff of HER Fund (2021)</li>
+                        <li>Volunteer Member of Board of Advisors, Baptist University Master of Business Administration
+                            (2016 - 2019)</li>
+                        <li>Volunteer Coach at workplace (2013 - 2020)</li>
 
                     </ul>
+
+
+
                 </div>
 
 
