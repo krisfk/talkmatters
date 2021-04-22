@@ -33,7 +33,7 @@ get_header();
 
         <div class="home-points">
 
-            You are not alone if you found yourself disturbed by the following <br> <br>
+            You are not alone if you found yourself disturbed by the following: <br> <br>
             Sleeplessness, loss of appetite and interest, lack of meaning and motivation, unclear self image and
             worthiness, loneliness, too little love or too much care, seems to get stuck everywhere
             <br> <br>
