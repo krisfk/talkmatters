@@ -53,9 +53,9 @@ get_header();
 
         <div class="row mt-3">
 
-            <div class="col-5"><img class="w-100" src="http://104.131.45.33/wp-content/uploads/2021/04/water-1.png"
+            <div class="col-4"><img class="w-100" src="http://104.131.45.33/wp-content/uploads/2021/04/water-1.png"
                     alt=""></div>
-            <div class="col-7">Negative emotions are like a glass of water with some mud inside. We just want to spoon
+            <div class="col-8">Negative emotions are like a glass of water with some mud inside. We just want to spoon
                 the mud away. When you do this, the water immediately becomes muddy and messy. The process asks us to
                 tolerate this unwanted state and by doing it step by step with patience, we will succeed in making the
                 water clear again. You might feel uneasy or even painful as feelings are stirred up. Yet, please rest
