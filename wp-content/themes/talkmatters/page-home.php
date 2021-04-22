@@ -57,22 +57,17 @@ get_header();
 
         <div class="position-relative">
             <div class="h2-black-line"></div>
-            <h2 class="h2-on-line">How does it work?</h2>
-            <h2 class="h2-on-line opacity-0">How does it work?</h2>
+            <h2 class="h2-on-line">Why Talk Matters?</h2>
+            <h2 class="h2-on-line opacity-0">Why Talk Matters?</h2>
 
         </div>
 
-        <div class="mt-2  text-justify">We talk through your issues, conflicts and adversity. It is a process where
-            there is no
-            judgement; it is a
-            journey whereby you don’t walk alone. Gradually we help to unveil more of your inner self like how an onion
-            is peeled. What you are thinking, feeling and behaving are important but we wish to take a step further to
-            identify the message behind. Together we may redefine perception to your discomfort, discover new
-            perspectives and gather strengths for change. The outcome could be a re-claim of resilience or a new-found
-            power of healing that ultimately enhances your emotional wellness.
-            <br> <br>
-            We believe in connecting with you and allowing you to connect with your own self. Confidentiality is an
-            essential part of the process as we cherish the trust you put in us.
+        <div class="mt-2  text-justify">Talking through our matters matters. Every day we experience our lives, we learn
+            and we grow. This is unique to human nature and important for humanity to thrive. Via talking, our ancestors
+            pass on knowledge between generations, in the creation of cult and culture; to connect in the community and
+            to engage each other with trust, respect and understanding. Our daily events and encounters trigger
+            emotions, at times positive and at times unwanted. Talking helps to activate our brain and allows proximity
+            to the emotional part. We are then able to access the data and process our feelings more effectively.
 
         </div>
 
