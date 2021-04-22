@@ -135,7 +135,7 @@ get_header();
                 confidentiality is an essential part of the process as we cherish the trust you put in us.
             </div>
 
-            <h3 class="mt-3"> COVID measures</h3>
+            <h3 class="mt-4"> COVID measures</h3>
             Sessions must be attended with masks on for both client and counsellor. Counselling room is sterilized
             regularly with use of disposable protective covers if needed.
 
