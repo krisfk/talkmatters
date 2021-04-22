@@ -38,15 +38,10 @@ get_header();
         </div>
 
         <div class="mt-2  text-justify">
-            Lilian possesses a Master degree in social sciences (Counselling). She has more than 100 clinical hours
-            working with adolescents in a secondary school setting, dealing with low self esteem, general anxiety,
-            learning and focus issues. With adults, she has experience in handling cases of anger, couple relationship
-            and anxiety management at work. <br> <br>
-
             Lilian believes that each individual is unique and deserves a personalized therapeutic approach. She
-            practices with a multitude of interventions based on psychodynamic theories. The counselling process is a
-            partnership between client and counsellor; the outcome is for individual to regain wellness and positivity.
-
+            practices with a selection of interventions based on psychodynamic theories and individual profile. The
+            therapeutic process is perceived as a partnership between client and therapist. She pursues for an outcome
+            to empower the client in the reclaiming of wellness and positivity.
 
 
         </div>
