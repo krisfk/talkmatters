@@ -92,6 +92,16 @@ get_header();
         </div>
 
 
+        <div class="row">
+            <div class="col-6"><img src="http://104.131.45.33/wp-content/uploads/2021/04/pens.jpg
+" alt=""></div>
+            <div class="col-6"></div>
+
+        </div>
+
+
+
+
         <a href="#" class="btn mt-const">Contact Us</a>
     </div>
 </div>
