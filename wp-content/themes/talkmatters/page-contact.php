@@ -34,8 +34,7 @@ get_header();
 
 
                 <h3 class="mt-4">Address</h3>
-                address txt address txt address txt address txt address txt address txt address txt address txt address
-                txt address txt
+                5/F, 3-5 Old Bailey Street, Central
 
 
 
