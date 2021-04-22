@@ -226,7 +226,7 @@ h2.h2-on-line {
 
 h3 {
     font-family: 'Oswald', sans-serif;
-    font-weight: 300;
+    font-weight: 400 !important;
 }
 
 .h2-black-line {
