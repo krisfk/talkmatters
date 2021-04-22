@@ -45,15 +45,11 @@ get_header();
     </div>
 
 
-    <div class="mt-const inner-container text-justify">As an emotional guide, we facilitate our clients to identify your
-        feelings and the
-        meaning behind
-        these emotions. We help to make sense of it and explore perspectives to regain positive energy. With respect to
-        your
-        individuality, we understand your experience are unique and important. We help you get closer to them,
-        transforming them into insights in the promotion of clarity of needs and concern. There could be pains and what
-        you have been going through could be tough. Here’s a safe space for you to stay true to your feelings, embrace
-        them, then to be empowered and to endure.
+    <div class="mt-const inner-container text-justify">As an emotions guide, we facilitate clients to identify feelings
+        and importantly the meaning behind. We respect your individuality, we understand what you have experienced are
+        unique and critical to what you feel. We help to make sense of your emotions and explore new perspectives to
+        help you process them. The ultimate goal is to regain positive energy.
+
     </div>
 
     <div class="inner-container mt-const">
