@@ -18,15 +18,28 @@ get_header();
 
 ?>
 <div class="container">
-
+    <!-- 
     <div class="mint-color fw-bold home-slogan text-center mt-const">
 
         We know there is always distress in life and we understand it could be <br>
         hard to deal with, live with them and even trying to face them.
 
-    </div>
+    </div> -->
+
+    <!-- <div class="position-relative home-points-div mt-const">
+        <img src="http://104.131.45.33/wp-content/uploads/2021/04/home-img-1.jpg" alt="">
+
+        <div class="home-points">
+            Sleeplessness, loss of appetite and motivation, lack of interest and meaning, unclear self image and
+            worthiness, procrastination, loneliness, too little love or too much care, seems to get stuck everywhere
+            <br> <br>
+            Constantly feeling anxious, depressed and stress
+            <br><br>
+            Personal, workplace or relationship difficulties
 
 
+        </div>
+    </div> -->
 
 
     <div class="mt-const inner-container text-justify">As an emotional guide, we facilitate our clients to identify your
