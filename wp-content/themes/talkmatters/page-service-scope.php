@@ -101,14 +101,33 @@ get_header();
 
         </div>
         <!-- http://104.131.45.33/wp-content/uploads/2021/04/water-1.png -->
-        <div class="mt-2  text-justify">We will talk through your issues, conflicts and adversity. It is a process where
-            there is no judgement; it is a journey whereby you have us as your companions. We work to gradually unveil
-            your inner emotions like how an onion is peeled！ What you are thinking, feeling and behaving are important
-            and we wish to take a step further to identify the messages behind. Through reflections and re-visiting what
-            you have gone through, we get closer to insights that promote clarity of deep-rooted needs and which have
-            not been answered. Together we may redefine perception of your discomfort, discover new dimensions and
-            gather strength for change. The outcome could be a re-claim of resilience or a new-found power of healing
-            that ultimately enhances your emotional wellness.
+        <div class="mt-2  text-justify">
+
+
+            <div class="row">
+                <div class="col-4">
+                    <img src="http://104.131.45.33/wp-content/uploads/2021/04/water-2.png " alt="">
+                </div>
+                <div class="col-8"> We will talk through your issues, conflicts and adversity. It is a process where
+                    there is no judgement; it is a journey whereby you have us as your companions. We work to gradually
+                    unveil
+                    your inner emotions like how an onion is peeled！ What you are thinking, feeling and behaving are
+                    important
+                    and we wish to take a step further to identify the messages behind. Through reflections and
+                    re-visiting what
+                    you have gone through, we get closer to insights that promote clarity of deep-rooted needs and which
+                    have
+                    not been answered. Together we may redefine perception of your discomfort, discover new dimensions
+                    and
+                    gather strength for change. The outcome could be a re-claim of resilience or a new-found power of
+                    healing
+                    that ultimately enhances your emotional wellness.</div>
+
+            </div>
+
+
+
+
             <br><br>
             We believe in connecting with you and inviting you to connect with your own self. Privacy and
             confidentiality is an essential part of the process as we cherish the trust you put in us.
