@@ -56,22 +56,22 @@ get_header();
 
         <div class="position-relative">
             <div class="h2-black-line"></div>
-            <h2 class="h2-on-line">How does it work?</h2>
-            <h2 class="h2-on-line opacity-0">How does it work?</h2>
+            <h2 class="h2-on-line">How does it work? I want a glass of clear water again.
+            </h2>
+            <h2 class="h2-on-line opacity-0">How does it work? I want a glass of clear water again.
+            </h2>
 
         </div>
 
-        <div class="mt-2  text-justify">We talk through your issues, conflicts and adversity. It is a process where
-            there is no
-            judgement; it is a
-            journey whereby you don’t walk alone. Gradually we help to unveil more of your inner self like how an onion
-            is peeled. What you are thinking, feeling and behaving are important but we wish to take a step further to
-            identify the message behind. Together we may redefine perception to your discomfort, discover new
-            perspectives and gather strengths for change. The outcome could be a re-claim of resilience or a new-found
-            power of healing that ultimately enhances your emotional wellness.
-            <br> <br>
-            We believe in connecting with you and allowing you to connect with your own self. Confidentiality is an
-            essential part of the process as we cherish the trust you put in us.
+        <div class="mt-2  text-justify">We will talk through your issues, conflicts and adversity. It is a process where
+            there is no judgement; it is a journey whereby you have us as your companions. We work to gradually unveil
+            your inner emotions like how an onion is peeled！ What you are thinking, feeling and behaving are important
+            and we wish to take a step further to identify the messages behind. Through reflections and re-visiting what
+            you have gone through, we get closer to insights that promote clarity of deep-rooted needs and which have
+            not been answered. Together we may redefine perception of your discomfort, discover new dimensions and
+            gather strength for change. The outcome could be a re-claim of resilience or a new-found power of healing
+            that ultimately enhances your emotional wellness.
+
 
         </div>
 
