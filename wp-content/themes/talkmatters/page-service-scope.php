@@ -19,97 +19,66 @@ get_header();
 ?>
 <div class="container">
 
+    <div class="mint-color fw-bold home-slogan text-center mt-const">
+
+        We know there is always distress in life and we understand it could be <br>
+        hard to deal with, live with them and even trying to face them.
+
+    </div>
+
+    <div class="position-relative home-points-div mt-const">
+        <img src="http://104.131.45.33/wp-content/uploads/2021/04/home-img-1.jpg" alt="">
+
+        <div class="home-points">
+            <!-- You are not alone if you found yourself disturbed by the following issues: -->
+            <!-- <br><br> -->
+            Sleeplessness, loss of appetite and motivation, lack of interest and meaning, unclear self image and
+            worthiness, procrastination, loneliness, too little love or too much care, seems to get stuck everywhere
+            <br> <br>
+            Constantly feeling anxious, depressed and stress
+            <br><br>
+            Personal, workplace or relationship difficulties
 
 
-    <div class="inner-container mt-const position-relative">
-
-        <img src="http://104.131.45.33/wp-content/uploads/2021/04/lilian-photo.jpg" alt="">
-        <div class="mint-color-rect"></div>
+        </div>
     </div>
 
 
-    <div class="inner-container mt-const2">
+    <div class="mt-const inner-container text-justify">As an emotional guide, we facilitate our clients to identify your
+        feelings and the
+        meaning behind
+        these emotions. We help to make sense of it and explore perspectives to regain positive energy. With respect to
+        your
+        individuality, we understand your experience are unique and important. We help you get closer to them,
+        transforming them into insights in the promotion of clarity of needs and concern. There could be pains and what
+        you have been going through could be tough. Here’s a safe space for you to stay true to your feelings, embrace
+        them, then to be empowered and to endure.
+    </div>
+
+    <div class="inner-container mt-const">
 
         <div class="position-relative">
             <div class="h2-black-line"></div>
-            <h2 class="h2-on-line">About the counsellor</h2>
-            <h2 class="h2-on-line opacity-0">About the counsellor</h2>
+            <h2 class="h2-on-line">How does it work?</h2>
+            <h2 class="h2-on-line opacity-0">How does it work?</h2>
 
         </div>
 
-        <div class="mt-2  text-justify">
-            Lilian possesses a Master degree in social sciences (Counselling). She has more than 100 clinical hours
-            working with adolescents in a secondary school setting, dealing with low self esteem, general anxiety,
-            learning and focus issues. With adults, she has experience in handling cases of anger, couple relationship
-            and anxiety management at work. <br> <br>
-
-            Lilian believes that each individual is unique and deserves a personalized therapeutic approach. She
-            practices with a multitude of interventions based on psychodynamic theories. The counselling process is a
-            partnership between client and counsellor; the outcome is for individual to regain wellness and positivity.
-
-
+        <div class="mt-2  text-justify">We talk through your issues, conflicts and adversity. It is a process where
+            there is no
+            judgement; it is a
+            journey whereby you don’t walk alone. Gradually we help to unveil more of your inner self like how an onion
+            is peeled. What you are thinking, feeling and behaving are important but we wish to take a step further to
+            identify the message behind. Together we may redefine perception to your discomfort, discover new
+            perspectives and gather strengths for change. The outcome could be a re-claim of resilience or a new-found
+            power of healing that ultimately enhances your emotional wellness.
+            <br> <br>
+            We believe in connecting with you and allowing you to connect with your own self. Confidentiality is an
+            essential part of the process as we cherish the trust you put in us.
 
         </div>
 
-
-        <div class="mint-bg lilian-therapy-div mt-const p-4 ">
-
-            <div class="row">
-
-                <div class="col-6 mb-4">
-                    <h3>Cognitive Behavioral Therapy</h3>
-                    CBT is a widely used intervention for its proven efficacy and goal-oriented approach. It helps to
-                    investigate how one’s thought patterns work and how it may lead to distress, maladaptive behaviors
-                    and mental issues. Ongoing homework is a key component to drive for adaptive thoughts and the
-                    subsequent improvement in mood.
-                </div>
-                <div class="col-6 mb-4">
-                    <h3>Mindfulness & Positive Psychology</h3>
-                    Positive Psychology is founded on the belief that people want to lead meaningful and fulfilling
-                    lives. There is a natural tendency to cultivate what is best within themselves, PP and its
-                    mindfulness aspect amplify personal strengths, gift from nature, love and social connection;
-                    while letting individual to repair and heal base on and within these values.
-
-                </div>
-
-                <div class="col-6 mb-4">
-                    <h3>Emotional-Focused therapy </h3>
-                    EFT gently explores emotions and invite a genuine conversation with your inner self. With empathy
-                    and compassion, it effectively promotes the release of blockages, bringing in greater flexibility to
-                    heal differently.
-
-                </div>
-                <div class="col-6 mb-4">
-                    <h3>Solution-focused therapy</h3>
-                    Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx
-                    XxxxxxXxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx
-                    Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx
-
-                </div>
-
-
-                <div class="col-12">
-                    Lilian also has the capability of a coach and a mentor. She was nominated to support some senior
-                    staff at the workplace in her previous job. Lilian holds the following experience:
-                    <br>
-                    <ul class="mt-3">
-                        <li>Mentor of CUHK School of Journalism and Communication Taught Postgraduate Mentorship
-                            Programme
-                            (2020-2021)</li>
-                        <li>Mentor of staff of HER Fund (2021)</li>
-                        <li>Member of Board of Advisors, Baptist University Master of Business Administration (2016 -
-                            2019)</li>
-                        <li>Volunteer counsellor at HKU counselling unit</li>
-
-
-                    </ul>
-                </div>
-
-
-
-            </div>
-        </div>
-
+        <a href="#" class="btn mt-const">Contact Us</a>
     </div>
 </div>
 <?php
