@@ -71,6 +71,27 @@ get_header();
 
         </div>
 
+        <div class="position-relative">
+            <div class="h2-black-line"></div>
+            <h2 class="h2-on-line">Why is it important to process your feelings?</h2>
+            <h2 class="h2-on-line opacity-0">Why is it important to process your feelings?</h2>
+
+        </div>
+
+        <div class="mt-2  text-justify">Negative feelings might trigger maladaptive behaviors that bring down the
+            quality of life. This is something no one wants. Obtaining prolonged wellness requires us to take one step
+            further, that is to understand the meaning behind what we feel. In our survival mode, emotional regulation
+            is used to counter or avoid threats in the context of fight or flight mode. Feelings signal the brain and
+            the body to react (simply speaking, angry feeling works with the brain and body to prepare for a fight; a
+            scared emotion prepares for withdrawal).
+            <br><br>
+            Talk Matters presents an invitation to talk and walk together. By revisiting your experience and feelings
+            that matter to you, you allow a moment to stay vulnerable; and to appreciate what you have gone through with
+            kindness and compassion.
+
+        </div>
+
+
         <a href="#" class="btn mt-const">Contact Us</a>
     </div>
 </div>
