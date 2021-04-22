@@ -26,7 +26,22 @@ get_header();
 
     </div>
 
+    <div class="position-relative home-points-div mt-const">
+        <img src="http://104.131.45.33/wp-content/uploads/2021/04/home-img-1.jpg" alt="">
 
+        <div class="home-points">
+            <!-- You are not alone if you found yourself disturbed by the following issues: -->
+            <!-- <br><br> -->
+            Sleeplessness, loss of appetite and motivation, lack of interest and meaning, unclear self image and
+            worthiness, procrastination, loneliness, too little love or too much care, seems to get stuck everywhere
+            <br> <br>
+            Constantly feeling anxious, depressed and stress
+            <br><br>
+            Personal, workplace or relationship difficulties
+
+
+        </div>
+    </div>
 
 
     <div class="mt-const inner-container text-justify">As an emotional guide, we facilitate our clients to identify your
