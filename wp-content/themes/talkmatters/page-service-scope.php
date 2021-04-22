@@ -71,6 +71,15 @@ get_header();
             not been answered. Together we may redefine perception of your discomfort, discover new dimensions and
             gather strength for change. The outcome could be a re-claim of resilience or a new-found power of healing
             that ultimately enhances your emotional wellness.
+            <br><br>
+            We believe in connecting with you and inviting you to connect with your own self. Privacy and
+            confidentiality is an essential part of the process as we cherish the trust you put in us.
+            <br><br>
+
+            <h3> COVID measures</h3>
+            Sessions must be attended with masks on for both client and counsellor. Counselling room is sterilized
+            regularly with use of disposable protective covers if needed.
+
 
 
         </div>
