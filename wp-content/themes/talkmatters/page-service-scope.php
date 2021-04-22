@@ -130,9 +130,10 @@ get_header();
 
 
 
-            <br><br>
-            We believe in connecting with you and inviting you to connect with your own self. Privacy and
-            confidentiality is an essential part of the process as we cherish the trust you put in us.
+            <div class="mt-3">
+                We believe in connecting with you and inviting you to connect with your own self. Privacy and
+                confidentiality is an essential part of the process as we cherish the trust you put in us.
+            </div>
             <br><br>
 
             <h3> COVID measures</h3>
