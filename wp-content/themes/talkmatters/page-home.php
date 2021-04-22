@@ -71,7 +71,7 @@ get_header();
 
         </div>
 
-        <div class="position-relative">
+        <div class="position-relative mt-const">
             <div class="h2-black-line"></div>
             <h2 class="h2-on-line">Why is it important to process your feelings?</h2>
             <h2 class="h2-on-line opacity-0">Why is it important to process your feelings?</h2>
