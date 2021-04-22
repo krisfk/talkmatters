@@ -50,6 +50,19 @@ get_header();
         unique and critical to what you feel. We help to make sense of your emotions and explore new perspectives to
         help you process them. The ultimate goal is to regain positive energy.
 
+
+        <div class="row">
+
+            <div class="col-6"><img src="http://104.131.45.33/wp-content/uploads/2021/04/water-1.png" alt=""></div>
+            <div class="col-6">Negative emotions are like a glass of water with some mud inside. We just want to spoon
+                the mud away. When you do this, the water immediately becomes muddy and messy. The process asks us to
+                tolerate this unwanted state and by doing it step by step with patience, we will succeed in making the
+                water clear again. You might feel uneasy or even painful as feelings are stirred up. Yet, please rest
+                assured that at Talk Matters, we provide you a safe space to stay true to yourself, embrace the
+                feelings, then to be empowered and to endure.
+            </div>
+
+        </div>
     </div>
 
     <div class="inner-container mt-const">
