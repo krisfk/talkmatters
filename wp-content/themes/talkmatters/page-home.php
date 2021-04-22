@@ -93,9 +93,9 @@ get_header();
 
 
         <div class="row mt-3">
-            <div class="col-3"><img class="w-100" src="http://104.131.45.33/wp-content/uploads/2021/04/pens.jpg
+            <div class="col-4"><img class="w-100" src="http://104.131.45.33/wp-content/uploads/2021/04/pens.jpg
 " alt=""></div>
-            <div class="col-9  text-justify ">
+            <div class="col-8  text-justify ">
 
                 <div class="mint-bg  p-3">
                     No matter how different they look, they are pens for writing. Our emotions function in the same way.
