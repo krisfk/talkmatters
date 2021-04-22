@@ -93,7 +93,7 @@ get_header();
                     low self esteem, learning and focus. With adults, she has handled cases related to parenting, anger
                     and couple relationship; as well as anxiety management at work.
 
-                    <h3>Other Experiences
+                    <h3 class="mt-3">Other Experiences
 
                     </h3>
                     Lilian also has the capability of a coaching and mentorship. She holds the following experience-
