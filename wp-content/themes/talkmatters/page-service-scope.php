@@ -25,7 +25,9 @@ get_header();
 
     </div>
 
-    <div class="inner-container"> We see the fundamentals of LIFE - love, intimacy, fun and energy.
+    <div class="inner-container mint-color fw-bold home-slogan">
+
+        We see the fundamentals of LIFE - love, intimacy, fun and energy.
         Yet while we live and grow, it could be full of challenges,
         distress and negative emotions that are hard for an individual to manage and maneuver.
     </div>
