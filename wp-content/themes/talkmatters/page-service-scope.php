@@ -105,7 +105,7 @@ get_header();
 
 
             <div class="row">
-                <div class="col-4">
+                <div class="col-4 feather">
                     <img class="w-100" src="http://104.131.45.33/wp-content/uploads/2021/04/water-2.png " alt="">
                 </div>
                 <div class="col-8"> We will talk through your issues, conflicts and adversity. It is a process where
