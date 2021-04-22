@@ -42,7 +42,7 @@ get_header();
     </div> -->
 
 
-    <div class="mt-const inner-container text-justify">As an emotional guide, we facilitate our clients to identify your
+    <!-- <div class="mt-const inner-container text-justify">As an emotional guide, we facilitate our clients to identify your
         feelings and the
         meaning behind
         these emotions. We help to make sense of it and explore perspectives to regain positive energy. With respect to
@@ -51,7 +51,7 @@ get_header();
         transforming them into insights in the promotion of clarity of needs and concern. There could be pains and what
         you have been going through could be tough. Here’s a safe space for you to stay true to your feelings, embrace
         them, then to be empowered and to endure.
-    </div>
+    </div> -->
 
     <div class="inner-container mt-const">
 
