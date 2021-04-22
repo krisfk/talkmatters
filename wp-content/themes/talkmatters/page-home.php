@@ -110,7 +110,7 @@ get_header();
 
 
 
-        <a href="#" class="btn mt-const">Contact Us</a>
+        <!-- <a href="#" class="btn mt-const">Contact Us</a> -->
     </div>
 </div>
 <?php
