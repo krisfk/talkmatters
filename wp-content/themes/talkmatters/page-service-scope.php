@@ -74,7 +74,7 @@ get_header();
                     alt=""></div>
             <div class="col-8">
 
-                <div class="mint-bg p-3">
+                <div class="mint-bg p-3" style="margin: 105px 0 0 -50px;">
                     Negative emotions are like a glass of water with some mud inside. We just want to spoon
                     the mud away. When you do this, the water immediately becomes muddy and messy. The process asks us
                     to
