@@ -194,7 +194,7 @@ body {
     /* height: 300px; */
     top: 47px;
     right: 0px;
-    background: rgb(55 51 43 / 88%);
+    background: rgb(127 161 145 / 86%);
     color: #fff;
     padding: 20px;
 }
@@ -281,7 +281,6 @@ footer {
 
 .mint-bg {
     background: #cfe4d8;
-    color: #585858;
 }
 
 .lilian-therapy-div h3 {
