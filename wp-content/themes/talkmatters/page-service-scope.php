@@ -105,8 +105,10 @@ get_header();
 
 
             <div class="row">
-                <div class="col-4 feather">
-                    <img class="w-100" src="http://104.131.45.33/wp-content/uploads/2021/04/water-2.png " alt="">
+                <div class="col-4">
+                    <div class="feather">
+                        <img class="w-100" src="http://104.131.45.33/wp-content/uploads/2021/04/water-2.png " alt="">
+                    </div>
                 </div>
                 <div class="col-8"> We will talk through your issues, conflicts and adversity. It is a process where
                     there is no judgement; it is a journey whereby you have us as your companions. We work to gradually
