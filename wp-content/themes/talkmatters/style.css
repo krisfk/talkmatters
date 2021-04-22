@@ -363,7 +363,7 @@ footer {
     display: block;
     content: '';
     position: absolute;
-    width: 100%;
+    width: 92%;
     height: 100%;
     -moz-box-shadow: inset 0px 0px 6px 6px rgba(255, 255, 255, 1);
     -webkit-box-shadow: inset 0px 0px 6px 6px rgba(255, 255, 255, 1);

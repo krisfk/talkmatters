@@ -105,7 +105,7 @@ get_header();
 
 
             <div class="row">
-                <div class="col-4">
+                <div class="col-4 position-relative">
                     <div class="feather">
                         <img class="w-100" src="http://104.131.45.33/wp-content/uploads/2021/04/water-2.png " alt="">
                     </div>
