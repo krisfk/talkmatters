@@ -58,11 +58,11 @@ get_header();
             <div class="h2-black-line"></div>
             <h2 class="h2-on-line">How does it work? I want a glass of clear water again.
             </h2>
-            <h2 class="h2-on-line opacity-0">How does it work? I want a glass of clear water again.
+            <h2 class="h2-on-line opacity-0">How does it work?
             </h2>
 
         </div>
-
+        http://104.131.45.33/wp-content/uploads/2021/04/water-1.png
         <div class="mt-2  text-justify">We will talk through your issues, conflicts and adversity. It is a process where
             there is no judgement; it is a journey whereby you have us as your companions. We work to gradually unveil
             your inner emotions like how an onion is peeled！ What you are thinking, feeling and behaving are important
