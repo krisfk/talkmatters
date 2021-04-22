@@ -224,6 +224,11 @@ h2.h2-on-line {
     font-size: 32px;
 }
 
+h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
 .h2-black-line {
     display: block;
     width: 100%;
