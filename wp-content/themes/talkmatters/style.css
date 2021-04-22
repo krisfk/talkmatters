@@ -304,7 +304,8 @@ footer {
     font-family: 'Oswald', sans-serif;
     font-size: 18px;
     color: #0e2d1e;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    font-weight: 400;
 }
 
 .faqs-div {
