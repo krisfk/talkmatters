@@ -130,7 +130,7 @@ get_header();
 
 
 
-            <div class="mt-3">
+            <div class="mt-4">
                 We believe in connecting with you and inviting you to connect with your own self. Privacy and
                 confidentiality is an essential part of the process as we cherish the trust you put in us.
             </div>
