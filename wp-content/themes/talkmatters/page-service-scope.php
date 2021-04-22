@@ -30,9 +30,9 @@ get_header();
         distress and negative emotions that are hard for an individual to manage and maneuver.
     </div>
 
-    <div class="inner-container">
+    <div class="inner-container mt-3">
 
-        <div class="scope-points">
+        <div class="scope-points ">
 
             You are not alone if you found yourself disturbed by the following: <br> <br>
             Sleeplessness, loss of appetite and interest, lack of meaning and motivation, unclear self image and
