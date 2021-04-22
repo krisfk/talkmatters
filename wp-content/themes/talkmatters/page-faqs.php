@@ -25,82 +25,95 @@ get_header();
 
     <div class="inner-container mt-const2 faqs-div">
 
-        <h3>The process</h3>
+        <h3>Who needs counselling?
+        </h3>
         <ul>
-            <li>Interested client is requested to provide some personal information. We gather these data and medical
-                history
-                only
-                because they are important to the therapy</li>
-            <li>Therapy is primarily conversation-based allowing counsellor to conceptualize on client’s experience and
-                suggest
-                the
-                most appropriate approach for alignment with the client.</li>
-            <li>Self awareness and insights take time, the more open a client is, the more desirable will be the
-                outcome.
-                Please do
-                anticipate change to take place gradually</li>
+            <li>Counselling essentially caters for the seeking of truth and clarity of life events, promoting self
+                reflections and awareness. If you are undergoing prolonged difficulties in your emotions, you feel stuck
+                and this is felt as impairing your daily functioning and quality of life, by talking in a trusted
+                environment, counselling will serve to relieve and enlighten. For individuals who are aspired to
+                maintain or enhance mental wellness, it does the job for you too. </li>
         </ul>
 
 
-        <h3 class="mt-4">The format
+        <h3 class="mt-4">How about if I don’t know what my issue is?
+
         </h3>
         <ul>
-            <li>Face to face preferred. Online meeting could be considered for special occasions</li>
+            <li>This uncertainty is not uncommon when we talk about emotions and feelings. Discomfort might last long or
+                short, the magnitude may vary and it could be felt as coming from no where. Indeed when we start to
+                systematically review the context, the trigger(s) could be life-stage specific, a recent act or a past
+                event. No worry, it is therapist’s role to gain clarity with you.
+            </li>
 
         </ul>
 
-        <h3 class="mt-4">The duration
+        <h3 class="mt-4">What is the process like after my registration?
+
         </h3>
         <ul>
-            <li>Empirical evidence shows that it is common to see changes after 8 - 10 sessions of committed work. Each
-                session
-                may take place on a weekly basis and lasts for 60 mins. It is subj to ...
+            <li>Congratulations for taking the first step! Commitment to change of is a key contributor to therapeutic
+                effectiveness. Please provide us with certain personal information and medical history, if relevant. We
+                gather these data and information because they are important to the assessment and subsequent process.
+                When we get a better understanding of your issues after a couple of sessions, we will suggest the most
+                appropriate approach or approaches for alignment with you. <br>
+                Under certain circumstances and for the best interest of clients, we might have to make referral of your
+                case to other professionals if deemed appropriate.
+
             </li>
         </ul>
 
-        <h3 class="mt-4">How about if I don’t know what my issue is
-        </h3>
-        <ul>
-            <li>This uncertainty is not uncommon when we talk about emotions and feelings. Discomfort might last long
-                or short,
-                the magnitude may vary and it seems to come from no where. Indeed it could be life-stage specific,
-                triggered by \
-                contexts or consequential to a past event. No worry, it is counsellor’s role to gain clarity with you
-                together.
-            </li>
-        </ul>
-
-
-        <h3 class="mt-4">What is your charge
+        <h3 class="mt-4">What is the format of counselling?
 
         </h3>
         <ul>
-            <li>We charge at a sliding scale to allow higher accessibility of more individuals to counselling support.
-                Please
-                contact us for details
+            <li>Therapy is primarily conversation-based so face-to-face meeting is highly preferred. However, online
+                meeting could be considered for special situations.
+
             </li>
         </ul>
 
 
+        <h3 class="mt-4">What am I expected to do during counselling?
 
-        <h3 class="mt-4">Confidentiality
 
         </h3>
         <ul>
-            <li>Data privacy is strictly respected. No information about cases will be shared with any third parties
-                under normal
-                circumstances
+            <li>During the process, please open up yourself as much as possible as the more receptive a client is for
+                change, the more desirable will be the outcome. <br>
+                The process is essentially a co-creation of goals and actions plan; and constant review and reflections
+                are key components. <br>
+                While self awareness and insights take time to nurture, please do allow change to take place gradually.
 
             </li>
         </ul>
 
 
 
-        <h3 class="mt-4">Cancellation
+        <h3 class="mt-4">How about the duration?
+
 
         </h3>
         <ul>
-            <li>XxxxxxxXxxxxxxXxxxxxxXxxxxxxXxxxxxxXxxxxxxXxxxxxxXxxxxxxX
+            <li>Empirical evidences show that it is common to see changes happen after eight to ten sessions of
+                committed work. Each session lasts for fifty five minutes and may take place on a weekly basis.
+                Nonetheless, it is subject to individual wish and progress.
+
+
+            </li>
+        </ul>
+
+
+
+        <h3 class="mt-4">How about privacy and confidentiality?
+
+
+        </h3>
+        <ul>
+            <li>Data privacy is strictly respected. Without client’s written consent, no information will be shared with
+                any third parties under normal circumstances. However, if a client reveals an intent or a past act of
+                hurting one self or others, or in association with a criminal offence, we reserve the right to refer the
+                case to local authorities.
             </li>
         </ul>
 
