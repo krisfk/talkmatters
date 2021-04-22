@@ -130,13 +130,12 @@ get_header();
 
 
 
-            <div class="mt-4">
+            <div class="mt-const">
                 We believe in connecting with you and inviting you to connect with your own self. Privacy and
                 confidentiality is an essential part of the process as we cherish the trust you put in us.
             </div>
-            <br><br>
 
-            <h3> COVID measures</h3>
+            <h3 class="mt-const"> COVID measures</h3>
             Sessions must be attended with masks on for both client and counsellor. Counselling room is sterilized
             regularly with use of disposable protective covers if needed.
 
