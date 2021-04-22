@@ -21,8 +21,9 @@ get_header();
 
     <div class="mint-color fw-bold home-slogan text-center mt-const">
 
-        We know there is always distress in life and we understand it could be <br>
-        hard to deal with, live with them and even trying to face them.
+        We see the fundamentals of LIFE - love, intimacy, fun and energy. Yet while we live and grow, it could be full
+        of challenges, distress and negative emotions that are hard for an individual to manage and maneuver.
+
 
     </div>
 
