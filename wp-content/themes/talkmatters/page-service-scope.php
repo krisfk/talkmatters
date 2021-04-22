@@ -30,7 +30,21 @@ get_header();
         distress and negative emotions that are hard for an individual to manage and maneuver.
     </div>
 
-    <div class="position-relative home-points-div mt-const">
+    <div class="inner-container">
+
+        <div class="scope-points">
+
+            You are not alone if you found yourself disturbed by the following: <br> <br>
+            Sleeplessness, loss of appetite and interest, lack of meaning and motivation, unclear self image and
+            worthiness, loneliness, too little love or too much care, seems to get stuck everywhere
+            <br> <br>
+            Procrastination, constantly feeling depressed, anxious and stressed
+            <br> <br>
+            Workplace, inter-personal or relationship challenges
+
+        </div>
+    </div>
+    <!-- <div class="position-relative home-points-div mt-const">
         <img src="http://104.131.45.33/wp-content/uploads/2021/04/home-img-1.jpg" alt="">
 
         <div class="home-points">
@@ -44,7 +58,7 @@ get_header();
             Workplace, inter-personal or relationship challenges
 
         </div>
-    </div>
+    </div> -->
 
 
     <div class="mt-const inner-container text-justify">As an emotions guide, we facilitate clients to identify feelings
