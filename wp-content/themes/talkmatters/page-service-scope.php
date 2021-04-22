@@ -51,7 +51,7 @@ get_header();
         help you process them. The ultimate goal is to regain positive energy.
 
 
-        <div class="row">
+        <div class="row mt-3">
 
             <div class="col-5"><img class="w-100" src="http://104.131.45.33/wp-content/uploads/2021/04/water-1.png"
                     alt=""></div>
