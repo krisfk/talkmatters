@@ -93,13 +93,16 @@ get_header();
 
 
         <div class="row mt-3">
-            <div class="col-6"><img class="w-100" src="http://104.131.45.33/wp-content/uploads/2021/04/pens.jpg
+            <div class="col-3"><img class="w-100" src="http://104.131.45.33/wp-content/uploads/2021/04/pens.jpg
 " alt=""></div>
-            <div class="col-6  text-justify mint-bg  p-3">
-                No matter how different they look, they are pens for writing. Our emotions function in the same way.
-                They connect with us in different modes and forms, be it happiness, pride, stress, anxiety, anger , they
-                have something important to tell you.
+            <div class="col-9  text-justify ">
 
+                <div class="mint-bg  p-3">
+                    No matter how different they look, they are pens for writing. Our emotions function in the same way.
+                    They connect with us in different modes and forms, be it happiness, pride, stress, anxiety, anger ,
+                    they
+                    have something important to tell you.
+                </div>
             </div>
 
         </div>
