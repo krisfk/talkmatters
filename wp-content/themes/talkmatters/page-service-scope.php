@@ -30,7 +30,7 @@ get_header();
         distress and negative emotions that are hard for an individual to manage and maneuver.
     </div>
 
-    <div class="inner-container mt-3">
+    <div class="inner-container mt-5 mb-5">
 
         <div class="scope-points ">
 
