@@ -58,32 +58,33 @@ get_header();
 
                 <div class="col-6 mb-4">
                     <h3>Cognitive Behavioral Therapy</h3>
-                    CBT is a widely used intervention for its proven efficacy and goal-oriented approach. It helps to
+                    A widely used intervention for its proven efficacy and goal-oriented approach. It helps to
                     investigate how one’s thought patterns work and how it may lead to distress, maladaptive behaviors
                     and mental issues. Ongoing homework is a key component to drive for adaptive thoughts and the
                     subsequent improvement in mood.
+
                 </div>
                 <div class="col-6 mb-4">
                     <h3>Mindfulness & Positive Psychology</h3>
-                    Positive Psychology is founded on the belief that people want to lead meaningful and fulfilling
-                    lives. There is a natural tendency to cultivate what is best within themselves, PP and its
-                    mindfulness aspect amplify personal strengths, gift from nature, love and social connection;
-                    while letting individual to repair and heal base on and within these values.
+                    Founded on the belief that people want to lead meaningful and fulfilling lives. There is a natural
+                    tendency to cultivate the best qualities within ourselves, which everyone possesses in different
+                    ways. Positive Psychology and its mindfulness component amplify personal strengths, self-compassion
+                    and social connection; while letting individual to heal base on these values.
 
                 </div>
 
                 <div class="col-6 mb-4">
                     <h3>Emotional-Focused therapy </h3>
-                    EFT gently explores emotions and invite a genuine conversation with your inner self. With empathy
-                    and compassion, it effectively promotes the release of blockages, bringing in greater flexibility to
+                    Gently explores emotions and invites a genuine conversation with the inner self. With empathy and
+                    compassion, it effectively promotes the release of blockages, bringing in greater flexibility to
                     heal differently.
 
                 </div>
                 <div class="col-6 mb-4">
                     <h3>Solution-focused therapy</h3>
-                    Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx
-                    XxxxxxXxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx
-                    Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx Xxxxxx
+                    A goal-directed approach with limited reference made to the context of the emotional issues. Its
+                    primary focus is on the present and future; and on addressing HOW to resolve clients’ disturbing
+                    matters.
 
                 </div>
 
