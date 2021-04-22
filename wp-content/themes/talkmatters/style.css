@@ -302,7 +302,8 @@ footer {
     color: #0e2d1e;
     font-size: 18px;
     font-family: 'Oswald', sans-serif;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    font-weight: 400;
 }
 
 .lilian-therapy-div {
