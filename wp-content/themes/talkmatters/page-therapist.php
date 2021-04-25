@@ -89,7 +89,7 @@ get_header();
             </div>
         </div>
 
-        <h2 class="mt-2">About The Therapist</h2>
+        <h2 class="mt-5">About The Therapist</h2>
 
         <div class="mt-2  text-justify">
             Lilian believes that each individual is unique and deserves a personalized therapeutic approach. She
