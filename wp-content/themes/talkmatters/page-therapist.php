@@ -91,7 +91,7 @@ get_header();
 
         <div class="position-relative">
             <!-- <div class="h2-black-line"></div> -->
-            <h2>About The Therapist</h2>
+            <h2 class="h2-on-line">About The Therapist</h2>
             <!-- <h2 class="h2-on-line opacity-0">About The Therapist</h2> -->
 
         </div>
