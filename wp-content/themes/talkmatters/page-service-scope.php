@@ -179,7 +179,8 @@ get_header();
         </div>
 
 
-        <a href="#" class="btn mt-const">Contact Us</a>
+        <a href="#" class="btn mt-const"> <?php echo get_field('content_9');?>
+        </a>
     </div>
 </div>
 <?php
