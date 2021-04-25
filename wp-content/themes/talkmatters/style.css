@@ -278,6 +278,7 @@ h2.h2-on-line.opacity-0 {
     color: #fff !important;
     padding: 0.375rem 2rem !important;
     border-radius: 0px !important;
+    margin: 0 0 20px 0;
 }
 
 .btn-check:focus+.btn,
