@@ -147,9 +147,9 @@ body {
 
 .top-menu li {
     display: inline-block;
-    font-family: 'Oswald', sans-serif;
+    /* font-family: 'Oswald', sans-serif; */
     font-weight: bold;
-    font-size: 23px;
+    font-size: 19px;
     margin: 0 10px;
 }
 
@@ -160,7 +160,7 @@ body {
 
 .social-media-lang-div {
     float: right;
-    font-family: 'Oswald', sans-serif;
+    /* font-family: 'Oswald', sans-serif; */
     font-weight: bold;
     margin: 4px 0 0 0;
 }
