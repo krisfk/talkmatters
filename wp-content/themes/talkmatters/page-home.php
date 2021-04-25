@@ -93,8 +93,6 @@ get_header();
 
 
         <div class="row mt-3">
-            <div class="col-4"><img class="w-100" src="http://104.131.45.33/wp-content/uploads/2021/04/pens.jpg
-" alt=""></div>
             <div class="col-8  text-justify ">
 
                 <div class="mint-bg  p-3">
@@ -104,6 +102,9 @@ get_header();
                     have something important to tell you.
                 </div>
             </div>
+
+            <div class="col-4"><img class="w-100" src="http://104.131.45.33/wp-content/uploads/2021/04/pens.jpg
+" alt=""></div>
 
         </div>
 
