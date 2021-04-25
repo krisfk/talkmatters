@@ -89,17 +89,19 @@ get_header();
             </div>
         </div>
 
-        <h2 class="mt-4">About The Therapist</h2>
+        <div class="mt-5">
+            <h2>About The Therapist</h2>
 
-        <div class="mt-2  text-justify">
-            Lilian believes that each individual is unique and deserves a personalized therapeutic approach. She
-            practices with a selection of interventions based on psychodynamic theories and individual profile. The
-            therapeutic process is perceived as a partnership between client and therapist. She pursues for an outcome
-            to empower the client in the reclaiming of wellness and positivity.
+            <div class="mt-2  text-justify">
+                Lilian believes that each individual is unique and deserves a personalized therapeutic approach. She
+                practices with a selection of interventions based on psychodynamic theories and individual profile. The
+                therapeutic process is perceived as a partnership between client and therapist. She pursues for an
+                outcome
+                to empower the client in the reclaiming of wellness and positivity.
 
 
+            </div>
         </div>
-
 
         <!-- <a href="#" class="btn mt-const">Contact Us</a> -->
 
