@@ -248,7 +248,7 @@ h2.h2-on-line {
 h2 {
     font-size: 18px !important;
     display: inline-block;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
 }
 
 .h2-black-line {
@@ -316,7 +316,7 @@ footer {
     font-size: 18px;
     text-align: justify;
     /* font-family: 'Oswald', sans-serif; */
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
     font-weight: 400;
 }
 
@@ -334,7 +334,7 @@ footer {
     /* font-family: 'Oswald', sans-serif; */
     font-size: 18px;
     color: #0e2d1e;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
     font-weight: 400;
 }
 
@@ -357,7 +357,7 @@ footer {
     /* font-family: 'Oswald', sans-serif; */
     font-size: 18px;
     color: #0e2d1e;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
 }
 
 .contact-div input[type='text'],
