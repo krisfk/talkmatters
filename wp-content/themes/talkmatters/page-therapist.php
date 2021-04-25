@@ -107,7 +107,7 @@ get_header();
             </div>
 
 
-            <div class="mt-4">
+            <div class="mt-const">
                 <h2>Mindfulness & Positive Psychology
 
                 </h2>
@@ -122,7 +122,7 @@ get_header();
                 </div>
             </div>
 
-            <div class="mt-4">
+            <div class="mt-const">
                 <h2>Emotional-Focused therapy
 
 
@@ -136,7 +136,7 @@ get_header();
                 </div>
             </div>
 
-            <div class="mt-4">
+            <div class="mt-const">
                 <h2>Solution-focused therapy
 
 
