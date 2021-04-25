@@ -57,10 +57,10 @@
                             <li>
                                 <span class="site-name"> LILIAN PSYCHOLOGICAL COUNSELLING </span>
                             </li>
-                            <li class="ps-4">
+                            <!-- <li class="ps-4">
 
                                 <span class="writer-style-txt">believe in YOU</span>
-                            </li>
+                            </li> -->
                         </ul>
 
 
