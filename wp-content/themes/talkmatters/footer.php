@@ -20,7 +20,7 @@
 
 <footer id="colophon" class="site-footer" role="contentinfo">
 
-    © 2021 by Lilian Psychological Counselling
+    © 2021 by Talkmatters Psychological Counselling
 
 
 
