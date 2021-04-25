@@ -120,9 +120,9 @@ echo'" href="'.$url.'">'.$title.'</a>';
                                 </a>
 
                                 <span class="ms-2">
-                                    Lang:
+                                    Language:
                                     <select class="form-select lang-select" aria-label="lang">
-                                        <option value="eng">Eng</option>
+                                        <option value="eng">English</option>
                                         <option value="chi">中</option>
                                     </select>
 
