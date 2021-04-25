@@ -137,6 +137,7 @@ body {
 .top-menu a {
     text-decoration: none;
     color: #000;
+    font-weight: normal;
 }
 
 .top-menu a.active,
