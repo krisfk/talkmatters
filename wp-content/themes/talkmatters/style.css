@@ -376,3 +376,7 @@ footer {
 .scope-points ul li {
     list-style-type: square;
 }
+
+#content {
+    min-height: 84vh;
+}
