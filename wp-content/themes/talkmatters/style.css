@@ -376,6 +376,7 @@ footer {
 
 .scope-points ul li {
     list-style-type: square;
+    text-align: justify;
 }
 
 #content {
