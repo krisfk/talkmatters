@@ -74,26 +74,7 @@ get_header();
         help you process them. The ultimate goal is to regain positive energy.
 
 
-        <div class="row mt-const">
 
-            <div class="col-3"><img class="w-100" src="http://104.131.45.33/wp-content/uploads/2021/04/water-1.png"
-                    alt=""></div>
-            <div class="col-9">
-
-                <div class="mint-bg p-3" style="margin: 68px 0 0 0px;background: rgb(207 228 216 / 100%);">
-                    Negative emotions are like a glass of water with some mud inside. We just want to spoon
-                    the mud away. When you do this, the water immediately becomes muddy and messy. The process asks us
-                    to
-                    tolerate this unwanted state and by doing it step by step with patience, we will succeed in making
-                    the
-                    water clear again. You might feel uneasy or even painful as feelings are stirred up. Yet, please
-                    rest
-                    assured that at Talk Matters, we provide you a safe space to stay true to yourself, embrace the
-                    feelings, then to be empowered and to endure.
-                </div>
-            </div>
-
-        </div>
     </div>
 
     <div class="inner-container mt-const">
@@ -148,6 +129,28 @@ get_header();
 
 
         </div>
+
+        <div class="row mt-const">
+
+            <div class="col-3"><img class="w-100" src="http://104.131.45.33/wp-content/uploads/2021/04/water-1.png"
+                    alt=""></div>
+            <div class="col-9">
+
+                <div class="mint-bg p-3" style="margin: 68px 0 0 0px;background: rgb(207 228 216 / 100%);">
+                    Negative emotions are like a glass of water with some mud inside. We just want to spoon
+                    the mud away. When you do this, the water immediately becomes muddy and messy. The process asks us
+                    to
+                    tolerate this unwanted state and by doing it step by step with patience, we will succeed in making
+                    the
+                    water clear again. You might feel uneasy or even painful as feelings are stirred up. Yet, please
+                    rest
+                    assured that at Talk Matters, we provide you a safe space to stay true to yourself, embrace the
+                    feelings, then to be empowered and to endure.
+                </div>
+            </div>
+
+        </div>
+
 
         <a href="#" class="btn mt-const">Contact Us</a>
     </div>
