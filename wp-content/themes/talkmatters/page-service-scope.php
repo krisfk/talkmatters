@@ -38,12 +38,16 @@ get_header();
 
             <span class="fw-bold"> You are not alone if you found yourself disturbed by the following:</span>
             <br> <br>
-            Sleeplessness, loss of appetite and interest, lack of meaning and motivation, unclear self image and
-            worthiness, loneliness, too little love or too much care, seems to get stuck everywhere
-            <br> <br>
-            Procrastination, constantly feeling depressed, anxious and stressed
-            <br> <br>
-            Workplace, inter-personal or relationship challenges
+
+            <ul>
+                <li>Sleeplessness, loss of appetite and interest, lack of meaning and motivation, unclear self image and
+                    worthiness, loneliness, too little love or too much care, seems to get stuck everywhere</li>
+                <li> Procrastination, constantly feeling depressed, anxious and stressed
+
+                </li>
+                <li>Workplace, inter-personal or relationship challenges
+                </li>
+            </ul>
 
         </div>
     </div>
