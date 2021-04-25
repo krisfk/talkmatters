@@ -95,7 +95,9 @@ get_header();
         <div class="row mt-5">
             <div class="col-8  text-justify ">
 
-                <div class="mint-bg  p-3">
+                <!-- <div class="mint-bg  p-3"> -->
+                <div>
+
                     No matter how different they look, they are pens for writing. Our emotions function in the same way.
                     They connect with us in different modes and forms, be it happiness, pride, stress, anxiety, anger ,
                     they
