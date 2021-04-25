@@ -23,7 +23,7 @@ get_header();
 
     <div class="inner-container mt-const position-relative">
 
-        <img src="https://talkmatters.com.hk/wp-content/uploads/2021/04/lilian-photo.jpg" alt="">
+        <!-- <img src="https://talkmatters.com.hk/wp-content/uploads/2021/04/lilian-photo.jpg" alt=""> -->
         <?php echo get_field('content_1');?>
 
         <div class="mint-color-rect"></div>
