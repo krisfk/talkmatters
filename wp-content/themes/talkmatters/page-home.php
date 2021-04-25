@@ -57,37 +57,51 @@ get_header();
 
         <div class="position-relative">
             <div class="h2-black-line"></div>
-            <h2 class="h2-on-line">Why Talk Matters?</h2>
-            <h2 class="h2-on-line opacity-0">Why Talk Matters?</h2>
+
+            <h2>
+                <!-- Why Talk Matters? -->
+                <?php echo get_field('content_1');?>
+            </h2>
 
         </div>
 
-        <div class="mt-2  text-justify">Talking through our matters matters. Every day we experience our lives, we learn
+        <div class="mt-2  text-justify">
+
+            <!-- Talking through our matters matters. Every day we experience our lives, we learn
             and we grow. This is unique to human nature and important for humanity to thrive. Via talking, our ancestors
             pass on knowledge between generations, in the creation of cult and culture; to connect in the community and
             to engage each other with trust, respect and understanding. Our daily events and encounters trigger
             emotions, at times positive and at times unwanted. Talking helps to activate our brain and allows proximity
-            to the emotional part. We are then able to access the data and process our feelings more effectively.
-
+            to the emotional part. We are then able to access the data and process our feelings more effectively. -->
+            <?php echo get_field('content_2');?>
         </div>
 
         <div class="position-relative mt-const">
             <div class="h2-black-line"></div>
-            <h2 class="h2-on-line">Why is it important to process your feelings?</h2>
-            <h2 class="h2-on-line opacity-0">Why is it important to process your feelings?</h2>
+            <h2>
+                <?php echo get_field('content_3');?>
 
+                <!-- Why is it important to process your feelings? -->
+            </h2>
         </div>
 
-        <div class="mt-2  text-justify">Negative feelings might trigger maladaptive behaviors that bring down the
+        <div class="mt-2  text-justify">
+
+            <!-- Negative feelings might trigger maladaptive behaviors that bring down the
             quality of life. This is something no one wants. Obtaining prolonged wellness requires us to take one step
             further, that is to understand the meaning behind what we feel. In our survival mode, emotional regulation
             is used to counter or avoid threats in the context of fight or flight mode. Feelings signal the brain and
             the body to react (simply speaking, angry feeling works with the brain and body to prepare for a fight; a
             scared emotion prepares for withdrawal).
+             -->
+            <?php echo get_field('content_4');?>
+
             <br><br>
-            Talk Matters presents an invitation to talk and walk together. By revisiting your experience and feelings
+            <!-- Talk Matters presents an invitation to talk and walk together. By revisiting your experience and feelings
             that matter to you, you allow a moment to stay vulnerable; and to appreciate what you have gone through with
-            kindness and compassion.
+            kindness and compassion. -->
+            <?php echo get_field('content_5');?>
+
 
         </div>
 
@@ -97,16 +111,21 @@ get_header();
 
                 <!-- <div class="mint-bg  p-3"> -->
                 <div>
+                    <?php echo get_field('content_6');?>
 
-                    No matter how different they look, they are pens for writing. Our emotions function in the same way.
+                    <!-- No matter how different they look, they are pens for writing. Our emotions function in the same way.
                     They connect with us in different modes and forms, be it happiness, pride, stress, anxiety, anger ,
                     they
-                    have something important to tell you.
+                    have something important to tell you. -->
                 </div>
             </div>
 
-            <div class="col-4"><img class="w-100" src="https://talkmatters.com.hk/wp-content/uploads/2021/04/pens.jpg
-" alt=""></div>
+            <div class="col-4">
+                <?php echo get_field('content_7');?>
+
+                <!-- <img class="w-100" src="https://talkmatters.com.hk/wp-content/uploads/2021/04/pens.jpg" alt=""> -->
+
+            </div>
 
         </div>
 
