@@ -75,8 +75,8 @@ foreach ($main_menu as $menu_item) {
 $url = $menu_item['url'];
 $title = $menu_item['title'];
 $temp_arr=explode(get_site_url(),$url);
-$slug=str_replace('/en/','',$temp_arr[1]);
-$slug=str_replace('/cn/','',$slug);
+$slug=str_replace('/zh/','',$temp_arr[1]);
+$slug=str_replace('/en/','',$slug);
 $slug=str_replace('/','',$slug);
 
 global $post;
