@@ -108,19 +108,50 @@ get_header();
 
 
             <div class="mt-4">
-                <h2>Cognitive Behavioral Therapy
+                <h2>Mindfulness & Positive Psychology
+
                 </h2>
 
                 <div class="mt-2  text-justify">
-                    A widely used intervention for its proven efficacy and goal-oriented approach. It helps to
-                    investigate
-                    how one’s thought patterns work and how it may lead to distress, maladaptive behaviors and mental
-                    issues. Ongoing homework is a key component to drive for adaptive thoughts and the subsequent
-                    improvement in mood.
+                    Founded on the belief that people want to lead meaningful and fulfilling lives. There is a natural
+                    tendency to cultivate the best qualities within ourselves, which everyone possesses in different
+                    ways. Positive Psychology and its mindfulness component amplify personal strengths, self-compassion
+                    and social connection; while letting individual to heal base on these values.
 
 
                 </div>
             </div>
+
+            <div class="mt-4">
+                <h2>Emotional-Focused therapy
+
+
+                </h2>
+
+                <div class="mt-2  text-justify">
+                    Gently explores emotions and invites a genuine conversation with the inner self. With empathy and
+                    compassion, it effectively promotes the release of blockages, bringing in greater flexibility to
+                    heal differently.
+
+                </div>
+            </div>
+
+            <div class="mt-4">
+                <h2>Solution-focused therapy
+
+
+
+                </h2>
+
+                <div class="mt-2  text-justify">
+                    A goal-directed approach with limited reference made to the context of the emotional issues. Its
+                    primary focus is on the present and future; and on addressing HOW to resolve clients’ disturbing
+                    matters.
+
+
+                </div>
+            </div>
+
 
         </div>
 
