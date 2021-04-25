@@ -92,7 +92,7 @@ get_header();
         </div>
 
 
-        <div class="row mt-4">
+        <div class="row mt-5">
             <div class="col-8  text-justify ">
 
                 <div class="mint-bg  p-3">
