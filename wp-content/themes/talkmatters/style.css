@@ -246,7 +246,7 @@ h2.h2-on-line {
 }
 
 h2 {
-    font-size: 18px;
+    font-size: 18px !important;
     display: inline-block;
 }
 
