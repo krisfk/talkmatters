@@ -230,14 +230,14 @@ body {
 }
 
 h2.h2-on-line {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 400;
+    /* font-family: 'Oswald', sans-serif; */
+    /* font-weight: 400; */
     background: #fff;
     display: inline-block;
     position: absolute;
     top: 0;
     padding: 0 25px 0 0;
-    font-size: 35px;
+    font-size: 18px;
 }
 
 .h2-black-line {
