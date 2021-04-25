@@ -358,4 +358,6 @@ footer {
     background-size: 55%;
 }
 
-.scope-points ul li {}
+.scope-points ul li {
+    list-style-type: square;
+}
