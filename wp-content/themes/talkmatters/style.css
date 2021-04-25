@@ -292,7 +292,7 @@ footer {
     font-size: 16px;
     text-align: center;
     padding: 10px 0 10px 0;
-    margin: 65px 0 0 0;
+    /* margin: 65px 0 0 0; */
 }
 
 .mint-color-rect {
