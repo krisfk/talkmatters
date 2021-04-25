@@ -105,7 +105,7 @@ get_header();
                 </div>
             </div>
 
-            <div class="col-4"><img class="w-100" src="http://104.131.45.33/wp-content/uploads/2021/04/pens.jpg
+            <div class="col-4"><img class="w-100" src="https://talkmatters.com.hk/wp-content/uploads/2021/04/pens.jpg
 " alt=""></div>
 
         </div>
