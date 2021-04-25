@@ -66,7 +66,7 @@ get_header();
                     <h3 class="mt-4">Other Experiences
 
                     </h3>
-                    Lilian also has the capability of a coaching and mentorship. She holds the following experience-
+                    Lilian also has the capability of a coaching and mentorship. She holds the following experience:
 
                     <ul class="mt-4">
                         <li>Volunteer Mentor and Counsellor of HKU Counselling Unit (2020 till now)</li>
