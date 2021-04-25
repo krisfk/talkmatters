@@ -354,10 +354,10 @@ footer {
 }
 
 .contact-div h3 {
-    font-family: 'Oswald', sans-serif;
+    /* font-family: 'Oswald', sans-serif; */
     font-size: 18px;
     color: #0e2d1e;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .contact-div input[type='text'],
