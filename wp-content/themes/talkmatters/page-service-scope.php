@@ -25,7 +25,7 @@ get_header();
 
     </div>
 
-    <div class="inner-container mint-color fw-bold home-slogan">
+    <div class="inner-container mint-color fw-bold home-slogan text-justify">
 
         We see the fundamentals of LIFE - love, intimacy, fun and energy.
         Yet while we live and grow, it could be full of challenges,
