@@ -107,7 +107,7 @@ get_header();
             </div>
 
 
-            <div class="mt-5">
+            <div class="mt-3">
                 <h2>Cognitive Behavioral Therapy
                 </h2>
 
