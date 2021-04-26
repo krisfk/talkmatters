@@ -459,11 +459,12 @@ ul.post-meta {
 .pagination a {
     margin: 0 2px;
     text-decoration: none;
-    background: #cfe4d8;
+    background: none;
     padding: 5px 10px;
     width: 27px;
     height: 30px;
     display: inline-block;
+    border: 1px solid #cfe4d8;
     line-height: normal;
 }
 
@@ -476,4 +477,5 @@ ul.post-meta {
     height: 30px;
     display: inline-block;
     line-height: normal;
+    border: 1px solid #cfe4d8;
 }
