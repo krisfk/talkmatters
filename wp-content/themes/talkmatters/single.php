@@ -67,21 +67,26 @@ get_header();
                             $post_id= get_the_ID();
                             $category_detail=get_the_category($post_id);//$post->ID
                                  $idx=1;
-                                  foreach($category_detail as $cd){
+                                 
+								 if(!(sizeof($category_detail)==1 && $category_detail[0]->cat_name =='未分類'))
+                                 {                                 
+                                     echo '<span class="meta-seperator">/</span>
+                                      Category: ';
+                                     foreach($category_detail as $cd){
 
-                                    if($idx == sizeof($category_detail))
-                                    {
-                                        echo '<a href="/category/'.$cd->slug.'">'.$cd->cat_name.'</a>';
-                                   
-                                    }
-                                    else
-                                    {
-                                        echo '<a href="/category/'.$cd->slug.'">'.$cd->cat_name.'</a>'.' , ';
-                                    }
-                                    
-                                    $idx++;
-                                    }
-
+                                        if($idx == sizeof($category_detail))
+                                        {
+                                            echo '<a href="/category/'.$cd->slug.'">'.$cd->cat_name.'</a>';
+                                       
+                                        }
+                                        else
+                                        {
+                                            echo '<a href="/category/'.$cd->slug.'">'.$cd->cat_name.'</a>'.' , ';
+                                        }
+                                        
+                                        $idx++;
+                                        }
+                                 }
                                   
                             ?>
                         </li>
