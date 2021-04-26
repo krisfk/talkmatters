@@ -189,7 +189,6 @@ get_header();
 
                             <?php while ( $query->have_posts() ) { 
                 $query->the_post(); 
-                echo 1;
                 ?>
                             <li>
                                 <a href="<?php //echo get_permalink();?>"><?php get_the_title();?></a>
