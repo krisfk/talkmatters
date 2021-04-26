@@ -24,7 +24,6 @@ get_header();
 
 
     <div class="inner-container mt-const2 faqs-div mb-5">
-        ddd
 
         <?php
 
