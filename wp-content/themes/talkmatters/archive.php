@@ -55,7 +55,7 @@ else
     $monthnum = get_query_var('monthnum');
     $day      = get_query_var('day');
 
-    $categories = get_the_category();
+    // $categories = get_the_category();
     // $category_id = $categories[0]->cat_ID;
     // echo $category_id;
     // echo $cat_id;
