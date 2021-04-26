@@ -450,6 +450,12 @@ ul.post-meta {
     text-decoration: none;
 }
 
+.pagination {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
 .pagination a {
     margin: 0 5px;
 }
