@@ -55,8 +55,8 @@ else
     $monthnum = get_query_var('monthnum');
     $day      = get_query_var('day');
 
-    echo $year;
-    echo $monthnum;
+    // echo $year;
+    // echo $monthnum;
     $args = array (
         's' => (!empty($_REQUEST["search"])?$_REQUEST["search"]:''),
         'post_type' => 'post',
@@ -66,12 +66,12 @@ else
         'paged' => $paged);
         // 'order' =>(!empty($_GET["order"])?$_GET["order"]:'DSCE')); 
 
-    if(!empty($get_query_var["monthnum"]))
-    {$args['monthnum']=$get_query_var["monthnum"];}
+    if(!empty($monthnum))
+    {$args['monthnum']=$monthnum;}
     
-    if(!empty($get_query_var["year"]))
-    {$args['year']=$get_query_var["year"];}
-    echo $get_query_var["year"];
+    if(!empty($year))
+    {$args['year']=$year;}
+    // echo $get_query_var["year"];
     // if(!empty($_GET["orderby"]))
     // {$args['orderby']=$_GET["orderby"];} 
 
