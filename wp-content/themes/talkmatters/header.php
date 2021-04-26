@@ -33,7 +33,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
 
 </head>
@@ -187,10 +188,13 @@ echo'" href="'.$url.'">'.$title.'</a>';
 
 
                     <script type="text/javascript">
-                    var $ = jQuery;
-                    $('.form-select lang-select').change(function() {
+                    $(function() {
 
-                        var val = $(this).val();
-                        alert(val);
+                        $('.form-select lang-select').change(function() {
+
+                            var val = $(this).val();
+                            alert(val);
+                        })
+
                     })
                     </script>
