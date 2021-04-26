@@ -421,3 +421,7 @@ ul.post-meta {
     padding: 0 0 10px 0;
     border-bottom: 1px solid #ddd;
 }
+
+.blog-container a {
+    color: #ddd;
+}

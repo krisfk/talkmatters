@@ -17,7 +17,7 @@
 get_header();
 
 ?>
-<div class="container">
+<div class="container blog-container">
 
 
 
