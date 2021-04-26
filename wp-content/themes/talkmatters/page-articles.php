@@ -189,7 +189,8 @@ foreach( $posts as $post ) {
 $post_id = $post->ID;
     ?>
                             <li>
-                                <a href="<?echo get_permalink($post_id);?>"><?php echo get_the_title($post_id);?></a>
+                                <a
+                                    href="<?php echo get_permalink($post_id);?>"><?php echo get_the_title($post_id);?></a>
                             </li>
                             <?php
 }
