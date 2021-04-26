@@ -49,7 +49,8 @@ get_header();
                         </li> -->
                     </ul>
 
-                    <div>Nam mattis tincidunt mattis. Vivamus quam est, condimentum sed iaculis sed, congue ac arcu.
+                    <div class="mt-3">Nam mattis tincidunt mattis. Vivamus quam est, condimentum sed iaculis sed, congue
+                        ac arcu.
                         Morbi nec ipsum velit. Praesent elementum, turpis quis vehicula malesuada, elit mauris sodales
                         felis, ac porta lorem metus eget ante. Etiam vitae mollis enim, et accumsan enim. Ut eu
                         tristique sem, a ultricies odio. Integer ac…
