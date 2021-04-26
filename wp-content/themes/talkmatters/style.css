@@ -390,3 +390,7 @@ footer {
 #content {
     min-height: 94vh;
 }
+
+html[lang='zh'] .social-media-lang-div {
+    margin: 10px -10px 0 0;
+}
