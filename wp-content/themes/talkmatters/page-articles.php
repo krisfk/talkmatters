@@ -74,7 +74,7 @@ get_header();
                                  $idx=1;
                                  if(!(sizeof($category_detail)==1 && $category_detail[0]->cat_name =='未分類'))
                                  {                                 
-                                     echo 'Category:';
+                                     echo 'Category: ';
                                      foreach($category_detail as $cd){
 
                                         if($idx == sizeof($category_detail))
