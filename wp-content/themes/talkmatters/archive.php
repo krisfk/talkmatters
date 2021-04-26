@@ -56,7 +56,7 @@ else
     $day      = get_query_var('day');
 
     $categories = get_the_category();
-    $category_id = $categories[0]->cat_ID;
+    // $category_id = $categories[0]->cat_ID;
     // echo $category_id;
     // echo $cat_id;
     // echo $year;
