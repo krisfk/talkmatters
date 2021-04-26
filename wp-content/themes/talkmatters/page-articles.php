@@ -231,12 +231,16 @@ foreach($years as $year) {
                         </ul>
                     </div>
 
+
+                    <?php  $tags = get_tags();
+                    if($tags)
+                    {
+?>
                     <div class="sidebar-widget widget_tag_cloud clr">
                         <h5 class="widget-title">Tags</h5>
                         <div class="tagcloud">
                             <?php
                         
-                        $tags = get_tags();
                     echo '<ul>';
                     for($i=0;$i<sizeof($tags);$i++)
                     {
@@ -248,6 +252,8 @@ foreach($years as $year) {
 ?>
                         </div>
                     </div>
+                    <?php 
+                    }?>
 
                 </div>
 
