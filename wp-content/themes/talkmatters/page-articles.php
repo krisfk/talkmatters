@@ -191,7 +191,7 @@ get_header();
                 
                 ?>
                             <li>
-                                <a href="<?php echo get_permalink();?>"><?php get_the_title();?></a>
+                                <a href="<?php //echo get_permalink();?>"><?php get_the_title();?></a>
                             </li>
                             <?php
                             }
