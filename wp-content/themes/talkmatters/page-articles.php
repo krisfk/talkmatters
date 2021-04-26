@@ -24,7 +24,7 @@ get_header();
 
 
     <div class="blog-inner-container mt-const2">
-        <div class="row g-5">
+        <div class="row g-4">
 
             <div class="col-8">
                 <div class="post-short-div">
