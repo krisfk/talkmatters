@@ -39,6 +39,13 @@
 </head>
 
 <body <?php body_class(); ?>>
+
+    <?php
+
+if ( defined( 'ICL_LANGUAGE_CODE' ) ) {
+    echo ICL_LANGUAGE_CODE;
+  }
+  ?>
     <?php wp_body_open(); ?>
     <div id="page" class="site">
         <!-- <a class="skip-link screen-reader-text"
