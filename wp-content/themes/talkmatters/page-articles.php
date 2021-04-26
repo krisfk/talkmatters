@@ -99,6 +99,24 @@ get_header();
                     </ul>
                 </div>
 
+                <div class="sidebar-widget widget_tag_cloud clr">
+                    <h5 class="widget-title">Tags</h5>
+                    <div class="tagcloud"><a href="https://demo.wpexplorer.com/blogger/tag/blog/"
+                            class="tag-cloud-link tag-link-7 tag-link-position-1" style="font-size: 8pt;"
+                            aria-label="blog (2 items)">blog</a>
+                        <a href="https://demo.wpexplorer.com/blogger/tag/minimal/"
+                            class="tag-cloud-link tag-link-8 tag-link-position-2" style="font-size: 22pt;"
+                            aria-label="minimal (6 items)">minimal</a>
+                        <a href="https://demo.wpexplorer.com/blogger/tag/theme/"
+                            class="tag-cloud-link tag-link-9 tag-link-position-3" style="font-size: 16.3243243243pt;"
+                            aria-label="theme (4 items)">theme</a>
+                        <a href="https://demo.wpexplorer.com/blogger/tag/wordpress/"
+                            class="tag-cloud-link tag-link-10 tag-link-position-4" style="font-size: 16.3243243243pt;"
+                            aria-label="wordpress (4 items)">wordpress</a>
+                    </div>
+                </div>
+
+
             </div>
 
         </div>
