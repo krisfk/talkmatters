@@ -106,7 +106,7 @@ get_header();
         </div>
 
 
-        <div class="row mt-const">
+        <div class="row mt-const pen-content-div">
             <div class="col-8  text-justify ">
 
                 <!-- <div class="mint-bg  p-3"> -->
