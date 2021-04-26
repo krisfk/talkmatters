@@ -71,7 +71,7 @@ else
     
     if(!empty($get_query_var["year"]))
     {$args['year']=$get_query_var["year"];}
-    echo $args['year'];
+    echo $get_query_var["year"];
     // if(!empty($_GET["orderby"]))
     // {$args['orderby']=$_GET["orderby"];} 
 
