@@ -28,12 +28,19 @@ get_header();
 
             <div class="col-8">
 
+                <!-- query -->
+                <?php
+    $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
+    $query = new WP_Query( array(
+        'posts_per_page' => 2,
+        'paged' => $paged
+    ) );
+?>
 
-
-                <?php if ( have_posts() )
+                <?php if ( $query->have_posts() )
                 { ?>
 
-                <?php while ( have_posts() ) { 
+                <?php while ( $query->have_posts() ) { 
                     $query->the_post(); 
                     
 ?>
