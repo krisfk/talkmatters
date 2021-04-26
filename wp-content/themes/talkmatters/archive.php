@@ -25,7 +25,7 @@ get_header();
 
     <div class="blog-inner-container mt-const2">
 
-        <h3>fdsaf</h3>
+        <h3><?php the_archive_title();?></h3>
         <div class="row g-4">
 
             <div class="col-8">
