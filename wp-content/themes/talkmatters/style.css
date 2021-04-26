@@ -230,6 +230,11 @@ body {
     margin: 0 auto;
 }
 
+.blog-inner-container {
+    width: 900px;
+    margin: 0 auto;
+}
+
 .text-justify {
     text-align: justify;
 }

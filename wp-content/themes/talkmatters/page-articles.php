@@ -23,7 +23,7 @@ get_header();
 
 
 
-    <div class="inner-container mt-const2">
+    <div class="blog-inner-container mt-const2">
         <div class="row g-5">
 
             <div class="col-8">
