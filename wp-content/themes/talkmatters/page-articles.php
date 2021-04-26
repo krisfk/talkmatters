@@ -211,13 +211,23 @@ $post_id = $post->ID;
                     <div class="sidebar-widget widget_archive clr">
                         <h5 class="widget-title">Archives</h5>
                         <ul>
-                            <li><a href="https://demo.wpexplorer.com/blogger/2012/11/">November 2012</a></li>
-                            <li><a href="https://demo.wpexplorer.com/blogger/2012/10/">October 2012</a></li>
-                            <li><a href="https://demo.wpexplorer.com/blogger/2012/09/">September 2012</a></li>
-                            <li><a href="https://demo.wpexplorer.com/blogger/2012/08/">August 2012</a></li>
-                            <li><a href="https://demo.wpexplorer.com/blogger/2012/07/">July 2012</a></li>
-                            <li><a href="https://demo.wpexplorer.com/blogger/2012/06/">June 2012</a></li>
-                            <li><a href="https://demo.wpexplorer.com/blogger/2012/05/">May 2012</a></li>
+                            <?php
+
+$years = $wpdb->get_col("SELECT DISTINCT YEAR(post_date) FROM $wpdb->posts WHERE post_status = 'publish' AND post_type = 'post' ORDER BY post_date DESC");
+foreach($years as $year) {
+?>
+
+
+                            <?php	$months = $wpdb->get_col("SELECT DISTINCT MONTH(post_date) FROM $wpdb->posts WHERE post_status = 'publish' AND post_type = 'post' AND YEAR(post_date) = '".$year."' ORDER BY post_date DESC");
+			foreach($months as $month) {
+			?>
+                            <li><a
+                                    href="<?php echo get_month_link($year, $month); ?>"><?php echo date( 'F', mktime(0, 0, 0, $month) ).' '.$year;?></a>
+
+                            </li>
+                            <?php }?>
+
+                            <?php } ?>
                         </ul>
                     </div>
 
