@@ -62,17 +62,18 @@ foreach($years as $year) {
     <div class="sidebar-widget widget_tag_cloud clr">
         <h5 class="widget-title">Categories</h5>
         <div class="tagcloud">
-            <?php
-                        
-                    echo '<ul>';
-                    for($i=0;$i<sizeof($tags);$i++)
-                    {
-                        echo '<li><a href="'.get_site_url().'/?t='.$tags[$i]->term_id.'">'.$tags[$i]->name.'</a></li>';
-                    }
-                    echo '</ul>';
+            <ul>
+                <?php
+                                      
+      $categories = get_categories();
+foreach($categories as $category) {
+   echo '<li><a href="' . get_category_link($category->term_id) . '">' . $category->name . '</a></li>';
+}
+
 
 
 ?>
+            </ul>
         </div>
     </div>
 
