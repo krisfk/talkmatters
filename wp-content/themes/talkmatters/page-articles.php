@@ -27,6 +27,31 @@ get_header();
         <div class="row g-4">
 
             <div class="col-8">
+
+                <!-- query -->
+                <?php
+    $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
+    $query = new WP_Query( array(
+        'posts_per_page' => 2,
+        'paged' => $paged
+    ) );
+?>
+
+                <?php if ( $query->have_posts() )
+                { ?>
+
+                <?php while ( $query->have_posts() ) { 
+                    $query->the_post(); 
+
+echo 1;
+                     }
+                     
+                     }?>
+
+
+
+
+
                 <div class="post-short-div">
                     <img class="w-100"
                         src="https://demo.wpexplorer.com/blogger/wp-content/uploads/sites/15/2012/03/hike.jpg" alt="">
