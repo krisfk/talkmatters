@@ -395,3 +395,7 @@ html[lang='zh'] .lang-div {
     position: relative;
     top: 1px;
 }
+
+html[lang='zh'] .lang-select {
+    width: 65px;
+}
