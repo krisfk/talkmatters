@@ -31,7 +31,7 @@ get_header();
                     <img class="w-100"
                         src="https://demo.wpexplorer.com/blogger/wp-content/uploads/sites/15/2012/03/hike.jpg" alt="">
 
-                    <h2 class="mt-2">Reach New Heights</h2>
+                    <h2 class="mt-3">Reach New Heights</h2>
                     <ul class="post-meta mt-2">
                         <li class="meta-date">
                             Posted on <span class="meta-date-text">November 10, 2012</span>
@@ -42,11 +42,11 @@ get_header();
                                 Finds</a>, <a href="https://demo.wpexplorer.com/blogger/category/travel/"
                                 title="Travel">Travel</a>
                         </li>
-                        <li class="meta-comments comment-scroll">
+                        <!-- <li class="meta-comments comment-scroll">
                             <span class="meta-seperator">/</span>With <a
                                 href="https://demo.wpexplorer.com/blogger/2012/11/10/reach-new-heights/#comments"
                                 class="comments-link">4 Comments</a>
-                        </li>
+                        </li> -->
                     </ul>
 
                     <div>Nam mattis tincidunt mattis. Vivamus quam est, condimentum sed iaculis sed, congue ac arcu.
