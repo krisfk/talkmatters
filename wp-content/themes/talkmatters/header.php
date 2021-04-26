@@ -163,9 +163,10 @@ echo'" href="'.$url.'">'.$title.'</a>';
                                     ?>
                                     語言:
                                     <select class="form-select lang-select" aria-label="lang">
-                                        <option value="<?php echo $langs['en']['url'];?>">English
+                                        <option value="<?php echo $langs['en']['url'];?>">英文
                                         </option>
-                                        <option value="<?php echo $langs['zh']['url'];?>" selected="selected">中</option>
+                                        <option value="<?php echo $langs['zh']['url'];?>" selected="selected">中文
+                                        </option>
                                     </select>
 
                                     <?php
