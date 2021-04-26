@@ -61,7 +61,8 @@ get_header();
                             <?php 
                             $post_id= get_the_ID();
                             $category_detail=get_the_category($post_id);//$post->ID
-                                    foreach($category_detail as $cd){
+                                echo sizeof($category_detail);
+                                  foreach($category_detail as $cd){
                                     echo '<a href="/category/'.$cd->slug.'">'.$cd->cat_name.'</a>'.' , ';
                                     // print_r ($cd);
                                     }
