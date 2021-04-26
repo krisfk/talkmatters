@@ -55,6 +55,8 @@ else
     $monthnum = get_query_var('monthnum');
     $day      = get_query_var('day');
 
+    $cat_id = get_cat_ID() ;
+echo $cat_id;
     // echo $year;
     // echo $monthnum;
     $args = array (
@@ -75,9 +77,9 @@ else
     // if(!empty($_GET["orderby"]))
     // {$args['orderby']=$_GET["orderby"];} 
 
-    $query = new WP_Query( 
-        $args
-     );
+    // $query = new WP_Query( 
+    //     $args
+    //  );
 
      echo $args['year'];
     
