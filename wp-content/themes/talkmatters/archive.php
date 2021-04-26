@@ -51,15 +51,16 @@ else
                 <?php
     $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
 
+    //date 
     $year     = get_query_var('year');
     $monthnum = get_query_var('monthnum');
     $day      = get_query_var('day');
-
+    //cat
     $categories = get_the_category();
     $cat_id = $categories[0]->cat_ID;
-    // echo $category_id;
-    // echo $year;
-    // echo $monthnum;
+    //tag
+    $tag_id = get_queried_object()->term_id;
+    echo $tag_id;
     $args = array (
         's' => (!empty($_REQUEST["search"])?$_REQUEST["search"]:''),
         'post_type' => 'post',
