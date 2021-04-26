@@ -57,7 +57,7 @@ else
 
     $categories = get_the_category();
     $category_id = $categories[0]->cat_ID;
-    echo $category_id;
+    // echo $category_id;
     // echo $year;
     // echo $monthnum;
     $args = array (
