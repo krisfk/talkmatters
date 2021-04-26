@@ -429,3 +429,8 @@ ul.post-meta {
 .blog-container a:hover {
     color: #7fa191;
 }
+
+.blog-right-col {
+    background: #7fa191;
+    padding: 20px;
+}

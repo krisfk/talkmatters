@@ -60,7 +60,7 @@ get_header();
                             title="continue reading" rel="bookmark">continue reading →</a></span>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-4 blog-right-col">
 
                 <div class="sidebar-widget widget_recent_entries clr">
                     <h5 class="widget-title">Recent Posts</h5>
