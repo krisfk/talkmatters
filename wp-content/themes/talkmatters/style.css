@@ -418,6 +418,6 @@ ul.post-meta li {
 ul.post-meta {
     margin: 0;
     display: block;
-    padding: 0 0 20px 0;
+    padding: 0 0 10px 0;
     border-bottom: 1px solid #ddd;
 }
