@@ -25,20 +25,8 @@ get_header();
 
     <div class="blog-inner-container mt-const">
 
-        <?php 
-if(get_query_var('year') && get_query_var('monthnum'))
-{
- ?>
-        <h2 class="mb-3">Articles from <?php single_month_title(' ');?>:</h2>
-        <?php   
-}
-else
-{
-    ?>
-        <h2 class="mb-3">Articles from category: <?php single_cat_title(' ');?></h2>
-        <?php
-}
-?>
+        <h2 class="mb-3">Articles from Tag: <?php single_cat_title(' ');?></h2>
+
 
 
 
