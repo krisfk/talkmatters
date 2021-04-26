@@ -425,3 +425,7 @@ ul.post-meta {
 .blog-container a {
     color: #212529;
 }
+
+.blog-container a:hover {
+    color: #7fa191;
+}
