@@ -374,6 +374,10 @@ footer {
     /* background-size: 55%; */
 }
 
+.contact-div-left-col a {
+    color: #212529;
+}
+
 .scope-points ul li {
     list-style-type: square;
     text-align: justify;
