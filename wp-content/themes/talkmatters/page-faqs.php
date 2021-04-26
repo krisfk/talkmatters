@@ -25,6 +25,32 @@ get_header();
 
     <div class="inner-container mt-const2 faqs-div mb-5">
 
+
+        <?php
+
+if( have_rows('faqs') ):
+
+    while( have_rows('faqs') ) : the_row();
+
+        $question = get_sub_field('question');
+        $answer = get_sub_field('answer');
+
+        ?>
+        <h3 class="mt-4">
+            <?php echo $question;?>
+        </h3>
+        <ul>
+            <li>
+                <?php echo $answer;?>
+            </li>
+
+        </ul>
+        <?php
+    endwhile;
+
+else :
+endif;
+?>
         <h3>Who needs counselling?
         </h3>
         <ul>
