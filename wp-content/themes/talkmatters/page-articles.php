@@ -176,27 +176,33 @@ get_header();
                     <div class="sidebar-widget widget_recent_entries clr">
                         <h5 class="widget-title">Recent Posts</h5>
                         <ul>
+
+                            <?php
+  $query = new WP_Query( array(
+    'posts_per_page' => 5,
+) );
+?>
+
+                            <?php if ( $query->have_posts() )
+            { ?>
+
+                            <?php while ( $query->have_posts() ) { 
+                $query->the_post(); 
+                
+                ?>
                             <li>
                                 <a href="https://demo.wpexplorer.com/blogger/2012/11/10/reach-new-heights/">Reach New
                                     Heights</a>
                             </li>
-                            <li>
-                                <a href="https://demo.wpexplorer.com/blogger/2012/10/28/never-ending-story/">Never
-                                    Ending
-                                    Story</a>
-                            </li>
-                            <li>
-                                <a href="https://demo.wpexplorer.com/blogger/2012/10/12/on-a-boat/">On A Boat</a>
-                            </li>
-                            <li>
-                                <a href="https://demo.wpexplorer.com/blogger/2012/09/29/how-to-design/">How To
-                                    Design</a>
-                            </li>
-                            <li>
-                                <a href="https://demo.wpexplorer.com/blogger/2012/08/10/a-walk-in-the-park/">A Walk In
-                                    The
-                                    Park</a>
-                            </li>
+                            <?php
+                            }
+                        }
+?>
+                            <!-- <li>
+                                <a href="https://demo.wpexplorer.com/blogger/2012/11/10/reach-new-heights/">Reach New
+                                    Heights</a>
+                            </li> -->
+
                         </ul>
                     </div>
 
