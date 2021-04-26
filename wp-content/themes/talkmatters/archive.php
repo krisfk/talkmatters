@@ -56,7 +56,7 @@ else
     $day      = get_query_var('day');
 
     $categories = get_the_category();
-    $category_id = $categories[0]->cat_ID;
+    $cat_id = $categories[0]->cat_ID;
     // echo $category_id;
     // echo $year;
     // echo $monthnum;
@@ -71,9 +71,11 @@ else
 
     if(!empty($monthnum))
     {$args['monthnum']=$monthnum;}
+    if(!empty($cat))
+    {$args['monthnum']=$monthnum;}
     
     if(!empty($year))
-    {$args['year']=$year;}
+    {$args['cat']=$cat_id;}
     // echo $get_query_var["year"];
     // if(!empty($_GET["orderby"]))
     // {$args['orderby']=$_GET["orderby"];} 
@@ -82,7 +84,7 @@ else
         $args
      );
 
-     echo $args['year'];
+    //  echo $args['year'];
     
 ?>
 
