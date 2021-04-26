@@ -671,3 +671,55 @@ function wp_get_menu_array($current_menu='Main Menu') {
     return $menu;
 
 }
+
+
+function pagination($pages = '', $range = 4)
+{  
+     $showitems = ($range * 2)+1;  
+   
+     global $paged;
+     if(empty($paged)) $paged = 1;
+   
+     if($pages == '')
+     {
+         global $the_query;
+         $pages = $the_query->max_num_pages;
+         if(!$pages)
+         {
+             $pages = 1;
+         }
+     }   
+   
+     if(1 != $pages)
+     {
+         echo "<div class=\"archive-pagination pagination\">";
+         echo "<ul>";
+         if($paged > 2 && $paged > $range+1 && $showitems < $pages) echo "<a href='".get_pagenum_link(1)."'> 
+         <span class='double-chevron-wrapper'>
+                <i class='fas fa-chevron-left first'></i>
+                <i class='fas fa-chevron-left second'></i>
+         </span>
+            </a>";
+         if($paged > 1 && $showitems < $pages) echo "<a href='".get_pagenum_link($paged - 1)."'> <i class='fas fa-chevron-left prev'></i></a>";
+   
+         for ($i=1; $i <= $pages; $i++)
+         {
+             if (1 != $pages &&( !($i >= $paged+$range+1 || $i <= $paged-$range-1) || $pages <= $showitems ))
+             {
+                 echo ($paged == $i)? "<li><span class=\"current\">".$i."</span></li>":"<li><a href='".get_pagenum_link($i)."' class=\"inactive\">".$i."</a></li>";
+             }
+         }
+   
+         if ($paged < $pages && $showitems < $pages) echo "<a href=\"".get_pagenum_link($paged + 1)."\"><i class='fas fa-chevron-right next'></i></a>";  
+         if ($paged < $pages-1 &&  $paged+$range-1 < $pages && $showitems < $pages) echo "<a href='".get_pagenum_link($pages)."'>
+            <span class='double-chevron-wrapper'>
+                <i class='fas fa-chevron-right first'></i>
+                <i class='fas fa-chevron-right second'></i>
+            </span>
+            </a>";
+         echo "</ul>\n";
+         echo "</div>\n";
+           
+         echo "<div class='all_pages'><small>Current page: ".$paged." All pages ".$pages."</small></div>";
+     }
+}
