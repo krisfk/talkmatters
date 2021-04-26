@@ -60,7 +60,7 @@ get_header();
 
                             <?php 
                             $post_id= get_the_ID();
-                            $category_detail=get_the_category('4');//$post->ID
+                            $category_detail=get_the_category($post_id);//$post->ID
                                     foreach($category_detail as $cd){
                                     echo $cd->cat_name;
                                     }
