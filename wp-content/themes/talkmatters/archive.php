@@ -11,7 +11,7 @@
 
 get_header();
 
-$description = get_the_archive_description();
+// $description = get_the_archive_description();
 ?>
 
 <?php if ( have_posts() ) : ?>
