@@ -149,7 +149,7 @@ echo'" href="'.$url.'">'.$title.'</a>';
                                     <select class="form-select lang-select" aria-label="lang">
                                         <option value="<?php echo $langs['en']['url'];?>" selected="selected">English
                                         </option>
-                                        <option value="<?php echo $langs['zh']['url'];?>">中</option>
+                                        <option value="<?php echo $langs['zh']['url'];?>">Chinese</option>
                                     </select>
 
                                     <?php
