@@ -59,8 +59,12 @@ else
     $categories = get_the_category();
     $cat_id = $categories[0]->cat_ID;
     //tag
-    $tag_id = get_queried_object()->term_id;
-    echo $tag_id;
+    $tag = get_queried_object();
+    echo $tag->slug;
+    // $tag = get_term_by('slug', ' hedoms','post_tag');
+    // $tag_id =  $tag->term_id; 
+
+
     $args = array (
         's' => (!empty($_REQUEST["search"])?$_REQUEST["search"]:''),
         'post_type' => 'post',
