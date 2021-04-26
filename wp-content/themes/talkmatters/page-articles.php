@@ -58,8 +58,10 @@ get_header();
                             <span class="meta-seperator">/</span>Category:
                             cate
 
-                            <?php $cate_arr= wp_get_post_categories();
-                            print_r($cate_arr);
+                            <?php 
+                            echo get_the_ID();
+                            // $cate_arr= wp_get_post_categories();
+                            // print_r($cate_arr);
                             ?>
                         </li>
 
