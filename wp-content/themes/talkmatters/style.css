@@ -466,3 +466,14 @@ ul.post-meta {
     display: inline-block;
     line-height: normal;
 }
+
+.pagination .page-numbers.current {
+    margin: 0 5px;
+    text-decoration: none;
+    background: #cfe4d8;
+    padding: 5px 10px;
+    width: 27px;
+    height: 30px;
+    display: inline-block;
+    line-height: normal;
+}
