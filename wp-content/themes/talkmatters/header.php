@@ -43,7 +43,7 @@
     <?php
 
 if ( defined( 'ICL_LANGUAGE_CODE' ) ) {
-    echo ICL_LANGUAGE_CODE;
+    $lang_code =  ICL_LANGUAGE_CODE;
   }
   ?>
     <?php wp_body_open(); ?>
@@ -127,11 +127,51 @@ echo'" href="'.$url.'">'.$title.'</a>';
                                 </a>
 
                                 <span class="ms-2">
+
+
+                                    <?php
+
+                            $langs= icl_get_languages('skip_missing=0&orderby=custom&order=asc&link_empty_to=');
+                            ?>
+
+                                    <?php //echo $langs['en']['url'];?>
+                                    <?php //echo $langs['zh']['url'];?>
+
+
+
+                                    <?php
+                                
+                                if($lang_code=='en')
+                                {
+                                    ?>
                                     Language:
                                     <select class="form-select lang-select" aria-label="lang">
-                                        <option value="eng">English</option>
-                                        <option value="chi">中</option>
+                                        <option value="<?php echo $langs['en']['url'];?>" selected="selected">English
+                                        </option>
+                                        <option value="<?php echo $langs['zh']['url'];?>">中</option>
                                     </select>
+
+                                    <?php
+                                }?>
+
+
+                                    <?php
+                                
+                                if($lang_code=='zh')
+                                {
+                                    ?>
+                                    語言:
+                                    <select class="form-select lang-select" aria-label="lang">
+                                        <option value="<?php echo $langs['en']['url'];?>">English
+                                        </option>
+                                        <option value="<?php echo $langs['zh']['url'];?>" selected="selected">中</option>
+                                    </select>
+
+                                    <?php
+                                }?>
+
+
+
 
                                 </span>
 
