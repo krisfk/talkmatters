@@ -62,60 +62,65 @@ get_header();
             </div>
             <div class="col-4 blog-right-col">
 
-                <div class="sidebar-widget widget_recent_entries clr">
-                    <h5 class="widget-title">Recent Posts</h5>
-                    <ul>
-                        <li>
-                            <a href="https://demo.wpexplorer.com/blogger/2012/11/10/reach-new-heights/">Reach New
-                                Heights</a>
-                        </li>
-                        <li>
-                            <a href="https://demo.wpexplorer.com/blogger/2012/10/28/never-ending-story/">Never Ending
-                                Story</a>
-                        </li>
-                        <li>
-                            <a href="https://demo.wpexplorer.com/blogger/2012/10/12/on-a-boat/">On A Boat</a>
-                        </li>
-                        <li>
-                            <a href="https://demo.wpexplorer.com/blogger/2012/09/29/how-to-design/">How To Design</a>
-                        </li>
-                        <li>
-                            <a href="https://demo.wpexplorer.com/blogger/2012/08/10/a-walk-in-the-park/">A Walk In The
-                                Park</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="sidebar-widget widget_archive clr">
-                    <h5 class="widget-title">Archives</h5>
-                    <ul>
-                        <li><a href="https://demo.wpexplorer.com/blogger/2012/11/">November 2012</a></li>
-                        <li><a href="https://demo.wpexplorer.com/blogger/2012/10/">October 2012</a></li>
-                        <li><a href="https://demo.wpexplorer.com/blogger/2012/09/">September 2012</a></li>
-                        <li><a href="https://demo.wpexplorer.com/blogger/2012/08/">August 2012</a></li>
-                        <li><a href="https://demo.wpexplorer.com/blogger/2012/07/">July 2012</a></li>
-                        <li><a href="https://demo.wpexplorer.com/blogger/2012/06/">June 2012</a></li>
-                        <li><a href="https://demo.wpexplorer.com/blogger/2012/05/">May 2012</a></li>
-                    </ul>
-                </div>
-
-                <div class="sidebar-widget widget_tag_cloud clr">
-                    <h5 class="widget-title">Tags</h5>
-                    <div class="tagcloud"><a href="https://demo.wpexplorer.com/blogger/tag/blog/"
-                            class="tag-cloud-link tag-link-7 tag-link-position-1" style="font-size: 8pt;"
-                            aria-label="blog (2 items)">blog</a>
-                        <a href="https://demo.wpexplorer.com/blogger/tag/minimal/"
-                            class="tag-cloud-link tag-link-8 tag-link-position-2" style="font-size: 22pt;"
-                            aria-label="minimal (6 items)">minimal</a>
-                        <a href="https://demo.wpexplorer.com/blogger/tag/theme/"
-                            class="tag-cloud-link tag-link-9 tag-link-position-3" style="font-size: 16.3243243243pt;"
-                            aria-label="theme (4 items)">theme</a>
-                        <a href="https://demo.wpexplorer.com/blogger/tag/wordpress/"
-                            class="tag-cloud-link tag-link-10 tag-link-position-4" style="font-size: 16.3243243243pt;"
-                            aria-label="wordpress (4 items)">wordpress</a>
+                <div class="blog-right-col-inner">
+                    <div class="sidebar-widget widget_recent_entries clr">
+                        <h5 class="widget-title">Recent Posts</h5>
+                        <ul>
+                            <li>
+                                <a href="https://demo.wpexplorer.com/blogger/2012/11/10/reach-new-heights/">Reach New
+                                    Heights</a>
+                            </li>
+                            <li>
+                                <a href="https://demo.wpexplorer.com/blogger/2012/10/28/never-ending-story/">Never
+                                    Ending
+                                    Story</a>
+                            </li>
+                            <li>
+                                <a href="https://demo.wpexplorer.com/blogger/2012/10/12/on-a-boat/">On A Boat</a>
+                            </li>
+                            <li>
+                                <a href="https://demo.wpexplorer.com/blogger/2012/09/29/how-to-design/">How To
+                                    Design</a>
+                            </li>
+                            <li>
+                                <a href="https://demo.wpexplorer.com/blogger/2012/08/10/a-walk-in-the-park/">A Walk In
+                                    The
+                                    Park</a>
+                            </li>
+                        </ul>
                     </div>
-                </div>
 
+                    <div class="sidebar-widget widget_archive clr">
+                        <h5 class="widget-title">Archives</h5>
+                        <ul>
+                            <li><a href="https://demo.wpexplorer.com/blogger/2012/11/">November 2012</a></li>
+                            <li><a href="https://demo.wpexplorer.com/blogger/2012/10/">October 2012</a></li>
+                            <li><a href="https://demo.wpexplorer.com/blogger/2012/09/">September 2012</a></li>
+                            <li><a href="https://demo.wpexplorer.com/blogger/2012/08/">August 2012</a></li>
+                            <li><a href="https://demo.wpexplorer.com/blogger/2012/07/">July 2012</a></li>
+                            <li><a href="https://demo.wpexplorer.com/blogger/2012/06/">June 2012</a></li>
+                            <li><a href="https://demo.wpexplorer.com/blogger/2012/05/">May 2012</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="sidebar-widget widget_tag_cloud clr">
+                        <h5 class="widget-title">Tags</h5>
+                        <div class="tagcloud"><a href="https://demo.wpexplorer.com/blogger/tag/blog/"
+                                class="tag-cloud-link tag-link-7 tag-link-position-1" style="font-size: 8pt;"
+                                aria-label="blog (2 items)">blog</a>
+                            <a href="https://demo.wpexplorer.com/blogger/tag/minimal/"
+                                class="tag-cloud-link tag-link-8 tag-link-position-2" style="font-size: 22pt;"
+                                aria-label="minimal (6 items)">minimal</a>
+                            <a href="https://demo.wpexplorer.com/blogger/tag/theme/"
+                                class="tag-cloud-link tag-link-9 tag-link-position-3"
+                                style="font-size: 16.3243243243pt;" aria-label="theme (4 items)">theme</a>
+                            <a href="https://demo.wpexplorer.com/blogger/tag/wordpress/"
+                                class="tag-cloud-link tag-link-10 tag-link-position-4"
+                                style="font-size: 16.3243243243pt;" aria-label="wordpress (4 items)">wordpress</a>
+                        </div>
+                    </div>
+
+                </div>
 
             </div>
 
