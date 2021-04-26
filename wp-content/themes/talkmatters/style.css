@@ -392,5 +392,6 @@ footer {
 }
 
 html[lang='zh'] .lang-div {
-    /* margin: 10px -10px 0 0; */
+    position: relative;
+    top: 1px;
 }
