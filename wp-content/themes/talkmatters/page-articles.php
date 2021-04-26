@@ -55,7 +55,7 @@ get_header();
                 }
                 ?>
 
-                    <h2 class="mt-3"><?php echo get_the_title();?></h2>
+                    <h2 class=""><?php echo get_the_title();?></h2>
                     <ul class="post-meta mt-2">
                         <li class="meta-date">
                             Posted on <span class="meta-date-text">
