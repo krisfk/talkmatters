@@ -127,7 +127,7 @@ echo'" href="'.$url.'">'.$title.'</a>';
                                         alt="">
                                 </a>
 
-                                <span class="ms-2">
+                                <span class="ms-2 lang-div">
 
 
                                     <?php
