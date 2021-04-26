@@ -57,9 +57,7 @@ foreach($years as $year) {
     </div>
 
 
-    <?php  $tags = get_tags();
-                    if($tags)
-                    {
+    <?php 
 ?>
     <div class="sidebar-widget widget_tag_cloud clr">
         <h5 class="widget-title">Category:</h5>
@@ -95,6 +93,6 @@ foreach($years as $year) {
         </div>
     </div>
     <?php 
-                    }?>
+                    ?>
 
 </div>
