@@ -60,8 +60,6 @@ else
     $cat_id = $categories[0]->cat_ID;
     //tag
     $tag_id = get_queried_object()->term_id;
-    echo $tag_id;
-    echo 4324;
     $args = array (
         's' => (!empty($_REQUEST["search"])?$_REQUEST["search"]:''),
         'post_type' => 'post',
