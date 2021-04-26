@@ -51,40 +51,15 @@ else
                 <?php
     $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
 
-    //date 
-    $year     = get_query_var('year');
-    $monthnum = get_query_var('monthnum');
-    $day      = get_query_var('day');
-    //cat
-    $categories = get_the_category();
-    $cat_id = $categories[0]->cat_ID;
-    //tag
-    // $tag = get_term_by('slug', ' hedoms','post_tag');
-    // $tag_id =  $tag->term_id; 
-
+    $tag_id = get_queried_object()->term_id;
 
     $args = array (
-        's' => (!empty($_REQUEST["search"])?$_REQUEST["search"]:''),
         'post_type' => 'post',
         'post_status' =>'publish',
-        // 'cat' => 5,
         'posts_per_page' => 2,
+        'tag_id' =>$tag_id,
         'paged' => $paged);
-        // 'order' =>(!empty($_GET["order"])?$_GET["order"]:'DSCE')); 
-
-    if(!empty($monthnum))
-    {$args['monthnum']=$monthnum;}
-    if(!empty($cat))
-    {$args['cat']=$cat_id;}
-
-    if(!empty($year))
-    {$args['year']=$year;}
-    // if(!empty($tag_id))
-    // {$args['tag_id']=$tag_id;}
-    // echo $get_query_var["year"];
-    // if(!empty($_GET["orderby"]))
-    // {$args['orderby']=$_GET["orderby"];} 
-
+     
     $query = new WP_Query( 
         $args
      );
