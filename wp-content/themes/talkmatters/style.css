@@ -450,4 +450,6 @@ ul.post-meta {
     text-decoration: none;
 }
 
-.pagination a {}
+.pagination a {
+    margin: 0 10px;
+}
