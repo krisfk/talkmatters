@@ -35,7 +35,7 @@ if(get_query_var('year') && get_query_var('monthnum'))
 else
 {
     ?>
-        <h2 class="mb-3">Articles from category: <?php single_cat_title(' ');?>:</h2>
+        <h2 class="mb-3">Articles from category: <?php single_cat_title(' ');?></h2>
         <?php
 }
 ?>
