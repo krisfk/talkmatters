@@ -31,8 +31,8 @@ get_header();
                     <img class="w-100"
                         src="https://demo.wpexplorer.com/blogger/wp-content/uploads/sites/15/2012/03/hike.jpg" alt="">
 
-                    <h2>Reach New Heights</h2>
-                    <ul class="post-meta clr">
+                    <h2 class="mt-2">Reach New Heights</h2>
+                    <ul class="post-meta mt-2">
                         <li class="meta-date">
                             Posted on <span class="meta-date-text">November 10, 2012</span>
                         </li>
