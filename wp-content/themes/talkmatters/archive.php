@@ -43,7 +43,7 @@ get_header();
         'post_type' => 'post',
         'post_status' =>'publish',
         // 'cat' => 5,
-        'posts_per_page' => 9,
+        'posts_per_page' => 2,
         'paged' => $paged);
         // 'order' =>(!empty($_GET["order"])?$_GET["order"]:'DSCE')); 
 
