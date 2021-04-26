@@ -55,8 +55,8 @@ else
     $monthnum = get_query_var('monthnum');
     $day      = get_query_var('day');
 
-    // echo $year;
-    // echo $monthnum;
+    echo $year;
+    echo $monthnum;
     $args = array (
         's' => (!empty($_REQUEST["search"])?$_REQUEST["search"]:''),
         'post_type' => 'post',
