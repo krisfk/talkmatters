@@ -75,10 +75,7 @@ get_header();
                                  if(!(sizeof($category_detail)==1 && $category_detail[0]->cat_name =='未分類'))
                                  {                                 
                                      echo 'Category:';
-                                 }
-                                 else
-                                 {
-                                    foreach($category_detail as $cd){
+                                     foreach($category_detail as $cd){
 
                                         if($idx == sizeof($category_detail))
                                         {
@@ -93,6 +90,9 @@ get_header();
                                         $idx++;
                                         }
                                  }
+                                 
+
+                              
                                
                                 
 
