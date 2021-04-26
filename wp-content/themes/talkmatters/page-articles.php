@@ -178,6 +178,7 @@ get_header();
                         <ul>
 
                             <?php
+                            wp_reset_query();
   $query = new WP_Query( array(
     'posts_per_page' => 5,
 ) );
