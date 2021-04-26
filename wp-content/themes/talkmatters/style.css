@@ -404,3 +404,8 @@ html[lang='zh'] .lang-select {
     border: 1px solid #000;
     padding: 20px;
 }
+
+ul.post-meta {
+    margin: 0;
+    padding: 0;
+}
