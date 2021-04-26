@@ -409,3 +409,7 @@ ul.post-meta {
     margin: 0;
     padding: 0;
 }
+
+ul.post-meta li {
+    display: inline-block;
+}
