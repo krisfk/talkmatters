@@ -42,7 +42,7 @@ get_header();
         's' => (!empty($_REQUEST["search"])?$_REQUEST["search"]:''),
         'post_type' => 'post',
         'post_status' =>'publish',
-        'cat' => 5,
+        // 'cat' => 5,
         'posts_per_page' => 9,
         'paged' => $paged);
         // 'order' =>(!empty($_GET["order"])?$_GET["order"]:'DSCE')); 
