@@ -186,14 +186,19 @@ $wp_query = new WP_Query( $args );
 $posts = $wp_query->get_posts();
 
 foreach( $posts as $post ) {
-    print_r($post);
+$post_id = $post->ID;
+    ?>
+                            <li>
+                                <a href="<?echo get_permalink($post_id);?>"><?php echo get_the_title($post_id);?></a>
+                            </li>
+                            <?php
 }
 
 ?>
 
 
 
-                            ?>
+
                             <!-- <li>
                                 <a href="https://demo.wpexplorer.com/blogger/2012/11/10/reach-new-heights/">Reach New
                                     Heights</a>
