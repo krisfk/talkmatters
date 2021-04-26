@@ -191,8 +191,7 @@ get_header();
                 
                 ?>
                             <li>
-                                <a href="https://demo.wpexplorer.com/blogger/2012/11/10/reach-new-heights/">Reach New
-                                    Heights</a>
+                                <a href="<?php echo get_permalink();?>"><?php get_the_title();?></a>
                             </li>
                             <?php
                             }
