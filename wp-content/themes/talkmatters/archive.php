@@ -79,6 +79,7 @@ else
         $args
      );
 
+     echo $args['year'];
     
 ?>
 
