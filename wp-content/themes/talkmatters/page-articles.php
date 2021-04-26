@@ -55,7 +55,7 @@ get_header();
                         felis, ac porta lorem metus eget ante. Etiam vitae mollis enim, et accumsan enim. Ut eu
                         tristique sem, a ultricies odio. Integer ac…
                     </div>
-                    <span class="wpex-readmore mt-3 d-block"><a
+                    <span class="wpex-readmore mt-5 d-block"><a
                             href="https://demo.wpexplorer.com/blogger/2012/11/10/reach-new-heights/"
                             title="continue reading" rel="bookmark">continue reading →</a></span>
                 </div>
