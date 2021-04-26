@@ -671,12 +671,3 @@ function wp_get_menu_array($current_menu='Main Menu') {
     return $menu;
 
 }
-
-function wpd_testimonials_query( $query ){
-    if( ! is_admin()
-        && $query->is_post_type_archive( 'testimonials' )
-        && $query->is_main_query() ){
-            $query->set( 'posts_per_page', 2 );
-    }
-}
-add_action( 'pre_get_posts', 'wpd_testimonials_query' );
