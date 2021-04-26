@@ -405,11 +405,6 @@ html[lang='zh'] .lang-select {
     padding: 20px;
 }
 
-ul.post-meta {
-    margin: 0;
-    padding: 0;
-}
-
 ul.post-meta li {
     display: inline-block;
 }
@@ -420,7 +415,8 @@ ul.post-meta li {
     color: #ddd;
 }
 
-.meta-meta {
+ul.meta-meta {
+    margin: 0;
     display: block;
     padding: 0 0 20px 0;
     border-bottom: 1px solid 1px #ddd;
