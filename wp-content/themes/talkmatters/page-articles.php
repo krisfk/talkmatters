@@ -76,21 +76,25 @@ get_header();
                                  {                                 
                                      echo 'Category:';
                                  }
-                               
-                                  foreach($category_detail as $cd){
+                                 else
+                                 {
+                                    foreach($category_detail as $cd){
 
-                                    if($idx == sizeof($category_detail))
-                                    {
-                                        echo '<a href="/category/'.$cd->slug.'">'.$cd->cat_name.'</a>';
-                                   
-                                    }
-                                    else
-                                    {
-                                        echo '<a href="/category/'.$cd->slug.'">'.$cd->cat_name.'</a>'.' , ';
-                                    }
-                                    
-                                    $idx++;
-                                    }
+                                        if($idx == sizeof($category_detail))
+                                        {
+                                            echo '<a href="/category/'.$cd->slug.'">'.$cd->cat_name.'</a>';
+                                       
+                                        }
+                                        else
+                                        {
+                                            echo '<a href="/category/'.$cd->slug.'">'.$cd->cat_name.'</a>'.' , ';
+                                        }
+                                        
+                                        $idx++;
+                                        }
+                                 }
+                               
+                                
 
                                   
                             ?>
