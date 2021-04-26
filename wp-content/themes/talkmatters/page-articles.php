@@ -57,6 +57,8 @@ get_header();
                         <li class="meta-category">
                             <span class="meta-seperator">/</span>Category:
                             cate
+
+                            <?php echo wp_get_post_categories();?>
                         </li>
 
                     </ul>
