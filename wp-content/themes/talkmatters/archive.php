@@ -30,18 +30,33 @@ get_header();
 
                 <!-- query -->
                 <?php
-    // $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
-    // $query = new WP_Query( array(
-    //     'posts_per_page' => 2,
-    //     'paged' => $paged
-    // ) );
+    $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
+
+    // $args = array (
+    //     's' => (!empty($_REQUEST["search"])?$_REQUEST["search"]:''),
+    //     'post_type' => 'post',
+    //     'post_status' =>'publish',
+    //     'cat' => 5,
+    //     'posts_per_page' => 9,
+    //     'paged' => $paged,
+    //     'monthnum' =>$_GET["monthnum"],
+    //     'year' => $_GET["year"],
+    //     'orderby' =>!empty($_GET["orderby"])?$_GET["orderby"]:'date',
+    //   );
+
+    $query = new WP_Query( array(
+        'posts_per_page' => 2,
+        'paged' => $paged
+    ) );
+
+    
 ?>
 
-                <?php if ( have_posts() )
+                <?php if ( $query->have_posts() )
                 { ?>
 
-                <?php while ( have_posts() ) { 
-                    the_post(); 
+                <?php while ( $query->have_posts() ) { 
+                    $query->the_post(); 
                     
 ?>
                 <div class="post-short-div">
@@ -120,7 +135,7 @@ get_header();
                     <?php 
         echo paginate_links( array(
             'base'         => str_replace( 999999999, '%#%', esc_url( get_pagenum_link( 999999999 ) ) ),
-            'total'        => max_num_pages,
+            'total'        => $query->max_num_pages,
             'current'      => max( 1, get_query_var( 'paged' ) ),
             'format'       => '?paged=%#%',
             'show_all'     => false,
