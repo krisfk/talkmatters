@@ -36,24 +36,29 @@ get_header();
     $monthnum = get_query_var('monthnum');
     $day      = get_query_var('day');
 
-    echo $year;
-    echo $monthnum;
-    // $args = array (
-    //     's' => (!empty($_REQUEST["search"])?$_REQUEST["search"]:''),
-    //     'post_type' => 'post',
-    //     'post_status' =>'publish',
-    //     'cat' => 5,
-    //     'posts_per_page' => 9,
-    //     'paged' => $paged,
-    //     'monthnum' =>$_GET["monthnum"],
-    //     'year' => $_GET["year"],
-    //     'orderby' =>!empty($_GET["orderby"])?$_GET["orderby"]:'date',
-    //   );
+    // echo $year;
+    // echo $monthnum;
+    $args = array (
+        's' => (!empty($_REQUEST["search"])?$_REQUEST["search"]:''),
+        'post_type' => 'post',
+        'post_status' =>'publish',
+        'cat' => 5,
+        'posts_per_page' => 9,
+        'paged' => $paged);
+        // 'order' =>(!empty($_GET["order"])?$_GET["order"]:'DSCE')); 
 
-    $query = new WP_Query( array(
-        'posts_per_page' => 2,
-        'paged' => $paged
-    ) );
+    if(!empty($get_query_var["monthnum"]))
+    {$args['monthnum']=$get_query_var["monthnum"];}
+    
+    if(!empty($get_query_var["year"]))
+    {$args['year']=$get_query_var["year"];}
+    
+    // if(!empty($_GET["orderby"]))
+    // {$args['orderby']=$_GET["orderby"];} 
+
+    $query = new WP_Query( 
+        $args
+     );
 
     
 ?>
