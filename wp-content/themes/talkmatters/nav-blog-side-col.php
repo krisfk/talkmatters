@@ -33,6 +33,7 @@ $post_id = $post->ID;
         </ul>
     </div>
 
+
     <div class="sidebar-widget widget_archive clr">
         <h5 class="widget-title">Archives</h5>
         <ul>
@@ -57,25 +58,10 @@ foreach($years as $year) {
     </div>
 
 
-    <?php 
-?>
-    <div class="sidebar-widget widget_tag_cloud clr">
-        <h5 class="widget-title">Category:</h5>
-        <div class="tagcloud">
-            <?php
-                        
-                    echo '<ul>';
-                    for($i=0;$i<sizeof($tags);$i++)
+    <?php  $tags = get_tags();
+                    if($tags)
                     {
-                        echo '<li><a href="'.get_site_url().'/?t='.$tags[$i]->term_id.'">'.$tags[$i]->name.'</a></li>';
-                    }
-                    echo '</ul>';
-
-
 ?>
-        </div>
-    </div>
-
     <div class="sidebar-widget widget_tag_cloud clr">
         <h5 class="widget-title">Tags</h5>
         <div class="tagcloud">
@@ -93,6 +79,6 @@ foreach($years as $year) {
         </div>
     </div>
     <?php 
-                    ?>
+                    }?>
 
 </div>
