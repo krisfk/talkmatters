@@ -440,4 +440,8 @@ ul.post-meta {
     padding: 25px !important;
 }
 
-.wpex-readmore a {}
+.wpex-readmore a {
+    background: #cfe4d8;
+    padding: 10px 15px;
+    text-decoration: none;
+}
