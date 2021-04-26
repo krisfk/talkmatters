@@ -45,7 +45,15 @@ get_header();
                     
 ?>
                 <div class="post-short-div">
-                    <img class="w-100" src="<?php echo get_the_post_thumbnail_url();?>" alt="">
+
+                    <?php
+                if(get_the_post_thumbnail_url())
+                {
+?> <img class="w-100" src="<?php echo get_the_post_thumbnail_url();?>" alt="">
+
+                    <?php
+                }
+                ?>
 
                     <h2 class="mt-3"><?php echo get_the_title();?></h2>
                     <ul class="post-meta mt-2">
