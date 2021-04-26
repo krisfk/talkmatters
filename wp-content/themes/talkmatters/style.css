@@ -408,6 +408,7 @@ html[lang='zh'] .lang-select {
 .post-short-div {
     /* border: 1px solid #000; */
     /* padding: 20px; */
+    margin: 0 0 30px 0;
 }
 
 ul.post-meta li {
