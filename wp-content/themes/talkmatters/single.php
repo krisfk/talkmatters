@@ -65,7 +65,6 @@ get_header();
 
                             <?php 
                             $post_id= get_the_ID();
-							echo $post_id;
                             $category_detail=get_the_category($post_id);//$post->ID
                                  $idx=1;
                                  
