@@ -48,7 +48,15 @@ get_header();
                                 class="comments-link">4 Comments</a>
                         </li>
                     </ul>
-                    <div></div>
+
+                    <div>Nam mattis tincidunt mattis. Vivamus quam est, condimentum sed iaculis sed, congue ac arcu.
+                        Morbi nec ipsum velit. Praesent elementum, turpis quis vehicula malesuada, elit mauris sodales
+                        felis, ac porta lorem metus eget ante. Etiam vitae mollis enim, et accumsan enim. Ut eu
+                        tristique sem, a ultricies odio. Integer ac…
+                    </div>
+                    <span class="wpex-readmore"><a
+                            href="https://demo.wpexplorer.com/blogger/2012/11/10/reach-new-heights/"
+                            title="continue reading" rel="bookmark">continue reading →</a></span>
                 </div>
             </div>
             <div class="col-4"></div>
