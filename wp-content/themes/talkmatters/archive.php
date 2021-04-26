@@ -72,10 +72,10 @@ else
     if(!empty($monthnum))
     {$args['monthnum']=$monthnum;}
     if(!empty($cat))
-    {$args['monthnum']=$monthnum;}
+    {$args['cat']=$cat_id;}
     
     if(!empty($year))
-    {$args['cat']=$cat_id;}
+    {$args['year']=$year;}
     // echo $get_query_var["year"];
     // if(!empty($_GET["orderby"]))
     // {$args['orderby']=$_GET["orderby"];} 
