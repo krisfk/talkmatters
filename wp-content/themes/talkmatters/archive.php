@@ -32,6 +32,12 @@ get_header();
                 <?php
     $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
 
+    $year     = get_query_var('year');
+    $monthnum = get_query_var('monthnum');
+    $day      = get_query_var('day');
+
+    echo $year;
+    echo $monthnum;
     // $args = array (
     //     's' => (!empty($_REQUEST["search"])?$_REQUEST["search"]:''),
     //     'post_type' => 'post',
