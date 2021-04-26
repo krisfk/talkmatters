@@ -25,7 +25,7 @@ get_header();
 
     <div class="blog-inner-container mt-const2">
 
-        <h3>Articles from <?php single_month_title(' ');?></h3>
+        <h2>Articles from <?php single_month_title(' ');?></h2>
         <div class="row g-4">
 
             <div class="col-8">
