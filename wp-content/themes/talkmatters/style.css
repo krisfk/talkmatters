@@ -378,6 +378,10 @@ footer {
     color: #212529;
 }
 
+.contact-div-left-col a:hover {
+    color: #7fa191;
+}
+
 .scope-points ul li {
     list-style-type: square;
     text-align: justify;
