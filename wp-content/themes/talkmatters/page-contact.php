@@ -29,7 +29,9 @@ get_header();
 
             <div class="col-6 contact-div-left-col">
 
-                <h3>Phone</h3>
+
+                <?php echo get_field('content_1');?>
+                <!-- <h3>Phone</h3>
                 9462 6466
 
 
@@ -39,20 +41,22 @@ get_header();
 
 
                 <h3 class="mt-4">Email</h3>
-                <a target="_blank" href="abc@abc.com">abc@abc.com</a>
+                <a target="_blank" href="abc@abc.com">abc@abc.com</a> -->
 
 
 
             </div>
             <div class="col-6">
 
-                <input type="text" class="form-control" placeholder="Name">
-                <input type="text" class="form-control mt-2" placeholder="Email">
-                <input type="text" class="form-control mt-2" placeholder="Tel">
-                <textarea class="form-control mt-2" rows="5" placeholder="Type Your Message Here"></textarea>
+
+                <input type="text" class="form-control" placeholder="<?php echo get_field('content_2');?>">
+                <input type="text" class="form-control mt-2" placeholder="<?php echo get_field('content_3');?>">
+                <input type="text" class="form-control mt-2" placeholder="<?php echo get_field('content_4');?>">
+                <textarea class="form-control mt-2" rows="5"
+                    placeholder="<?php echo get_field('content_5');?>"></textarea>
 
                 <div class="text-end">
-                    <a href="#" class="btn mt-const">Submit</a>
+                    <a href="#" class="btn mt-const"><?php echo get_field('content_6');?></a>
                 </div>
 
             </div>
