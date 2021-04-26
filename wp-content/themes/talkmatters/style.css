@@ -480,3 +480,8 @@ ul.post-meta {
     line-height: normal;
     border: 1px solid #cfe4d8;
 }
+
+.pen-content-div {
+    max-width: 500px;
+    margin: 0 auto;
+}
