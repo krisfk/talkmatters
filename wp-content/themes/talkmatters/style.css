@@ -399,3 +399,8 @@ html[lang='zh'] .lang-div {
 html[lang='zh'] .lang-select {
     width: 65px !important;
 }
+
+.post-short-div {
+    border: 1px solid #000;
+    padding: 20px;
+}
