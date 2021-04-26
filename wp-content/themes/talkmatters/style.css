@@ -413,3 +413,9 @@ ul.post-meta {
 ul.post-meta li {
     display: inline-block;
 }
+
+.post-meta li .meta-seperator {
+    display: inline-block;
+    margin: 0 10px;
+    color: #ddd;
+}
