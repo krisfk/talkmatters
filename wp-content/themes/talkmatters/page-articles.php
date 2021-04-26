@@ -72,10 +72,11 @@ get_header();
                             $post_id= get_the_ID();
                             $category_detail=get_the_category($post_id);//$post->ID
                                  $idx=1;
-                                 if(sizeof($category_detail)>0)
+                                 if(!(sizeof($category_detail)==1 && $category_detail[0]->cat_name =='未分類'))
                                  {                                 
                                      echo 'Category:';
                                  }
+                               
                                   foreach($category_detail as $cd){
 
                                     if($idx == sizeof($category_detail))
