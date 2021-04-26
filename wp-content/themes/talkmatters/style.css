@@ -452,7 +452,7 @@ ul.post-meta {
 
 .pagination {
     margin: 0 auto;
-    display: block;
+    display: block !important;
     text-align: center;
 }
 
