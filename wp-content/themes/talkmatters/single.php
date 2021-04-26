@@ -29,7 +29,7 @@ get_header();
             <div class="col-8">
 
 
-                fdsafdsa
+
 
                 <?php 
 				// if ( $query->have_posts() )
