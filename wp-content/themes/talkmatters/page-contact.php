@@ -39,7 +39,10 @@ get_header();
 
 
                 <h3 class="mt-4">Email</h3>
-                abc@abc.com
+                <a target="_blank" href="abc@abc.com">abc@abc.com</a>
+
+
+
             </div>
             <div class="col-6">
 
