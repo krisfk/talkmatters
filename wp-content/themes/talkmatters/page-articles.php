@@ -62,8 +62,8 @@ get_header();
                             $post_id= get_the_ID();
                             $category_detail=get_the_category($post_id);//$post->ID
                                     foreach($category_detail as $cd){
-                                    echo '<a href="/category/'.$cd->cat_name.'">'.$cd->cat_name.'</a>'.',';
-                                    // print_r ($cd);
+                                    // echo '<a href="/category/'.$cd->cat_name.'">'.$cd->cat_name.'</a>'.',';
+                                    print_r ($cd);
                                     }
 
                                     // https://talkmatters.com.hk/category/test-category/
