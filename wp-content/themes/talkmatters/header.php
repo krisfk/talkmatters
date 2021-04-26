@@ -183,3 +183,13 @@ echo'" href="'.$url.'">'.$title.'</a>';
 
 
                     </div>
+
+
+
+                    <script type="text/javascript">
+                    $('.form-select lang-select').change(function() {
+
+                        var val = $(this).val();
+                        alert(val);
+                    })
+                    </script>
