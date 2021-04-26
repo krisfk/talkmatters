@@ -57,7 +57,7 @@ else
     $day      = get_query_var('day');
     //cat
     $categories = get_the_category();
-    $cat = $categories[0]->cat_ID;
+    $cat_id = $categories[0]->cat_ID;
     //tag
     $tag_id = get_queried_object()->term_id;
     // echo $tag_id;
@@ -73,7 +73,7 @@ else
     if(!empty($monthnum))
     {$args['monthnum']=$monthnum;}
     if(!empty($cat))
-    {$args['cat']=$cat;}
+    {$args['cat']=$cat_id;}
     if(!empty($year))
     {$args['year']=$year;}
  
