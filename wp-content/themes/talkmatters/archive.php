@@ -60,7 +60,7 @@ else
     $cat_id = $categories[0]->cat_ID;
     //tag
     $tag_id = get_queried_object()->term_id;
-    echo $tag_id;
+    // echo $tag_id;
     $args = array (
         's' => (!empty($_REQUEST["search"])?$_REQUEST["search"]:''),
         'post_type' => 'post',
@@ -74,13 +74,12 @@ else
     {$args['monthnum']=$monthnum;}
     if(!empty($cat))
     {$args['cat']=$cat_id;}
-    
     if(!empty($year))
     {$args['year']=$year;}
-    // echo $get_query_var["year"];
-    // if(!empty($_GET["orderby"]))
-    // {$args['orderby']=$_GET["orderby"];} 
-
+ 
+    if(!empty($tag_id))
+    {$args['tag_id']=$tag_id;}
+ 
     $query = new WP_Query( 
         $args
      );
