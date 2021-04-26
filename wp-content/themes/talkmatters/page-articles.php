@@ -85,6 +85,20 @@ get_header();
                         </li>
                     </ul>
                 </div>
+
+                <div class="sidebar-widget widget_archive clr">
+                    <h5 class="widget-title">Archives</h5>
+                    <ul>
+                        <li><a href="https://demo.wpexplorer.com/blogger/2012/11/">November 2012</a></li>
+                        <li><a href="https://demo.wpexplorer.com/blogger/2012/10/">October 2012</a></li>
+                        <li><a href="https://demo.wpexplorer.com/blogger/2012/09/">September 2012</a></li>
+                        <li><a href="https://demo.wpexplorer.com/blogger/2012/08/">August 2012</a></li>
+                        <li><a href="https://demo.wpexplorer.com/blogger/2012/07/">July 2012</a></li>
+                        <li><a href="https://demo.wpexplorer.com/blogger/2012/06/">June 2012</a></li>
+                        <li><a href="https://demo.wpexplorer.com/blogger/2012/05/">May 2012</a></li>
+                    </ul>
+                </div>
+
             </div>
 
         </div>
