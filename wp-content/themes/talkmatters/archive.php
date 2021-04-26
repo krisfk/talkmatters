@@ -23,7 +23,7 @@ get_header();
 
 
 
-    <div class="blog-inner-container mt-const2">
+    <div class="blog-inner-container mt-const">
 
         <?php 
 if(get_query_var('year') && get_query_var('monthnum'))
