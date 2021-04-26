@@ -63,6 +63,7 @@ get_header();
                             $category_detail=get_the_category($post_id);//$post->ID
                                     foreach($category_detail as $cd){
                                     echo $cd->cat_name;
+                                    print_r ($cd);
                                     }
 
                             // $cate_arr= wp_get_post_categories();
