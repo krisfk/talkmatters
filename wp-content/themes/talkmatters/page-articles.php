@@ -179,24 +179,21 @@ get_header();
 
                             <?php
                             wp_reset_query();
-  $query = new WP_Query( array(
-    'posts_per_page' => 5,
-) );
+
+$args = array('posts_per_page' => 5);
+$wp_query = new WP_Query( $args );
+
+$posts = $wp_query->get_posts();
+
+foreach( $posts as $post ) {
+    print_r($post);
+}
+
 ?>
 
-                            <?php if ( $query->have_posts() )
-            { ?>
 
-                            <?php while ( $query->have_posts() ) { 
-                $query->the_post(); 
-                ?>
-                            <li>
-                                <a href="<?php //echo get_permalink();?>"><?php get_the_title();?></a>
-                            </li>
-                            <?php
-                            }
-                        }
-?>
+
+                            ?>
                             <!-- <li>
                                 <a href="https://demo.wpexplorer.com/blogger/2012/11/10/reach-new-heights/">Reach New
                                     Heights</a>
