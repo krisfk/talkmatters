@@ -74,7 +74,7 @@ get_header();
                                 //  echo $category_detail[0]->cat_name;
                                 // echo sizeof($category_detail);
                                 
-                                 if(sizeof($category_detail) !=0 || !(sizeof($category_detail)==1 && $category_detail[0]->cat_name =='未分類'))
+                                 if(sizeof($category_detail) !=0 && !(sizeof($category_detail)==1 && $category_detail[0]->cat_name =='未分類'))
                                  {                                 
                                      echo '<span class="meta-seperator">/</span>
                                       Category: ';
