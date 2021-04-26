@@ -187,6 +187,7 @@ echo'" href="'.$url.'">'.$title.'</a>';
 
 
                     <script type="text/javascript">
+                    var $ = jQuery;
                     $('.form-select lang-select').change(function() {
 
                         var val = $(this).val();
