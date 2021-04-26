@@ -91,7 +91,7 @@ foreach($categories as $category) {
                     echo '<ul>';
                     for($i=0;$i<sizeof($tags);$i++)
                     {
-                        echo '<li><a href="'.get_site_url().'/?t='.$tags[$i]->term_id.'">'.$tags[$i]->name.'</a></li>';
+                        echo '<li><a href="/tag/'.$tags[$i]->slug.'/">'.$tags[$i]->name.'</a></li>';
                     }
                     echo '</ul>';
 
