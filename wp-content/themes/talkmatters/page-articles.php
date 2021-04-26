@@ -59,7 +59,32 @@ get_header();
                             title="continue reading" rel="bookmark">continue reading →</a></span>
                 </div>
             </div>
-            <div class="col-4"></div>
+            <div class="col-4">
+
+                <div class="sidebar-widget widget_recent_entries clr">
+                    <h5 class="widget-title">Recent Posts</h5>
+                    <ul>
+                        <li>
+                            <a href="https://demo.wpexplorer.com/blogger/2012/11/10/reach-new-heights/">Reach New
+                                Heights</a>
+                        </li>
+                        <li>
+                            <a href="https://demo.wpexplorer.com/blogger/2012/10/28/never-ending-story/">Never Ending
+                                Story</a>
+                        </li>
+                        <li>
+                            <a href="https://demo.wpexplorer.com/blogger/2012/10/12/on-a-boat/">On A Boat</a>
+                        </li>
+                        <li>
+                            <a href="https://demo.wpexplorer.com/blogger/2012/09/29/how-to-design/">How To Design</a>
+                        </li>
+                        <li>
+                            <a href="https://demo.wpexplorer.com/blogger/2012/08/10/a-walk-in-the-park/">A Walk In The
+                                Park</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
         </div>
 
