@@ -105,28 +105,29 @@ get_header();
 
         </div>
 
+        <div class="text-center">
+            <div class="row mt-const pen-content-div">
+                <div class="col-8  text-justify ">
 
-        <div class="row mt-const pen-content-div">
-            <div class="col-8  text-justify ">
+                    <!-- <div class="mint-bg  p-3"> -->
+                    <div>
+                        <?php echo get_field('content_6');?>
 
-                <!-- <div class="mint-bg  p-3"> -->
-                <div>
-                    <?php echo get_field('content_6');?>
-
-                    <!-- No matter how different they look, they are pens for writing. Our emotions function in the same way.
+                        <!-- No matter how different they look, they are pens for writing. Our emotions function in the same way.
                     They connect with us in different modes and forms, be it happiness, pride, stress, anxiety, anger ,
                     they
                     have something important to tell you. -->
+                    </div>
                 </div>
+
+                <div class="col-4">
+                    <?php echo get_field('content_7');?>
+
+                    <!-- <img class="w-100" src="https://talkmatters.com.hk/wp-content/uploads/2021/04/pens.jpg" alt=""> -->
+
+                </div>
+
             </div>
-
-            <div class="col-4">
-                <?php echo get_field('content_7');?>
-
-                <!-- <img class="w-100" src="https://talkmatters.com.hk/wp-content/uploads/2021/04/pens.jpg" alt=""> -->
-
-            </div>
-
         </div>
 
 
