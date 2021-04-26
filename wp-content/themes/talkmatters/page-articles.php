@@ -49,7 +49,7 @@ get_header();
                     <?php
                 if(get_the_post_thumbnail_url())
                 {
-?> <img class="w-100" src="<?php echo get_the_post_thumbnail_url();?>" alt="">
+?> <img class="w-100 mb-3" src="<?php echo get_the_post_thumbnail_url();?>" alt="">
 
                     <?php
                 }
