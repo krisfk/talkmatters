@@ -63,7 +63,6 @@ get_header();
                             </span>
                         </li>
                         <li class="meta-category">
-                            <span class="meta-seperator">/</span>
 
 
 
@@ -74,7 +73,8 @@ get_header();
                                  $idx=1;
                                  if(!(sizeof($category_detail)==1 && $category_detail[0]->cat_name =='未分類'))
                                  {                                 
-                                     echo 'Category: ';
+                                     echo '<span class="meta-seperator">/</span>
+                                      Category: ';
                                      foreach($category_detail as $cd){
 
                                         if($idx == sizeof($category_detail))
