@@ -65,8 +65,7 @@ get_header();
 
                         <?php echo get_the_excerpt() ;?>
                     </div>
-                    <span class="wpex-readmore mt-4 d-block"><a
-                            href="https://demo.wpexplorer.com/blogger/2012/11/10/reach-new-heights/"
+                    <span class="wpex-readmore mt-4 d-block"><a href="<?php echo get_permalink();?>"
                             title="continue reading" rel="bookmark">continue reading →</a></span>
                 </div>
                 <?php
