@@ -56,7 +56,7 @@ else
     $day      = get_query_var('day');
 
     $cat_id = get_cat_ID() ;
-echo $cat_id;
+// echo $cat_id;
     // echo $year;
     // echo $monthnum;
     $args = array (
