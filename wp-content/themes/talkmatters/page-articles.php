@@ -59,7 +59,12 @@ get_header();
                             cate
 
                             <?php 
-                            echo get_the_ID();
+                            $post_id= get_the_ID();
+                            $category_detail=get_the_category('4');//$post->ID
+                                    foreach($category_detail as $cd){
+                                    echo $cd->cat_name;
+                                    }
+
                             // $cate_arr= wp_get_post_categories();
                             // print_r($cate_arr);
                             ?>
