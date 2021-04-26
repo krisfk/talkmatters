@@ -37,7 +37,7 @@ get_header();
                             Posted on <span class="meta-date-text">November 10, 2012</span>
                         </li>
                         <li class="meta-category">
-                            <span class="meta-seperator">/</span>Under <a
+                            <span class="meta-seperator">/</span>Category: <a
                                 href="https://demo.wpexplorer.com/blogger/category/neat-finds/" title="Neat Finds">Neat
                                 Finds</a>, <a href="https://demo.wpexplorer.com/blogger/category/travel/"
                                 title="Travel">Travel</a>
