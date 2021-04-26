@@ -77,6 +77,8 @@ else
 
     if(!empty($year))
     {$args['year']=$year;}
+    if(!empty($tag_id))
+    {$args['tag_id']=$tag_id;}
     // echo $get_query_var["year"];
     // if(!empty($_GET["orderby"]))
     // {$args['orderby']=$_GET["orderby"];} 
