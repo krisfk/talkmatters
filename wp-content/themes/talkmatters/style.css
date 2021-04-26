@@ -435,12 +435,11 @@ ul.post-meta {
     color: #7fa191;
 }
 
-.blog-right-col {
-    padding: 25px !important;
-}
+.blog-right-col {}
 
 .blog-right-col-inner {
     background: #cfe4d8;
+    padding: 25px !important;
 }
 
 .wpex-readmore a {
