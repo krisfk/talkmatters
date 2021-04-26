@@ -77,7 +77,7 @@ get_header();
 
 
 
-
+                <!-- 
                 <div class="post-short-div">
                     <img class="w-100"
                         src="https://demo.wpexplorer.com/blogger/wp-content/uploads/sites/15/2012/03/hike.jpg" alt="">
@@ -105,7 +105,9 @@ get_header();
                     <span class="wpex-readmore mt-4 d-block"><a
                             href="https://demo.wpexplorer.com/blogger/2012/11/10/reach-new-heights/"
                             title="continue reading" rel="bookmark">continue reading →</a></span>
-                </div>
+                </div> -->
+
+
             </div>
             <div class="col-4 blog-right-col">
 
