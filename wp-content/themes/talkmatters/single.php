@@ -90,7 +90,7 @@ get_header();
 
                     <div class="mt-3">
 
-                        <?php echo get_the_excerpt() ;?>
+                        <?php echo get_the_content() ;?>
                     </div>
 
 
