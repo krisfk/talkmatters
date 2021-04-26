@@ -193,7 +193,7 @@ echo'" href="'.$url.'">'.$title.'</a>';
                         $('.form-select.lang-select').change(function() {
 
                             var val = $(this).val();
-                            alert(val);
+                            window.location = val;
                         })
 
                     })
