@@ -520,6 +520,9 @@ ul.post-meta {
     .site-name {
         font-size: 30px;
     }
+    .mint-bg {
+        margin: 0 im !important;
+    }
 }
 
 @media only screen and (max-width: 640px) {}
