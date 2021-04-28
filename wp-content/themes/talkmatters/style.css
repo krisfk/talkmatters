@@ -506,9 +506,7 @@ ul.post-meta {
 }
 
 @media only screen and (max-width: 995px) {
-    .top-menu-div {
-        display: none;
-    }
+    .top-menu-div {}
     .site-name {
         font-size: 35px;
     }
