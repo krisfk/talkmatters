@@ -501,6 +501,9 @@ ul.post-meta {
     .site-name {
         font-size: 35px;
     }
+    .inner-container {
+        width: 100%;
+    }
     /* body {
         background-color: lightblue;
     } */
