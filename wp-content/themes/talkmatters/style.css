@@ -501,6 +501,10 @@ ul.post-meta {
     display: block;
 }
 
+.lilian-img-div img {
+    width: 100%;
+}
+
 @media only screen and (max-width: 995px) {
     .top-menu-div {
         display: none;
