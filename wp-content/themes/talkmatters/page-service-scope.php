@@ -179,7 +179,7 @@ get_header();
         </div>
 
 
-        <a href="#" class="btn mt-3"> <?php echo get_field('content_9');?>
+        <a href="#" class="btn mt-3 contact-us-btn"> <?php echo get_field('content_9');?>
         </a>
     </div>
 </div>
