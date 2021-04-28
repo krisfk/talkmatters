@@ -203,5 +203,10 @@ echo'" href="'.$url.'">'.$title.'</a>';
                             window.location = val;
                         })
 
+                        $('.mobile-menu-btn').click(function() {
+                            $('.top-menu-div').fadeIn(0);
+
+                        });
+
                     })
                     </script>
