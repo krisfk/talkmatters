@@ -187,7 +187,7 @@ echo'" href="'.$url.'">'.$title.'</a>';
                     </div>
 
                     <a href="javascript:void(0);" class="mobile-menu-btn">
-                        <img src="<?php echo get_template_directory_uri() ?>/assets/images/hamburger-btn.png" alt="">
+                        <!-- <img src="<?php echo get_template_directory_uri() ?>/assets/images/hamburger-btn.png" alt=""> -->
                         Menu
                     </a>
 
