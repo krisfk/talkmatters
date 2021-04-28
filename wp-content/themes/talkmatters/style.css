@@ -516,7 +516,7 @@ ul.post-meta {
     background: url(assets/images/hamburger-btn.png) no-repeat;
     background-size: auto 80%;
     background-position: 6px center;
-    float: right;
+    /* float: right; */
     margin: 10px 10px;
 }
 
