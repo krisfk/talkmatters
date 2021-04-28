@@ -107,7 +107,7 @@ get_header();
 
         <div class="text-center mb-5">
             <div class="row mt-const pen-content-div d-inline-flex">
-                <div class="col-lg-8 col-md-8 col-sm-12 col-12  text-justify ">
+                <div class="col-lg-8 col-md-8 col-sm-8 col-12  text-justify ">
 
                     <!-- <div class="mint-bg  p-3"> -->
                     <div>
@@ -120,7 +120,7 @@ get_header();
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-4 col-sm-12 col-12 ">
+                <div class="col-lg-4 col-md-4 col-sm-8 col-12 ">
                     <?php echo get_field('content_7');?>
 
                     <!-- <img class="w-100" src="https://talkmatters.com.hk/wp-content/uploads/2021/04/pens.jpg" alt=""> -->
