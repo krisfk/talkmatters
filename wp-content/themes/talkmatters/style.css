@@ -520,6 +520,7 @@ ul.post-meta {
     .top-menu-div ul li {
         display: block;
         text-align: left;
+        margin: 0;
     }
     .top-menu-div ul li a {
         padding: 5px 0 6px 0 !important;
@@ -570,7 +571,11 @@ ul.post-meta {
     .contact-form-div {
         margin: 25px 0 0 0 !important;
     }
-    .social-media-lang-div {}
+    .social-media-lang-div {
+        position: absolute;
+        top: 280px;
+        left: 15px;
+    }
 }
 
 @media only screen and (max-width: 640px) {}
