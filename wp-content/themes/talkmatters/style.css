@@ -510,6 +510,7 @@ ul.post-meta {
         position: absolute;
         top: 0;
         left: 0;
+        display: none;
         z-index: 100;
         background: #fff;
         height: 100%;
