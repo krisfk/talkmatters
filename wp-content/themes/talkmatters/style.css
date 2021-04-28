@@ -521,3 +521,9 @@ ul.post-meta {
         font-size: 25px;
     }
 }
+
+@media only screen and (max-width: 380px) {
+    .site-name {
+        font-size: 18px;
+    }
+}
