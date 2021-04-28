@@ -538,7 +538,7 @@ ul.post-meta {
         display: block;
     }
     .top-menu-div {
-        position: absolute;
+        position: fixed;
         top: 0;
         left: 0;
         display: none;
