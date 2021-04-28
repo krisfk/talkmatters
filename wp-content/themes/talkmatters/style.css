@@ -533,6 +533,12 @@ ul.post-meta {
         text-align: center;
         max-width: 150px;
     }
+    .lilian-img-div img {
+        width: 100%;
+    }
+    .lilian-img-div .mint-color-rect {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 640px) {}
