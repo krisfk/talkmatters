@@ -723,3 +723,13 @@ function pagination($pages = '', $range = 4)
          echo "<div class='all_pages'><small>Current page: ".$paged." All pages ".$pages."</small></div>";
      }
 }
+
+//Page Slug Body Class
+function add_slug_body_class( $classes ) {
+	global $post;
+	if ( isset( $post ) ) {
+	$classes[] = $post->post_type . '-' . $post->post_name;
+	}
+	return $classes;
+	}
+	add_filter( 'body_class', 'add_slug_body_class' );
