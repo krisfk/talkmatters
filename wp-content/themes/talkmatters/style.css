@@ -506,7 +506,25 @@ ul.post-meta {
 }
 
 @media only screen and (max-width: 995px) {
-    .top-menu-div {}
+    .top-menu-div {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 100;
+        background: #fff;
+        height: 100%;
+    }
+    .top-menu-div .top-menu {
+        margin: 15px !important;
+    }
+    .top-menu-div ul li {
+        display: block;
+        text-align: left;
+    }
+    .top-menu-div ul li a {
+        padding: 5px 0 6px 0 !important;
+        display: block;
+    }
     .site-name {
         font-size: 35px;
     }
