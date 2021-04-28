@@ -507,6 +507,7 @@ ul.post-meta {
 
 .mobile-menu-btn {
     color: #000;
+    display: inline-table;
     text-decoration: none;
     border: 1px solid;
     padding: 5px;
