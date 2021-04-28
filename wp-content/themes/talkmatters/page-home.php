@@ -107,7 +107,7 @@ get_header();
 
         <div class="text-center mb-5">
             <div class="row mt-const pen-content-div d-inline-flex">
-                <div class="col-lg-8 col-md-8 col-sm-8 col-12  text-justify ">
+                <div class="col-lg-8 col-md-8 col-sm-8 col-12  text-justify mb-3">
 
                     <!-- <div class="mint-bg  p-3"> -->
                     <div>
