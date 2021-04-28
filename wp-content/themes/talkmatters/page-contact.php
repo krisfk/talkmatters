@@ -46,7 +46,7 @@ get_header();
 
 
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-12 ">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-12 contact-form-div ">
 
 
                 <input type="text" class="form-control" placeholder="<?php echo get_field('content_2');?>">

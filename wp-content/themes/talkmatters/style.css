@@ -551,6 +551,9 @@ ul.post-meta {
     .mt-const2 {
         margin-top: 35px !important;
     }
+    .contact-form-div {
+        margin: 45px 0 0 0;
+    }
 }
 
 @media only screen and (max-width: 640px) {}
