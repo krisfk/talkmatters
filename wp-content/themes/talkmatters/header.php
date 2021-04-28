@@ -192,6 +192,8 @@ echo'" href="'.$url.'">'.$title.'</a>';
                                 <!-- <img src="<?php echo get_template_directory_uri() ?>/assets/images/hamburger-btn.png" alt=""> -->
                                 Menu
                             </a>
+
+                            <a href="javascript:void(0);" class="close-btn-a"></a>
                         </div>
                     </div>
                     <script type="text/javascript">
