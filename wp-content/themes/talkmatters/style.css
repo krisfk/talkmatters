@@ -454,6 +454,10 @@ ul.post-meta {
     padding: 25px !important;
 }
 
+.blog-right-col-inner li {
+    list-style-type: square;
+}
+
 .wpex-readmore a {
     background: #cfe4d8;
     padding: 10px 15px;
