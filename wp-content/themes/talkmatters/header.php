@@ -207,12 +207,12 @@ echo'" href="'.$url.'">'.$title.'</a>';
 
                         $('.mobile-menu-btn').click(function() {
                             // alert(3);
-                            $('.top-menu-div').fadeIn(0);
-                            $('.close-btn-a').fadeIn(0);
+                            $('.top-menu-div').fadeIn(200);
+                            $('.close-btn-a').fadeIn(200);
                         });
                         $('.close-btn-a').click(function() {
-                            $('.top-menu-div').fadeOut(0);
-                            $('.close-btn-a').fadeOut(0);
+                            $('.top-menu-div').fadeOut(200);
+                            $('.close-btn-a').fadeOut(200);
 
                         })
 
