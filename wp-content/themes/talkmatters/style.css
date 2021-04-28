@@ -509,3 +509,9 @@ ul.post-meta {
         background-color: lightblue;
     } */
 }
+
+@media only screen and (max-width: 768px) {
+    .site-name {
+        font-size: 30px;
+    }
+}
