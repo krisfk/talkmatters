@@ -530,6 +530,9 @@ ul.post-meta {
 }
 
 @media only screen and (max-width: 995px) {
+    .mobile-menu-btn-div {
+        display: block;
+    }
     .top-menu-div {
         position: absolute;
         top: 0;
@@ -569,9 +572,6 @@ ul.post-meta {
 }
 
 @media only screen and (max-width: 768px) {
-    .mobile-menu-btn-div {
-        display: block;
-    }
     .pens-div img {
         max-width: 300px;
     }
