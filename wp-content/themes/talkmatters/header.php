@@ -186,11 +186,13 @@ echo'" href="'.$url.'">'.$title.'</a>';
 
                     </div>
 
-                    <div class="text-end mobile-menu-btn-div inner-container">
-                        <a href="javascript:void(0);" class="mobile-menu-btn">
-                            <!-- <img src="<?php echo get_template_directory_uri() ?>/assets/images/hamburger-btn.png" alt=""> -->
-                            Menu
-                        </a>
+                    <div class="container">
+                        <div class="text-end mobile-menu-btn-div inner-container">
+                            <a href="javascript:void(0);" class="mobile-menu-btn">
+                                <!-- <img src="<?php echo get_template_directory_uri() ?>/assets/images/hamburger-btn.png" alt=""> -->
+                                Menu
+                            </a>
+                        </div>
                     </div>
                     <script type="text/javascript">
                     $(function() {
