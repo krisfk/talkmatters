@@ -513,7 +513,7 @@ ul.post-meta {
     /* float: right; */
     border-radius: 9px;
     padding: 9px;
-    background: url(asset);
+    background: url(assets/images/hamburger-btn.png) no-repeat;
 }
 
 .mobile-menu-btn img {
