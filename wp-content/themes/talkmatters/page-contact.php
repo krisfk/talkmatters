@@ -27,7 +27,7 @@ get_header();
 
         <div class="row">
 
-            <div class="col-6 contact-div-left-col">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-12 contact-div-left-col">
 
 
                 <?php echo get_field('content_1');?>
@@ -46,7 +46,7 @@ get_header();
 
 
             </div>
-            <div class="col-6">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-12 ">
 
 
                 <input type="text" class="form-control" placeholder="<?php echo get_field('content_2');?>">
