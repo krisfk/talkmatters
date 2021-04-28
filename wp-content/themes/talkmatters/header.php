@@ -206,13 +206,13 @@ echo'" href="'.$url.'">'.$title.'</a>';
                         })
 
                         $('.mobile-menu-btn').click(function() {
-                            alert(3);
+                            // alert(3);
                             $('.top-menu-div').fadeIn(0);
-                            $('.close-btn-a').fadeIn(0);
+                            // $('.close-btn-a').fadeIn(0);
                         });
                         $('.mobile-menu-btn').click(function() {
                             $('.top-menu-div').fadeOut(0);
-                            $('.close-btn-a').fadeOut(0);
+                            // $('.close-btn-a').fadeOut(0);
 
                         })
 
