@@ -505,9 +505,20 @@ ul.post-meta {
     width: 100%;
 }
 
-.mobile-menu-btn {}
+.mobile-menu-btn {
+    color: #000;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 5px;
+    /* float: right; */
+    border-radius: 9px;
+    padding: 9px;
+    background: url(asset);
+}
 
-.mobile-menu-btn img {}
+.mobile-menu-btn img {
+    width: 30px;
+}
 
 @media only screen and (max-width: 995px) {
     .top-menu-div {
