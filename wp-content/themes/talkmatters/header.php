@@ -206,6 +206,7 @@ echo'" href="'.$url.'">'.$title.'</a>';
                         })
 
                         $('.mobile-menu-btn').click(function() {
+                            alert(3);
                             $('.top-menu-div').fadeIn(0);
                             $('.close-btn-a').fadeIn(0);
                         });
