@@ -120,7 +120,7 @@ get_header();
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-4 col-sm-12 col-12 ">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12 pens-div">
                     <?php echo get_field('content_7');?>
 
                     <!-- <img class="w-100" src="https://talkmatters.com.hk/wp-content/uploads/2021/04/pens.jpg" alt=""> -->

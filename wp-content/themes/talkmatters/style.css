@@ -521,6 +521,9 @@ ul.post-meta {
 }
 
 @media only screen and (max-width: 768px) {
+    .pens-div img {
+        max-width: 200px;
+    }
     .site-name {
         font-size: 30px;
     }
