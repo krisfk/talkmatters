@@ -520,6 +520,12 @@ ul.post-meta {
     } */
 }
 
+@media only screen and (max-width: 950px) {
+    .blog-inner-container {
+        width: 100%;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .pens-div img {
         max-width: 300px;
