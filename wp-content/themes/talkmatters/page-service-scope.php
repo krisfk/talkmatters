@@ -151,7 +151,7 @@ get_header();
 
         <div class="row mt-const">
 
-            <div class="col-lg-3 col-md-3 col-sm-12 col-12 mb-4">
+            <div class="col-lg-3 col-md-3 col-sm-12 col-12 mb-lg-4 mb-md-4 mb-sm-0 mb-0">
 
                 <!-- <img class="w-100"
                     src="https://talkmatters.com.hk/wp-content/uploads/2021/04/water-1.png" alt=""> -->
