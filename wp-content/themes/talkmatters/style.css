@@ -115,6 +115,10 @@ body {
     font-size: 23px;
 }
 
+.site-name br {
+    display: none;
+}
+
 .writer-style-txt {
     font-family: 'Damion', cursive;
     font-size: 28px;
