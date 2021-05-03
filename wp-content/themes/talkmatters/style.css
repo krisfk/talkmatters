@@ -549,8 +549,8 @@ ul.post-meta {
 
 .close-btn-a {
     display: none;
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     background: url(assets/images/close-btn.png) center center no-repeat;
     background-size: 100% 100%;
     position: absolute;
