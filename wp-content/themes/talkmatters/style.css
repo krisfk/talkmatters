@@ -524,16 +524,19 @@ ul.post-meta {
     color: #000;
     display: inline-table;
     text-decoration: none;
-    border: 1px solid;
-    padding: 5px;
+    /* border: 1px solid; */
+    /* padding: 5px; */
     /* float: right; */
-    border-radius: 9px;
+    /* border-radius: 9px; */
     padding: 9px 9px 9px 36px;
-    background: url(assets/images/hamburger-btn.png) no-repeat;
+    background: url(assets/images/hamburger-btn.png) no-repeat #cfe4d8;
     background-size: auto 69%;
     background-position: 6px center;
     /* float: right; */
     margin: 20px 0 0 0;
+    /* background: #cfe4d8; */
+    /* padding: 10px 15px; */
+    text-decoration: none;
 }
 
 .mobile-menu-btn img {
