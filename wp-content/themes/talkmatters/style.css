@@ -590,11 +590,21 @@ ul.post-meta {
     /* body {
         background-color: lightblue;
     } */
+    .social-media-lang-div {
+        position: absolute;
+        top: 280px;
+        left: 15px;
+    }
 }
 
 @media only screen and (max-width: 950px) {
     .blog-inner-container {
         width: 100%;
+    }
+    .social-media-lang-div {
+        position: absolute;
+        top: 280px;
+        left: 15px;
     }
 }
 
