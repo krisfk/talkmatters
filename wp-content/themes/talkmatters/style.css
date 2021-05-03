@@ -101,6 +101,8 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 body {
     font-family: 'Roboto', sans-serif;
+    line-height: 1.7;
+    color: #888888;
 }
 
 .screen-reader-text {
