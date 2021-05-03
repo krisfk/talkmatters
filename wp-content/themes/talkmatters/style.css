@@ -589,7 +589,10 @@ ul.post-meta {
         display: block;
     }
     .site-name {
-        font-size: 35px;
+        font-size: 23px;
+    }
+    .site-name br {
+        display: block;
     }
     .inner-container {
         width: 100%;
@@ -620,7 +623,7 @@ ul.post-meta {
         max-width: 300px;
     }
     .site-name {
-        font-size: 30px;
+        font-size: 23px;
     }
     .page-service-scope .mint-bg {
         margin: 0 !important;
@@ -654,12 +657,12 @@ ul.post-meta {
 
 @media only screen and (max-width: 480px) {
     .site-name {
-        font-size: 25px;
+        font-size: 23px;
     }
 }
 
 @media only screen and (max-width: 380px) {
     .site-name {
-        font-size: 22px;
+        font-size: 23px;
     }
 }
