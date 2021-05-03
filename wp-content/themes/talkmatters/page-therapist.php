@@ -93,8 +93,7 @@ get_header();
 
                     </ul> -->
                     <?php echo get_field('content_8');?>
-                    ddd
-                    <?php echo get_field('content_8(1)');?>
+
 
 
 
@@ -109,6 +108,11 @@ get_header();
         <div class="mt-5 mb-5">
 
             <div>
+
+                <h2>
+                    <?php echo get_field('content_8(1)');?>
+                </h2>
+
                 <h2>
                     <!-- Cognitive Behavioral Therapy -->
                     <?php echo get_field('content_9');?>
