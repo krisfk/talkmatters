@@ -109,10 +109,11 @@ get_header();
 
             <div>
 
-                <h2>
-                    <?php echo get_field('content_8(1)');?>
-                </h2>
-                <br> <br>
+                <div>
+                    <h2>
+                        <?php echo get_field('content_8(1)');?>
+                    </h2>
+                </div>
                 <h2>
                     <!-- Cognitive Behavioral Therapy -->
                     <?php echo get_field('content_9');?>
