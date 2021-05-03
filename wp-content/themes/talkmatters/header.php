@@ -189,7 +189,7 @@ echo'" href="'.$url.'">'.$title.'</a>';
 
                     <div class="container">
                         <div class="text-end mobile-menu-btn-div inner-container">
-                            <a href="javascript:void(0);" class="mobile-menu-btn">
+                            <a href="javascript:void(0);" class="mobile-menu-btn wpex-readmore">
                                 <!-- <img src="<?php echo get_template_directory_uri() ?>/assets/images/hamburger-btn.png" alt=""> -->
                                 Menu
                             </a>
