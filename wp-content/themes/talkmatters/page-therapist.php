@@ -112,7 +112,7 @@ get_header();
                 <h2>
                     <?php echo get_field('content_8(1)');?>
                 </h2>
-
+                <br> <br>
                 <h2>
                     <!-- Cognitive Behavioral Therapy -->
                     <?php echo get_field('content_9');?>
