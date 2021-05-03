@@ -24,7 +24,7 @@ get_header();
 
 
     <div class="inner-container mt-const faqs-div mb-5">
-        <?php echo get_content();?>
+        <?php echo get_the_content();?>
     </div>
 </div>
 <?php
