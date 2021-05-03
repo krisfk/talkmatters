@@ -153,7 +153,7 @@ body {
     display: inline-block;
     /* font-family: 'Oswald', sans-serif; */
     font-weight: bold;
-    font-size: 19px;
+    font-size: 16px;
     margin: 0 10px;
 }
 
@@ -255,7 +255,7 @@ h2.h2-on-line {
 }
 
 h2 {
-    font-size: 18px !important;
+    font-size: 16px !important;
     display: inline-block;
     /* letter-spacing: 1px; */
     color: #57655d;
@@ -410,6 +410,7 @@ html[lang='zh'] .lang-div {
 .lang-div {
     position: relative;
     top: 1px;
+    font-size: 16px;
 }
 
 html[lang='zh'] .lang-select {
