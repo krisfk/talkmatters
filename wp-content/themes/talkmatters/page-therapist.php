@@ -109,7 +109,7 @@ get_header();
 
             <div>
 
-                <div>
+                <div class="mb-3">
                     <h2>
                         <?php echo get_field('content_8(1)');?>
                     </h2>
