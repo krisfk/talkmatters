@@ -136,6 +136,8 @@ body {
 
 .top-menu {
     display: inline-block;
+    position: relative;
+    top: 2px;
 }
 
 .top-menu a {
