@@ -151,14 +151,14 @@ get_header();
 
         <div class="row mt-const">
 
-            <div class="col-lg-12 col-md-12 col-sm-12 col-12 mb-lg-4 mb-md-4 mb-sm-0 mb-0 glass-div">
+            <div class="col-lg-3 col-md-3 col-sm-12 col-12 mb-lg-4 mb-md-4 mb-sm-0 mb-0 glass-div">
 
                 <!-- <img class="w-100"
                     src="https://talkmatters.com.hk/wp-content/uploads/2021/04/water-1.png" alt=""> -->
                 <?php echo get_field('content_7');?>
 
             </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-12 ">
+            <div class="col-lg-9 col-md-9 col-sm-12 col-12 ">
 
                 <div class="mint-bg p-4 mt-const" style="background: rgb(207 228 216 / 100%);">
                     <!-- Negative emotions are like a glass of water with some mud inside. We just want to spoon
