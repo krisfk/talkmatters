@@ -160,7 +160,7 @@ get_header();
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-12 ">
 
-                <div class="mint-bg p-4 mt-const" style="background: rgb(207 228 216 / 100%);">
+                <div class="mint-bg p-4 mt-3" style="background: rgb(207 228 216 / 100%);">
                     <!-- Negative emotions are like a glass of water with some mud inside. We just want to spoon
                     the mud away. When you do this, the water immediately becomes muddy and messy. The process asks us
                     to
