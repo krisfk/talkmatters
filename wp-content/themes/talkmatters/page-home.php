@@ -55,8 +55,10 @@ get_header();
 
     <div class="inner-container mt-const">
 
+
+        <img src="https://talkmatters.com.hk/wp-content/uploads/2021/05/home-foto.jpg" class="w-100" alt="">
         <div class="position-relative">
-            <div class="h2-black-line"></div>
+            <!-- <div class="h2-black-line"></div> -->
 
             <h2>
                 <!-- Why Talk Matters? -->
