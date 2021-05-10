@@ -64,7 +64,7 @@ if ( defined( 'ICL_LANGUAGE_CODE' ) ) {
                         <ul class="header-ul  pb-2">
                             <li>
                                 <span class="site-name">
-                                    Talkmatters <br />Psychological Counselling </span>
+                                    TalkMatters <br />Psychological Counselling </span>
                             </li>
                             <!-- <li class="ps-4">
 
