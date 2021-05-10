@@ -56,7 +56,7 @@ get_header();
     <div class="inner-container mt-const">
 
 
-        <img src="https://talkmatters.com.hk/wp-content/uploads/2021/05/home-foto.jpg" class="w-100 mb-3" alt="">
+        <img src="https://talkmatters.com.hk/wp-content/uploads/2021/05/index-foto-img.jpg" class="w-100 mb-3" alt="">
         <div class="position-relative">
             <!-- <div class="h2-black-line"></div> -->
 
