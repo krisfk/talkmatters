@@ -20,7 +20,7 @@ get_header();
 <div class="container">
 
 
-    <div class="row mx-auto mt-3 inner-container">
+    <div class="row mx-auto mt-3 inner-container align-items-center">
         <div class=" col-6 inner-container mt-const position-relative lilian-img-div">
 
             <?php echo get_field('content_1');?>
