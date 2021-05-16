@@ -20,35 +20,37 @@ get_header();
 <div class="container">
 
 
+    <div class="row">
+        <div class=" col-6 inner-container mt-const position-relative lilian-img-div">
 
-    <div class="inner-container mt-const position-relative lilian-img-div">
+            <?php echo get_field('content_1');?>
 
-        <?php echo get_field('content_1');?>
+        </div>
 
+        <div class=" col-6 ">
+
+            <div class="position-relative">
+                <div class="h2-black-line"></div>
+
+                <h2>
+                    <?php echo get_field('content_2');?>
+                </h2>
+
+            </div>
+
+            <div class="mt-2  text-justify">
+
+                <?php echo get_field('content_3');?>
+
+
+            </div>
+        </div>
     </div>
 
 
     <div class="inner-container mt-const2">
 
-        <div class="position-relative">
-            <div class="h2-black-line"></div>
 
-            <h2>
-                <!-- About The Therapist -->
-                <?php echo get_field('content_2');?>
-            </h2>
-
-        </div>
-
-        <div class="mt-2  text-justify">
-            <!-- Lilian believes that each individual is unique and deserves a personalized therapeutic approach. She
-            practices with a selection of interventions based on psychodynamic theories and individual profile. The
-            therapeutic process is perceived as a partnership between client and therapist. She pursues for an outcome
-            to empower the client in the reclaiming of wellness and positivity. -->
-            <?php echo get_field('content_3');?>
-
-
-        </div>
 
 
         <div class="mint-bg lilian-therapy-div mt-const p-4 ">
