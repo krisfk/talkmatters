@@ -48,7 +48,7 @@ get_header();
     </div>
 
 
-    <div class="inner-container mt-const2">
+    <div class="inner-container">
 
 
 
