@@ -733,3 +733,5 @@ function add_slug_body_class( $classes ) {
 	return $classes;
 	}
 	add_filter( 'body_class', 'add_slug_body_class' );
+
+	remove_filter ('the_content', 'wpautop');
