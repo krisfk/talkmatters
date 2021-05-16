@@ -26,7 +26,7 @@ get_header();
     <div class="blog-inner-container mt-const">
         <div class="row g-4">
 
-            <div class="col-8">
+            <div class="col-lg-8 col-md-8 col-sm-12 col-12 ">
 
 
 
@@ -159,7 +159,7 @@ get_header();
 
 
             </div>
-            <div class="col-4 blog-right-col">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-12 blog-right-col">
 
 
                 <?php get_template_part( 'nav','blog-side-col' );           // Navigation bar (nav.php) ?>
