@@ -21,13 +21,13 @@ get_header();
 
 
     <div class="row mx-auto mt-3 inner-container align-items-center">
-        <div class=" col-lg-4 col-md-4 col-sm-12 col-12 inner-container mt-const position-relative lilian-img-div">
+        <div class=" col-lg-4 col-md-4 col-sm-4 col-12 inner-container mt-const position-relative lilian-img-div">
 
             <?php echo get_field('content_1');?>
 
         </div>
 
-        <div class=" col-lg-8 col-md-8 col-sm-12 col-12  ">
+        <div class=" col-lg-8 col-md-8 col-sm-8 col-12  ">
 
             <div class="position-relative">
                 <div class="h2-black-line"></div>
