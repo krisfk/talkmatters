@@ -516,8 +516,10 @@ ul.post-meta {
 }
 
 .lilian-img-div img {
-    width: 100%;
+    width: 75%;
     height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 .mobile-menu-btn:hover {
