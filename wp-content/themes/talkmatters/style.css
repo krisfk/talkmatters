@@ -572,7 +572,7 @@ ul.post-meta {
     z-index: 200;
 }
 
-.wpcf-7-form-control.wpcf7-submit {
+.wpcf7-form-control.wpcf7-submit {
     background: #798f7a !important;
     color: #fff !important;
     padding: 0.375rem 2rem !important;
