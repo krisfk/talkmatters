@@ -63,11 +63,21 @@ get_header();
                 <?php
                 
                 if ( defined( 'ICL_LANGUAGE_CODE' ) ) {
-                    echo ICL_LANGUAGE_CODE;
+                    $lang_code= ICL_LANGUAGE_CODE;
+
+                    switch($lang_code)
+                    {
+                        case 'en':
+                            echo do_shortcode( '[contact-form-7 id="386" title="Contact form 1" html_class="form contact-form"]' ); 
+                        break;
+                            case 'zh':
+                                echo do_shortcode( '[contact-form-7 id="387" title="Contact form 1" html_class="form contact-form"]' ); 
+                                break;
+
+                    }
                   }
                   ?>
 
-                <?php echo do_shortcode( '[contact-form-7 id="386" title="Contact form 1" html_class="form contact-form"]' ); ?>
 
 
             </div>
