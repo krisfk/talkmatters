@@ -585,6 +585,22 @@ ul.post-meta {
     position: relative;
 }
 
+.contact-form .wpcf7 .ajax-loader {
+    visibility: hidden;
+    display: inline-block;
+    background-color: #23282d;
+    opacity: 0.75;
+    width: 24px;
+    height: 24px;
+    border: none;
+    border-radius: 100%;
+    padding: 0;
+    margin: 0 24px;
+    position: relative;
+    position: absolute;
+    left: 0;
+}
+
 @media only screen and (max-width: 995px) {
     .mobile-menu-btn-div {
         display: block;
