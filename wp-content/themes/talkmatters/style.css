@@ -585,7 +585,7 @@ ul.post-meta {
     position: relative;
 }
 
-.contact-form .wpcf7 .ajax-loader {
+.contact-form .ajax-loader {
     visibility: hidden;
     display: inline-block;
     background-color: #23282d;
@@ -596,7 +596,7 @@ ul.post-meta {
     border-radius: 100%;
     padding: 0;
     margin: 0 24px;
-    position: relative;
+    /* position: relative; */
     position: absolute;
     left: 0;
 }
