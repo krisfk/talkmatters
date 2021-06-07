@@ -603,7 +603,7 @@ ul.post-meta {
 }
 
 .wpcf7-response-output {
-    display: none;
+    /* display: none; */
 }
 
 @media only screen and (max-width: 995px) {
