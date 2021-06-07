@@ -1,595 +1,91 @@
-@charset "UTF-8";
-
-/*
-Theme Name: Talkmatters
-Theme URI: https://wordpress.org/themes/twentytwentyone/
-Author: the WordPress team
-Author URI: https://wordpress.org/
-Description: Twenty Twenty-One is a blank canvas for your ideas and it makes the block editor your best brush. With new block patterns, which allow you to create a beautiful layout in a matter of seconds, this theme’s soft colors and eye-catching — yet timeless — design will let your work shine. Take it for a spin! See how Twenty Twenty-One elevates your portfolio, business website, or personal blog.
-Requires at least: 5.3
-Tested up to: 5.7
-Requires PHP: 5.6
-Version: 1.3
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: twentytwentyone
-Tags: one-column, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready
-
-Twenty Twenty-One WordPress Theme, (C) 2020 WordPress.org
-Twenty Twenty-One is distributed under the terms of the GNU GPL.
-*/
-
-
-/**
- * SETTINGS
- * File-header..........The file header for the themes style.css file.
- * Fonts................Any font files, if the project needs specific fonts.
- * Global...............Project-specific, globally available variables.
- *
- * TOOLS
- * Functions............Global functions.
- * Mixins...............Global mixins.
- *
- * GENERIC
- * Normalize.css........Normalise browser defaults.
- * Breakpoints..........Mixins and variables for responsive styles
- * Vertical-margins.....Vertical spacing for the main components.
- * Reset................Reset specific elements to make them easier to style in other contexts.
- * Clearings............Clearings for the main components.
- *
- * ELEMENTS
- * Blockquote...........Default blockquote.
- * Forms................Element-level form styling.
- * Headings.............H1–H6
- * Links................Default links.
- * Lists................Default lists.
- * Media................Images, Figure, Figcaption, Embed, iFrame, Objects, Video.
- *
- * BLOCKS
- * Audio................Specific styles for the audio block.
- * Button...............Specific styles for the button block.
- * Code.................Specific styles for the code block.
- * Columns..............Specific styles for the columns block.
- * Cover................Specific styles for the cover block.
- * File.................Specific styles for the file block.
- * Gallery..............Specific styles for the gallery block.
- * Group................Specific styles for the group block.
- * Heading..............Specific styles for the heading block.
- * Image................Specific styles for the image block.
- * Latest comments......Specific styles for the latest comments block.
- * Latest posts.........Specific styles for the latest posts block.
- * Legacy...............Specific styles for the legacy gallery.
- * List.................Specific styles for the list block.
- * Media text...........Specific styles for the media and text block.
- * Navigation...........Specific styles for the navigation block.
- * Paragraph............Specific styles for the paragraph block.
- * Pullquote............Specific styles for the pullquote block.
- * Quote................Specific styles for the quote block.
- * Search...............Specific styles for the search block.
- * Separator............Specific styles for the separator block.
- * Spacer...............Specific styles for the spacer block.
- * Table................Specific styles for the table block.
- * Verse................Specific styles for the verse block.
- * Video................Specific styles for the video block.
- * Utilities............Block alignments.
- *
- * COMPONENTS
- * Header...............Header styles.
- * Footer...............Footer styles.
- * Comments.............Comment styles.
- * Archives.............Archive styles.
- * 404..................404 styles.
- * Search...............Search styles.
- * Navigation...........Navigation styles.
- * Footer Navigation....Footer Navigation styles.
- * Pagination...........Pagination styles.
- * Single...............Single page and post styles.
- * Posts and pages......Misc, sticky post styles.
- * Entry................Entry, author biography.
- * Widget...............Widget styles.
- * Editor...............Editor styles.
- *
- * UTILITIES
- * A11y.................Screen reader text, prefers reduced motion etc.
- * Color Palette........Classes for the color palette colors.
- * Editor Font Sizes....Editor Font Sizes.
- * Measure..............The width of a line of text, in characters.
- */
-
-
-/* Categories 01 to 03 are the basics. */
-
-body {
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.7;
-    color: #888888;
-}
-
-.screen-reader-text {
-    display: none;
-}
-
-.site-name {
-    /* font-family: 'Oswald', sans-serif; */
-    /* font-weight: bold; */
-    font-size: 23px;
-}
-
-.site-name br {
-    display: none;
-}
-
-.writer-style-txt {
-    font-family: 'Damion', cursive;
-    font-size: 28px;
-}
-
-.header-ul {
-    padding: 0;
-    display: table;
-    margin: 0 auto;
-    border-bottom: 1px solid #000;
-    /* padding: 0 100px; */
-    width: 100%;
-    text-align: center;
-    max-width: 850px;
-}
-
-.header-ul li {
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.top-menu {
-    display: inline-block;
-    position: relative;
-    top: 2px;
-}
-
-.top-menu a {
-    text-decoration: none;
-    color: #000;
-    font-weight: normal;
-}
-
-.top-menu a.active,
-.top-menu a:hover {
-    color: #7fa191;
-}
-
-.top-menu li {
-    display: inline-block;
-    /* font-family: 'Oswald', sans-serif; */
-    font-weight: bold;
-    font-size: 16px;
-    margin: 0 10px;
-}
-
-.top-menu-div {
-    width: 850px;
-    margin: 0 auto;
-}
-
-.social-media-lang-div {
-    float: right;
-    /* font-family: 'Oswald', sans-serif; */
-    font-weight: bold;
-    margin: 0 -10px 0 0;
-}
-
-.social-media-lang-div a {
-    text-decoration: none;
-}
-
-.lang-select {
-    display: inline-block !important;
-    width: 85px !important;
-    border: none !important;
-    padding: 0 !important;
-}
-
-.lang-select:focus {
-    box-shadow: none !important;
-}
-
-.mint-color {
-    color: #7fa191;
-}
-
-.home-slogan {
-    font-size: 16px;
-    color: #212529;
-}
-
-.home-points {
-    font-size: 16px;
-    font-style: italic;
+.wpcf7 .screen-reader-response {
     position: absolute;
-    width: 575px;
-    /* height: 300px; */
-    top: 47px;
-    right: 0px;
-    background: rgb(55 51 43 / 88%);
-    color: #fff;
-    padding: 20px;
-}
-
-.scope-points {
-    /* font-size: 16px; */
-    /* font-style: italic; */
-    /* color: #7fa191; */
-    /* position: absolute; */
-    /* width: 575px; */
-    /* height: 300px; */
-    /* top: 47px; */
-    /* right: 0px; */
-    /* background: rgb(55 51 43 / 88%); */
-    /* color: #fff; */
-    /* padding: 20px; */
-}
-
-.scope-points ul {
-    margin: 0 0 0 20px;
-    padding: 0;
-}
-
-.home-points-div {
-    width: 850px;
-    margin: 0 auto;
-}
-
-.inner-container {
-    width: 800px;
-    margin: 0 auto;
-}
-
-.blog-inner-container {
-    width: 950px;
-    margin: 0 auto;
-}
-
-.text-justify {
-    text-align: justify;
-}
-
-h2.h2-on-line {
-    /* font-family: 'Oswald', sans-serif; */
-    /* font-weight: 400; */
-    background: #fff;
-    display: inline-block;
-    position: absolute;
-    top: 0;
-    padding: 0 25px 0 0;
-    font-size: 18px;
-}
-
-h2 {
-    font-size: 16px !important;
-    display: inline-block;
-    /* letter-spacing: 1px; */
-    color: #7fa191;
-}
-
-.h2-black-line {
-    display: none;
-    width: 100%;
-    height: 2px;
-    background: #000;
-    position: absolute;
-    top: 45%;
-}
-
-h2.h2-on-line.opacity-0 {
-    opacity: 0;
-    position: relative;
-}
-
-.mt-const {
-    margin-top: 35px !important;
-}
-
-.mt-const2 {
-    margin-top: 65px !important;
-}
-
-.btn {
-    background: #798f7a !important;
-    color: #fff !important;
-    padding: 0.375rem 2rem !important;
-    border-radius: 0px !important;
-    margin: 0 0 20px 0;
-}
-
-.btn-check:focus+.btn,
-.btn:focus {
-    outline: 0 !important;
-    /* box-shadow: 0 !important; */
-}
-
-footer {
-    background: #b3d5c2;
-    color: #585858;
-    font-size: 16px;
-    text-align: center;
-    padding: 10px 0 10px 0;
-    /* margin: 65px 0 0 0; */
-}
-
-.mint-color-rect {
-    position: absolute;
-    /* top: 0; */
-    right: -34px;
-    width: 576px;
-    height: 215px;
-    background: #b3d5c2;
-    z-index: -10;
-    bottom: -32px;
-}
-
-.mint-bg {
-    background: #cfe4d8;
-    text-align: justify;
-}
-
-.lilian-therapy-div h3 {
-    color: #0e2d1e;
-    font-size: 16px;
-    text-align: justify;
-    /* font-family: 'Oswald', sans-serif; */
-    /* letter-spacing: 1px; */
-    font-weight: normal;
-}
-
-.lilian-therapy-div {
-    color: #585858;
-}
-
-.lilian-therapy-div ul {
-    margin: 0 0 0 18px;
-    padding: 0;
-    list-style-type: square;
-}
-
-.faqs-div h3 {
-    /* font-family: 'Oswald', sans-serif; */
-    font-size: 16px;
-    color: #7fa191;
-    /* letter-spacing: 1px; */
-    font-weight: 400;
-}
-
-.faqs-div {
-    color: #585858;
-    /* background: url(assets/images/faq-bg.png) no-repeat center center; */
-}
-
-.faqs-div ul {
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    width: 1px;
     margin: 0;
     padding: 0;
+    border: 0;
 }
 
-.faqs-div ul li {
-    margin: 0 0 0 20px;
-    text-align: justify;
-    list-style-type: square;
+.wpcf7 form .wpcf7-response-output {
+    margin: 2em 0.5em 1em;
+    padding: 0.2em 1em;
+    border: 2px solid #00a0d2;
+    /* Blue */
 }
 
-.contact-div h3 {
-    /* font-family: 'Oswald', sans-serif; */
-    font-size: 18px;
-    color: #0e2d1e;
-    /* letter-spacing: 1px; */
-}
-
-.contact-div label {
-    width: 100%;
-}
-
-.contact-div input[type='text'],
-.contact-div input[type='email'],
-.contact-div textarea {
-    background: #ecf3f0 !important;
-    color: #507564 !important;
-    border-radius: 0px !important;
-    border: none !important;
-}
-
-.contact-div-left-col {
-    /* background: url(assets/images/contact-bg.png) no-repeat center 12px; */
-    /* background-size: 55%; */
-}
-
-.contact-div-left-col a {
-    color: #212529;
-}
-
-.contact-div-left-col a:hover {
-    color: #7fa191;
-}
-
-.scope-points ul li {
-    list-style-type: square;
-    text-align: justify;
-}
-
-#content {
-    min-height: 94vh;
-}
-
-html[lang='zh'] .lang-div {
-    position: relative;
-    top: 1px;
-}
-
-.lang-div {
-    position: relative;
-    top: 1px;
-    font-size: 16px;
-}
-
-html[lang='zh'] .lang-select {
-    width: 65px !important;
-}
-
-.post-short-div {
-    border: 1px solid #a0b5a9;
-    padding: 20px;
-    margin: 0 0 30px 0;
-}
-
-ul.post-meta li {
-    display: inline-block;
-}
-
-.post-meta li .meta-seperator {
-    display: inline-block;
-    margin: 0 10px;
-    color: #ddd;
-}
-
-ul.post-meta {
-    margin: 0;
-    display: block;
-    padding: 0 0 10px 0;
-    border-bottom: 1px solid #ddd;
-}
-
-.blog-container a {
-    color: #212529;
-}
-
-.blog-container a:hover {
-    color: #7fa191;
-}
-
-.blog-right-col {}
-
-.blog-right-col-inner {
-    background: #cfe4d8;
-    padding: 25px !important;
-}
-
-.blog-right-col-inner li {
-    list-style-type: square;
-}
-
-.wpex-readmore a {
-    background: #cfe4d8;
-    padding: 10px 15px;
-    text-decoration: none;
-}
-
-.pagination {
-    margin: 0 auto;
-    display: block !important;
-    text-align: center;
-}
-
-.pagination a {
-    margin: 0 2px;
-    text-decoration: none;
-    background: none;
-    padding: 5px 4px;
-    width: 25px;
-    height: 30px;
-    display: inline-block;
-    border: 1px solid #cfe4d8;
-    line-height: normal;
-}
-
-.pagination .page-numbers.current {
-    margin: 0 2px;
-    text-decoration: none;
-    background: #cfe4d8;
-    padding: 5px 0px;
-    width: 25px;
-    height: 30px;
-    display: inline-block;
-    line-height: normal;
-    border: 1px solid #cfe4d8;
-}
-
-.pen-content-div {
-    /* max-width: 700px; */
-    /* margin: 0 auto; */
-}
-
-.glass-div img {
-    margin: 0 auto;
-    display: block;
-    max-width: 500px;
-    height: auto;
-    width: 100%;
-}
-
-.lilian-img-div img {
-    width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
-
-.mobile-menu-btn:hover {
-    color: #000;
-}
-
-.mobile-menu-btn {
-    color: #000;
-    display: inline-table;
-    text-decoration: none;
-    /* border: 1px solid; */
-    /* padding: 5px; */
-    /* float: right; */
-    /* border-radius: 9px; */
-    padding: 9px 9px 9px 36px;
-    background: url(assets/images/hamburger-btn.png) no-repeat #cfe4d8;
-    background-size: auto 69%;
-    background-position: 6px center;
-    /* float: right; */
-    margin: 20px 0 0 0;
-    /* background: #cfe4d8; */
-    /* padding: 10px 15px; */
-    text-decoration: none;
-}
-
-.mobile-menu-btn img {
-    width: 30px;
-}
-
-.mobile-menu-btn-div {
+.wpcf7 form.init .wpcf7-response-output,
+.wpcf7 form.resetting .wpcf7-response-output,
+.wpcf7 form.submitting .wpcf7-response-output {
     display: none;
 }
 
-.close-btn-a {
-    display: none;
-    width: 25px;
-    height: 25px;
-    background: url(assets/images/close-btn.png) center center no-repeat;
-    background-size: 100% 100%;
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    z-index: 200;
-}
-
-.wpcf7-form-control.wpcf7-submit {
-    background: #798f7a !important;
-    color: #fff !important;
-    padding: 0.375rem 2rem !important;
-    border-radius: 0px !important;
-    margin: 0 0 20px 0;
+.wpcf7 form.sent .wpcf7-response-output {
+    /* border-color: #46b450; */
+    /* Green */
     border: none;
-    width: auto;
+    color: #0e2d1e;
+    padding: 0;
+    margin: 0;
 }
 
-.contact-form {
+.wpcf7 form.failed .wpcf7-response-output,
+.wpcf7 form.aborted .wpcf7-response-output {
+    border-color: #dc3232;
+    /* Red */
+}
+
+.wpcf7 form.spam .wpcf7-response-output {
+    border-color: #f56e28;
+    /* Orange */
+}
+
+.wpcf7 form.invalid .wpcf7-response-output,
+.wpcf7 form.unaccepted .wpcf7-response-output {
+    border-color: #ffb900;
+    /* Yellow */
+}
+
+.wpcf7-form-control-wrap {
     position: relative;
 }
 
-.contact-form .ajax-loader {
+.wpcf7-not-valid-tip {
+    color: #dc3232;
+    /* Red */
+    font-size: 1em;
+    font-weight: normal;
+    display: block;
+}
+
+.use-floating-validation-tip .wpcf7-not-valid-tip {
+    position: relative;
+    top: -2ex;
+    left: 1em;
+    z-index: 100;
+    border: 1px solid #dc3232;
+    background: #fff;
+    padding: 0.2em 0.8em;
+    width: 24em;
+}
+
+.wpcf7-list-item {
+    display: inline-block;
+    margin: 0 0 0 1em;
+}
+
+.wpcf7-list-item-label::before,
+.wpcf7-list-item-label::after {
+    content: ' ';
+}
+
+.wpcf7 .ajax-loader {
     visibility: hidden;
     display: inline-block;
     background-color: #23282d;
+    /* Dark Gray 800 */
     opacity: 0.75;
     width: 24px;
     height: 24px;
@@ -597,128 +93,73 @@ ul.post-meta {
     border-radius: 100%;
     padding: 0;
     margin: 0 24px;
-    /* position: relative; */
+    position: relative;
+}
+
+.wpcf7 form.submitting .ajax-loader {
+    visibility: visible;
+}
+
+.wpcf7 .ajax-loader::before {
+    content: '';
     position: absolute;
-    left: 0;
-}
-
-.wpcf7-response-output {
-    /* display: none; */
-}
-
-.wpcf7 form.failed .wpcf7-response-output,
-.wpcf7 form.aborted .wpcf7-response-output,
-.wpcf7 form.invalid .wpcf7-response-output,
-.wpcf7 form.unaccepted .wpcf7-response-output {
-    border-color: #dc3232;
+    background-color: #fbfbfc;
+    /* Light Gray 100 */
+    top: 4px;
+    left: 4px;
+    width: 6px;
+    height: 6px;
     border: none;
-    padding: 0;
-    margin: 0;
-    color: #dc3232;
+    border-radius: 100%;
+    transform-origin: 8px 8px;
+    animation-name: spin;
+    animation-duration: 1000ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 
-@media only screen and (max-width: 995px) {
-    .mobile-menu-btn-div {
-        display: block;
-    }
-    .top-menu-div {
-        position: fixed;
-        top: 0;
-        left: 0;
-        display: none;
-        z-index: 100;
-        background: rgb(255 255 255 / 95%);
-        height: 100%;
-    }
-    .top-menu-div .top-menu {
-        margin: 15px !important;
-    }
-    .top-menu-div ul li {
-        display: block;
-        text-align: left;
-        margin: 0;
-    }
-    .top-menu-div ul li a {
-        padding: 5px 0 6px 0 !important;
-        display: block;
-    }
-    .site-name {
-        font-size: 23px;
-        display: block;
-        text-align: left;
-    }
-    .site-name br {
-        display: block;
-    }
-    .inner-container {
-        width: 100%;
-    }
-    /* body {
-        background-color: lightblue;
-    } */
-    .social-media-lang-div {
-        position: absolute;
-        top: 280px;
-        left: 15px;
+@media (prefers-reduced-motion: reduce) {
+    .wpcf7 .ajax-loader::before {
+        animation-name: blink;
+        animation-duration: 2000ms;
     }
 }
 
-@media only screen and (max-width: 950px) {
-    .blog-inner-container {
-        width: 100%;
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
     }
-    .social-media-lang-div {
-        position: absolute;
-        top: 280px;
-        left: 15px;
+    to {
+        transform: rotate(360deg);
     }
 }
 
-@media only screen and (max-width: 768px) {
-    .pens-div img {
-        max-width: 300px;
+@keyframes blink {
+    from {
+        opacity: 0;
     }
-    .site-name {
-        font-size: 23px;
+    50% {
+        opacity: 1;
     }
-    .page-service-scope .mint-bg {
-        margin: 0 !important;
-    }
-    .contact-us-btn {
-        margin: 0 auto 40px auto;
-        display: block !important;
-        text-align: center;
-        max-width: 150px;
-    }
-    .lilian-img-div img {
-        width: 100%;
-    }
-    .lilian-img-div .mint-color-rect {
-        display: none;
-    }
-    .mt-const2 {
-        margin-top: 35px !important;
-    }
-    .contact-form-div {
-        margin: 25px 0 0 0 !important;
-    }
-    .social-media-lang-div {
-        position: absolute;
-        top: 280px;
-        left: 15px;
+    to {
+        opacity: 0;
     }
 }
 
-@media only screen and (max-width: 640px) {}
-
-@media only screen and (max-width: 480px) {
-    .site-name {
-        font-size: 23px;
-    }
+.wpcf7 input[type='file'] {
+    cursor: pointer;
 }
 
-@media only screen and (max-width: 380px) {
-    .site-name {
-        font-size: 23px;
-    }
+.wpcf7 input[type='file']:disabled {
+    cursor: default;
+}
+
+.wpcf7 .wpcf7-submit:disabled {
+    cursor: not-allowed;
+}
+
+.wpcf7 input[type='url'],
+.wpcf7 input[type='email'],
+.wpcf7 input[type='tel'] {
+    direction: ltr;
 }
