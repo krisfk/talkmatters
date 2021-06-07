@@ -60,7 +60,7 @@ get_header();
                 </div>
 
 
-                <?php echo do_shortcode( '[contact-form-7 id="386" title="Contact form 1"]' ); ?>
+                <?php echo do_shortcode( '[contact-form-7 id="386" title="Contact form 1" html_class="form contact-form"]' ); ?>
 
 
             </div>
