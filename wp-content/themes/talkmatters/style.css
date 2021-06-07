@@ -382,7 +382,8 @@ footer {
 }
 
 .contact-div input[type='text'],
-.contact-div input[type='email'] .contact-div textarea {
+.contact-div input[type='email'],
+.contact-div textarea {
     background: #ecf3f0 !important;
     color: #507564 !important;
     border-radius: 0px !important;
