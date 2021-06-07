@@ -114,7 +114,7 @@ echo'" href="'.$url.'">'.$title.'</a>';
 
                             <div class="d-inline-block social-media-lang-div">
 
-                                <a href="#">
+                                <a href="https://www.facebook.com/Liliancounsellor" target="_blank">
                                     <img src="<?php echo get_template_directory_uri() ?>/assets/images/fb-icon.png"
                                         alt="">
                                 </a>
@@ -123,7 +123,7 @@ echo'" href="'.$url.'">'.$title.'</a>';
                                     <img src="<?php echo get_template_directory_uri() ?>/assets/images/ig-icon.png"
                                         alt="">
                                 </a>
-                                <a href="#">
+                                <a href="https://www.linkedin.com/in/lilian-lam-34659331" target="_blank">
                                     <img src="<?php echo get_template_directory_uri() ?>/assets/images/in-icon.png"
                                         alt="">
                                 </a>
