@@ -381,6 +381,10 @@ footer {
     /* letter-spacing: 1px; */
 }
 
+.contact-div label {
+    width: 100%;
+}
+
 .contact-div input[type='text'],
 .contact-div input[type='email'],
 .contact-div textarea {
