@@ -617,6 +617,14 @@ ul.post-meta {
     color: #dc3232;
 }
 
+.wpcf7 form.sent .wpcf7-response-output {
+    /* border-color: #46b450; */
+    border: none;
+    color: #0e2d1e;
+    padding: 0;
+    margin: 0;
+}
+
 @media only screen and (max-width: 995px) {
     .mobile-menu-btn-div {
         display: block;
