@@ -29,7 +29,7 @@ get_header();
 
         <div class=" col-lg-12 col-md-12 col-sm-12 col-12  ">
 
-            <div class="position-relative">
+            <div class="position-relative mt-3">
                 <div class="h2-black-line"></div>
 
                 <h2>
