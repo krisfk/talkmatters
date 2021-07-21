@@ -220,5 +220,3 @@ echo'" href="'.$url.'">'.$title.'</a>';
 
                     })
                     </script>
-
-                    ff
