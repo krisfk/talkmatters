@@ -107,10 +107,10 @@ get_header();
 
                     <div class="mt-3">
 
-                        <?php echo get_the_excerpt() ;?>
+                        <?php echo get_the_content() ;?>
                     </div>
-                    <span class="wpex-readmore mt-4 d-block"><a href="<?php echo get_permalink();?>"
-                            title="continue reading" rel="bookmark">continue reading →</a></span>
+                    <!-- <span class="wpex-readmore mt-4 d-block"><a href="<?php echo get_permalink();?>"
+                            title="continue reading" rel="bookmark">continue reading →</a></span> -->
                 </div>
                 <?php
                     
