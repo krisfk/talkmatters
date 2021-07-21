@@ -17,7 +17,6 @@
 get_header();
 
 ?>
-test
 <div class="container">
     <!-- 
     <div class="mint-color fw-bold home-slogan text-center mt-const">
