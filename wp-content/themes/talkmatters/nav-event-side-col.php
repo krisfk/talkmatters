@@ -6,7 +6,7 @@
             <?php
                             wp_reset_query();
 
-$args = array('posts_per_page' => 5);
+$args = array('posts_per_page' => 5,'post_type' => 'event');
 $wp_query = new WP_Query( $args );
 
 $posts = $wp_query->get_posts();

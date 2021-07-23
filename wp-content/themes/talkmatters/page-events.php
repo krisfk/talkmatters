@@ -33,7 +33,8 @@ get_header();
     $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
     $query = new WP_Query( array(
         'posts_per_page' => 2,
-        'paged' => $paged
+        'paged' => $paged,
+        'post_type' => 'event'
     ) );
 ?>
 
