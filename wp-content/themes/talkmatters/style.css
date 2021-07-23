@@ -132,7 +132,7 @@ body {
     /* padding: 0 100px; */
     width: 100%;
     text-align: center;
-    max-width: 850px;
+    max-width: 950px;
 }
 
 .header-ul li {
@@ -166,7 +166,7 @@ body {
 }
 
 .top-menu-div {
-    width: 850px;
+    width: 950px;
     margin: 0 auto;
 }
 
