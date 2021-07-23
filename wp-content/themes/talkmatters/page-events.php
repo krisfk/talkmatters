@@ -145,7 +145,7 @@ get_header();
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12 col-12 blog-right-col">
 
-                <?php get_template_part( 'nav','blog-side-col' );           // Navigation bar (nav.php) ?>
+                <?php get_template_part( 'nav','event-side-col' );           // Navigation bar (nav.php) ?>
 
 
 
