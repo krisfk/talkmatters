@@ -34,7 +34,7 @@ $post_id = $post->ID;
     </div>
 
 
-    <div class="sidebar-widget widget_archive clr">
+    <!-- <div class="sidebar-widget widget_archive clr">
         <h5 class="widget-title">Archives</h5>
         <ul>
             <?php
@@ -55,7 +55,7 @@ foreach($years as $year) {
 
             <?php } ?>
         </ul>
-    </div>
+    </div> -->
 
 
 
