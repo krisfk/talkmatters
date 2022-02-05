@@ -59,7 +59,7 @@ get_header();
         <div class="positive-relative mb-3"> <img
                 src="https://talkmatters.com.hk/wp-content/uploads/2022/02/WhatsApp-Image-2022-02-05-at-3.00.16-PM.jpeg"
                 class="w-100" alt="">
-            <div class="text-end" style="font-size:12px">Photo by Dan Gold on Unsplash</div>
+            <div class="text-end mt-2" style="font-size:12px">Photo by Dan Gold on Unsplash</div>
         </div>
 
 
