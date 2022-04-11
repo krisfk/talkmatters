@@ -171,10 +171,13 @@ body {
 }
 
 .social-media-lang-div {
-    float: right;
+    /* float: right; */
     /* font-family: 'Oswald', sans-serif; */
     font-weight: bold;
-    margin: 0 -10px 0 0;
+    display: block;
+    width: 100%;
+    text-align: right;
+    margin: 1.2rem 0 0 0;
 }
 
 .social-media-lang-div a {
