@@ -34,18 +34,18 @@ get_header();
     <div class=" lilian-therapy-div inner-container mint-color home-slogan text-justify mint-bg p-4">
 
         <h3>Service Scope </h3>
-        <h3>
+        <h3 class="mt-4">
             Talk & Workshop
 
         </h3>
-        <ul>
+        <ul class="">
             <li> Employee Wellness - Mindfulness, Stress Reduction, Relationship</li>
             <li> Leadership - Communications & Etiquette</li>
             <li> Transformation & Change Management</li>
 
         </ul>
 
-        <h3>
+        <h3 class="mt-4">
             One-on-one Services
 
 
