@@ -31,7 +31,7 @@ get_header();
 
     </div>
 
-    <div class=" lilian-therapy-div inner-container mint-color home-slogan text-justify mint-bg p-4">
+    <div class=" mt-const lilian-therapy-div inner-container mint-color home-slogan text-justify mint-bg p-4">
 
         <h3 class="fw-bold">Service Scope </h3>
         <h3 class="mt-4">
