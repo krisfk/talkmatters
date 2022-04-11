@@ -33,6 +33,29 @@ get_header();
 
     <div class="inner-container mint-color home-slogan text-justify mint-bg p-4">
 
+        <h3>
+            Talk & Workshop
+
+        </h3>
+        <ul>
+            <li> Employee Wellness - Mindfulness, Stress Reduction, Relationship</li>
+            <li> Leadership - Communications & Etiquette</li>
+            <li> Transformation & Change Management</li>
+
+        </ul>
+
+        <h3>
+            One-on-one Services
+
+
+        </h3>
+        <ul>
+            <li> Executive Coaching
+            </li>
+            <li> Psychological Counselling
+            </li>
+
+        </ul>
 
         <!-- We see the fundamentals of LIFE - love, intimacy, fun and energy.
         Yet while we live and grow, it could be full of challenges,
