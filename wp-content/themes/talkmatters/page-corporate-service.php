@@ -19,7 +19,7 @@ get_header();
 ?>
 <div class="container">
 
-    <div class=" inner-container">
+    <div class=" inner-container  mt-const">
 
         We believe that “people” is key to the success of a group. A respect of individuality and diversity in a system
         is paramount. TalkMatters partners with corporates in its people experience strategy. As an enabler of
