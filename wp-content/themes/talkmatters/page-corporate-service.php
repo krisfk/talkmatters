@@ -27,7 +27,7 @@ get_header();
         </h2>
 
 
-        <div class="mt-4">
+        <div class="mt-2 text-justify">
             We believe that “people” is key to the success of a group. A respect of individuality and diversity in a
             system
             is paramount. TalkMatters partners with corporates in its people experience strategy. As an enabler of
