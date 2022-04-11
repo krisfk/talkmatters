@@ -172,7 +172,7 @@ get_header();
         </div>
 
 
-        <a href="/contact/" class="btn mt-3 contact-us-btn"> Testimonials <?php //echo get_field('content_9');?>
+        <a href="/events/" class="btn mt-3 contact-us-btn"> Testimonials <?php //echo get_field('content_9');?>
         </a>
     </div>
 </div>
