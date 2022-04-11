@@ -31,7 +31,7 @@ get_header();
 
     </div>
 
-    <div class="inner-container mint-color home-slogan text-justify mint-bg p-4">
+    <div class=" lilian-therapy-div inner-container mint-color home-slogan text-justify mint-bg p-4">
 
         <h3>
             Talk & Workshop
