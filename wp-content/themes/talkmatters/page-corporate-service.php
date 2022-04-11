@@ -19,13 +19,21 @@ get_header();
 ?>
 <div class="container">
 
-    <div class="mint-color home-slogan text-center mt-const inner-container">
+    <!-- <div class="mint-color home-slogan text-center mt-const inner-container">
 
 
 
-    </div>
+    </div> -->
 
     <div class="inner-container mint-color home-slogan text-justify mint-bg p-4">
+
+        We believe that “people” is key to the success of a group. A respect of individuality and diversity in a system
+        is paramount. TalkMatters partners with corporates in its people experience strategy. As an enabler of
+        individual wellness and commitment, we lead the process in an innovative way. It involves making sense of your
+        unique culture & dynamics, identifying mutual purposes and curating sustainable perspectives with your
+        employees. The outcome is empowerment that contributes to a collective movement, from Effectiveness to
+        Greatness.
+
 
         <!-- We see the fundamentals of LIFE - love, intimacy, fun and energy.
         Yet while we live and grow, it could be full of challenges,
