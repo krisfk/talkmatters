@@ -19,11 +19,13 @@ get_header();
 ?>
 <div class="container">
 
-    <h2>
-        TalkMatters Psychological Counselling & Coaching
-    </h2>
-
     <div class=" inner-container  mt-const">
+
+
+        <h2>
+            TalkMatters Psychological Counselling & Coaching
+        </h2>
+
 
         We believe that “people” is key to the success of a group. A respect of individuality and diversity in a system
         is paramount. TalkMatters partners with corporates in its people experience strategy. As an enabler of
