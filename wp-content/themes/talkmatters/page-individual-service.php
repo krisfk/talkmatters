@@ -94,11 +94,11 @@ get_header();
             <h2 class="h2-on-line opacity-0">How does it work?
             </h2> -->
 
-            <h2>
+            <span>
                 <!-- How does it work? -->
                 <?php echo get_field('content_4');?>
 
-            </h2>
+            </span>
 
         </div>
         <!-- http://104.131.45.33/wp-content/uploads/2021/04/water-1.png -->
