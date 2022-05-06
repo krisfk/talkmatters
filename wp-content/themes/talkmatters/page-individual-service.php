@@ -78,8 +78,8 @@ get_header();
         and importantly the meaning behind. We respect your individuality, we understand what you have experienced are
         unique and critical to what you feel. We help to make sense of your emotions and explore new perspectives to
         help you process them. The ultimate goal is to regain positive energy. -->
-        <?php echo get_field('content_3');?>
-
+        <h2><?php echo get_field('content_3');?>
+        </h2>
 
 
     </div>
