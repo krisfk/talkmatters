@@ -88,7 +88,7 @@ get_header();
     <div class="inner-container">
 
         <div class="position-relative">
-            <div class="h2-black-line"></div>
+            <!-- <div class="h2-black-line"></div> -->
             <!-- <h2 class="h2-on-line">How does it work?
             </h2>
             <h2 class="h2-on-line opacity-0">How does it work?
