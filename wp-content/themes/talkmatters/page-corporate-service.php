@@ -21,12 +21,6 @@ get_header();
 
     <div class=" inner-container  mt-const">
 
-
-        <h2>
-            TalkMatters Psychological Counselling & Coaching
-        </h2>
-
-
         <div class="mt-2 text-justify">
             We believe that “people” is key to the success of a group. A respect of individuality and diversity in a
             system
