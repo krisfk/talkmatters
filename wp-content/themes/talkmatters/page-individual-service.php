@@ -71,8 +71,8 @@ get_header();
         </div>
     </div> -->
 
-
-    <div class="mt-const inner-container text-justify">
+    <br>
+    <div class=" inner-container text-justify">
 
         <!-- As an emotions guide, we facilitate clients to identify feelings
         and importantly the meaning behind. We respect your individuality, we understand what you have experienced are
