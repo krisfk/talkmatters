@@ -180,6 +180,10 @@ body {
     margin: 1rem 0 0 0;
 }
 
+.green-text {
+    color: #7fa191;
+}
+
 .social-media-lang-div a {
     text-decoration: none;
 }
