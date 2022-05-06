@@ -134,7 +134,7 @@ echo'" href="'.$url.'">'.$title.'</a>';
                                     <img src="<?php echo get_template_directory_uri() ?>/assets/images/fb-icon.png"
                                         alt="">
                                 </a>
-                                <a href="#">
+                                <a href="#" class="ig-icon">
 
                                     <img src="<?php echo get_template_directory_uri() ?>/assets/images/ig-icon.png"
                                         alt="">
@@ -216,6 +216,10 @@ echo'" href="'.$url.'">'.$title.'</a>';
                     <script type="text/javascript">
                     $(function() {
 
+
+                        $('.ig-icon').click(function() {
+                            alert('IG account is coming');
+                        })
                         $('.form-select.lang-select').change(function() {
 
                             var val = $(this).val();
