@@ -1,17 +1,18 @@
-<?php
-/**
- * Front to the WordPress application. This file doesn't do anything, but loads
- * wp-blog-header.php which does and tells WordPress to load the theme.
- *
- * @package WordPress
- */
+<!DOCTYPE html>
+<html lang="en">
 
-/**
- * Tells WordPress to load the WordPress theme and output it.
- *
- * @var bool
- */
-define( 'WP_USE_THEMES', true );
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TalkMatters Psychological Counselling</title>
+</head>
 
-/** Loads the WordPress Environment and Template */
-require __DIR__ . '/wp-blog-header.php';
+<body>
+    <h5>網站正進行定期維修，請流覽我們的
+        <a href="https://www.facebook.com/Liliancounsellor" target="_blank">Facebook 專頁</a>
+    </h5>
+
+</body>
+
+</html>
